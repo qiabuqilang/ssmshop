@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ssmshop.dao.TopicMapper" >
+  <resultMap id="BaseResultMap" type="com.ssmshop.pojo.Topic" >
+    <constructor >
+      <idArg column="topic_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="topic_title" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="topic_image" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="topic_background_color" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="topic_background" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="topic_repeat" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="topic_state" jdbcType="BIT" javaType="java.lang.Boolean" />
+      <arg column="topic_margin_top" jdbcType="TINYINT" javaType="java.lang.Byte" />
+      <arg column="ctime" jdbcType="INTEGER" javaType="java.lang.Integer" />
+    </constructor>
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.ssmshop.pojo.Topic" >
+    <constructor >
+      <idArg column="topic_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="topic_title" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="topic_image" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="topic_background_color" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="topic_background" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="topic_repeat" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="topic_state" jdbcType="BIT" javaType="java.lang.Boolean" />
+      <arg column="topic_margin_top" jdbcType="TINYINT" javaType="java.lang.Byte" />
+      <arg column="ctime" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="topic_content" jdbcType="LONGVARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    topic_id, topic_title, topic_image, topic_background_color, topic_background, topic_repeat, 
+    topic_state, topic_margin_top, ctime
+  </sql>
+  <sql id="Blob_Column_List" >
+    topic_content
+  </sql>
+  <select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs" parameterType="com.ssmshop.pojo.TopicExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from tp_topic
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.ssmshop.pojo.TopicExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from tp_topic
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from tp_topic
+    where topic_id = #{topicId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from tp_topic
+    where topic_id = #{topicId,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.ssmshop.pojo.TopicExample" >
+    delete from tp_topic
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.ssmshop.pojo.Topic" >
+    insert into tp_topic (topic_id, topic_title, topic_image, 
+      topic_background_color, topic_background, 
+      topic_repeat, topic_state, topic_margin_top, 
+      ctime, topic_content)
+    values (#{topicId,jdbcType=INTEGER}, #{topicTitle,jdbcType=VARCHAR}, #{topicImage,jdbcType=VARCHAR}, 
+      #{topicBackgroundColor,jdbcType=VARCHAR}, #{topicBackground,jdbcType=VARCHAR}, 
+      #{topicRepeat,jdbcType=VARCHAR}, #{topicState,jdbcType=BIT}, #{topicMarginTop,jdbcType=TINYINT}, 
+      #{ctime,jdbcType=INTEGER}, #{topicContent,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.ssmshop.pojo.Topic" >
+    insert into tp_topic
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="topicId != null" >
+        topic_id,
+      </if>
+      <if test="topicTitle != null" >
+        topic_title,
+      </if>
+      <if test="topicImage != null" >
+        topic_image,
+      </if>
+      <if test="topicBackgroundColor != null" >
+        topic_background_color,
+      </if>
+      <if test="topicBackground != null" >
+        topic_background,
+      </if>
+      <if test="topicRepeat != null" >
+        topic_repeat,
+      </if>
+      <if test="topicState != null" >
+        topic_state,
+      </if>
+      <if test="topicMarginTop != null" >
+        topic_margin_top,
+      </if>
+      <if test="ctime != null" >
+        ctime,
+      </if>
+      <if test="topicContent != null" >
+        topic_content,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="topicId != null" >
+        #{topicId,jdbcType=INTEGER},
+      </if>
+      <if test="topicTitle != null" >
+        #{topicTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="topicImage != null" >
+        #{topicImage,jdbcType=VARCHAR},
+      </if>
+      <if test="topicBackgroundColor != null" >
+        #{topicBackgroundColor,jdbcType=VARCHAR},
+      </if>
+      <if test="topicBackground != null" >
+        #{topicBackground,jdbcType=VARCHAR},
+      </if>
+      <if test="topicRepeat != null" >
+        #{topicRepeat,jdbcType=VARCHAR},
+      </if>
+      <if test="topicState != null" >
+        #{topicState,jdbcType=BIT},
+      </if>
+      <if test="topicMarginTop != null" >
+        #{topicMarginTop,jdbcType=TINYINT},
+      </if>
+      <if test="ctime != null" >
+        #{ctime,jdbcType=INTEGER},
+      </if>
+      <if test="topicContent != null" >
+        #{topicContent,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.ssmshop.pojo.TopicExample" resultType="java.lang.Integer" >
+    select count(*) from tp_topic
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update tp_topic
+    <set >
+      <if test="record.topicId != null" >
+        topic_id = #{record.topicId,jdbcType=INTEGER},
+      </if>
+      <if test="record.topicTitle != null" >
+        topic_title = #{record.topicTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="record.topicImage != null" >
+        topic_image = #{record.topicImage,jdbcType=VARCHAR},
+      </if>
+      <if test="record.topicBackgroundColor != null" >
+        topic_background_color = #{record.topicBackgroundColor,jdbcType=VARCHAR},
+      </if>
+      <if test="record.topicBackground != null" >
+        topic_background = #{record.topicBackground,jdbcType=VARCHAR},
+      </if>
+      <if test="record.topicRepeat != null" >
+        topic_repeat = #{record.topicRepeat,jdbcType=VARCHAR},
+      </if>
+      <if test="record.topicState != null" >
+        topic_state = #{record.topicState,jdbcType=BIT},
+      </if>
+      <if test="record.topicMarginTop != null" >
+        topic_margin_top = #{record.topicMarginTop,jdbcType=TINYINT},
+      </if>
+      <if test="record.ctime != null" >
+        ctime = #{record.ctime,jdbcType=INTEGER},
+      </if>
+      <if test="record.topicContent != null" >
+        topic_content = #{record.topicContent,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExampleWithBLOBs" parameterType="map" >
+    update tp_topic
+    set topic_id = #{record.topicId,jdbcType=INTEGER},
+      topic_title = #{record.topicTitle,jdbcType=VARCHAR},
+      topic_image = #{record.topicImage,jdbcType=VARCHAR},
+      topic_background_color = #{record.topicBackgroundColor,jdbcType=VARCHAR},
+      topic_background = #{record.topicBackground,jdbcType=VARCHAR},
+      topic_repeat = #{record.topicRepeat,jdbcType=VARCHAR},
+      topic_state = #{record.topicState,jdbcType=BIT},
+      topic_margin_top = #{record.topicMarginTop,jdbcType=TINYINT},
+      ctime = #{record.ctime,jdbcType=INTEGER},
+      topic_content = #{record.topicContent,jdbcType=LONGVARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update tp_topic
+    set topic_id = #{record.topicId,jdbcType=INTEGER},
+      topic_title = #{record.topicTitle,jdbcType=VARCHAR},
+      topic_image = #{record.topicImage,jdbcType=VARCHAR},
+      topic_background_color = #{record.topicBackgroundColor,jdbcType=VARCHAR},
+      topic_background = #{record.topicBackground,jdbcType=VARCHAR},
+      topic_repeat = #{record.topicRepeat,jdbcType=VARCHAR},
+      topic_state = #{record.topicState,jdbcType=BIT},
+      topic_margin_top = #{record.topicMarginTop,jdbcType=TINYINT},
+      ctime = #{record.ctime,jdbcType=INTEGER}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.ssmshop.pojo.Topic" >
+    update tp_topic
+    <set >
+      <if test="topicTitle != null" >
+        topic_title = #{topicTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="topicImage != null" >
+        topic_image = #{topicImage,jdbcType=VARCHAR},
+      </if>
+      <if test="topicBackgroundColor != null" >
+        topic_background_color = #{topicBackgroundColor,jdbcType=VARCHAR},
+      </if>
+      <if test="topicBackground != null" >
+        topic_background = #{topicBackground,jdbcType=VARCHAR},
+      </if>
+      <if test="topicRepeat != null" >
+        topic_repeat = #{topicRepeat,jdbcType=VARCHAR},
+      </if>
+      <if test="topicState != null" >
+        topic_state = #{topicState,jdbcType=BIT},
+      </if>
+      <if test="topicMarginTop != null" >
+        topic_margin_top = #{topicMarginTop,jdbcType=TINYINT},
+      </if>
+      <if test="ctime != null" >
+        ctime = #{ctime,jdbcType=INTEGER},
+      </if>
+      <if test="topicContent != null" >
+        topic_content = #{topicContent,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where topic_id = #{topicId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.ssmshop.pojo.Topic" >
+    update tp_topic
+    set topic_title = #{topicTitle,jdbcType=VARCHAR},
+      topic_image = #{topicImage,jdbcType=VARCHAR},
+      topic_background_color = #{topicBackgroundColor,jdbcType=VARCHAR},
+      topic_background = #{topicBackground,jdbcType=VARCHAR},
+      topic_repeat = #{topicRepeat,jdbcType=VARCHAR},
+      topic_state = #{topicState,jdbcType=BIT},
+      topic_margin_top = #{topicMarginTop,jdbcType=TINYINT},
+      ctime = #{ctime,jdbcType=INTEGER},
+      topic_content = #{topicContent,jdbcType=LONGVARCHAR}
+    where topic_id = #{topicId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.ssmshop.pojo.Topic" >
+    update tp_topic
+    set topic_title = #{topicTitle,jdbcType=VARCHAR},
+      topic_image = #{topicImage,jdbcType=VARCHAR},
+      topic_background_color = #{topicBackgroundColor,jdbcType=VARCHAR},
+      topic_background = #{topicBackground,jdbcType=VARCHAR},
+      topic_repeat = #{topicRepeat,jdbcType=VARCHAR},
+      topic_state = #{topicState,jdbcType=BIT},
+      topic_margin_top = #{topicMarginTop,jdbcType=TINYINT},
+      ctime = #{ctime,jdbcType=INTEGER}
+    where topic_id = #{topicId,jdbcType=INTEGER}
+  </update>
+</mapper>
