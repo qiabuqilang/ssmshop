@@ -7,228 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24a774f5-8ca4-4514-8b54-a8ba5b940169" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_62.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/BackendBaseController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/GoodsCategoryManageController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/IBase.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/IGoodsCategory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/BaseServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/GoodsCategoryServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/utils/Dump.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/vo/GoodsCategoryVo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/sqlConfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/test/java/com/ssmshop/BaseTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsServiceTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ssmshop_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ssmshop_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_4.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_miemiedev_mybatis_paginator_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_miemiedev_mybatis_paginator_1_2_17.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_core_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_core_2_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_2_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_0_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_7_0_64.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_7_0_64.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_11.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_12.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_12.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hashids_hashids_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hashids_hashids_1_0_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_0_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_0_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_0_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_0_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_0_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_0_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_0_0_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_0_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_0_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_0_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_0_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/ICommon.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/common/ResponseCode.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/common/ResponseCode.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Ad.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Ad.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/AdExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/AdExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/AdPosition.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/AdPosition.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/AdPositionExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/AdPositionExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Article.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Article.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/ArticleCategory.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/ArticleCategory.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/ArticleCategory2.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/ArticleCategory2.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/ArticleCategory2Example.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/ArticleCategory2Example.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/ArticleCategoryExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/ArticleCategoryExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/ArticleExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/ArticleExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/ArticleWithBLOBs.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/ArticleWithBLOBs.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Brand.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Brand.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/BrandExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/BrandExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Cart.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Cart.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/CartExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/CartExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Comment.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Comment.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/CommentExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/CommentExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/CommentWithBLOBs.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/CommentWithBLOBs.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Coupon.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Coupon.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/CouponExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/CouponExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/CouponList.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/CouponList.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/CouponListExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/CouponListExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/DeliveryDoc.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/DeliveryDoc.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/DeliveryDocExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/DeliveryDocExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/FeedBack.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/FeedBack.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/FeedBackExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/FeedBackExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/FlashSale.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/FlashSale.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/FlashSaleExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/FlashSaleExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/FriendLink.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/FriendLink.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/FriendLinkExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/FriendLinkExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Goods.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Goods.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GoodsAttribute.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GoodsAttribute.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GoodsAttributeExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GoodsAttributeExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GoodsCategory.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GoodsCategory.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GoodsCategoryExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GoodsCategoryExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GoodsConsult.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GoodsConsult.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GoodsConsultExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GoodsConsultExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GoodsExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GoodsExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GroupBuy.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GroupBuy.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GroupBuyExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GroupBuyExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Message.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Message.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/MessageExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/MessageExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Navigation.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Navigation.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/NavigationExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/NavigationExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Order.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Order.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/OrderAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/OrderAction.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/OrderActionExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/OrderActionExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/OrderExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/OrderExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/OrderGoods.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/OrderGoods.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/OrderGoodsExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/OrderGoodsExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Payment.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Payment.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/PaymentExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/PaymentExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/PaymentWithBLOBs.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/PaymentWithBLOBs.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Plugin.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Plugin.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/PluginExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/PluginExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/PluginWithBLOBs.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/PluginWithBLOBs.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/PromGoods.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/PromGoods.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/PromGoodsExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/PromGoodsExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/PromOrder.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/PromOrder.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/PromOrderExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/PromOrderExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/RebateLog.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/RebateLog.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/RebateLogExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/RebateLogExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Recharge.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Recharge.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/RechargeExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/RechargeExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Region2.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Region2.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Region2Example.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Region2Example.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Remittance.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Remittance.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/RemittanceExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/RemittanceExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/ReturnGoods.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/ReturnGoods.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/ReturnGoodsExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/ReturnGoodsExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Shipping.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Shipping.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/ShippingArea.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/ShippingArea.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/ShippingAreaExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/ShippingAreaExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/ShippingExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/ShippingExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Spec.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Spec.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/SpecExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/SpecExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Suppliers.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Suppliers.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/SuppliersExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/SuppliersExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/SystemMenu.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/SystemMenu.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/SystemMenuExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/SystemMenuExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/SystemModule.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/SystemModule.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/SystemModuleExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/SystemModuleExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Topic.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Topic.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/TopicExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/TopicExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/UserAddress.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/UserAddress.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/UserAddressExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/UserAddressExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/UserMessage.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/UserMessage.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/UserMessageExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/UserMessageExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Users.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Users.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/UsersExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/UsersExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/VirtualShop.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/VirtualShop.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/VirtualShopExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/VirtualShopExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Withdrawals.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Withdrawals.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/WithdrawalsExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/WithdrawalsExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/WxMenu.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/WxMenu.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/WxMenuExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/WxMenuExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/WxMsg.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/WxMsg.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/WxMsgExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/WxMsgExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/WxText.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/WxText.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/WxTextExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/WxTextExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/WxUser.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/WxUser.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/WxUserExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/WxUserExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/datasource.properties" afterPath="$PROJECT_DIR$/src/main/resources/datasource.properties" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/AdMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/AdMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/AdPositionMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/AdPositionMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ArticleCategory2Mapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ArticleCategory2Mapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ArticleCategoryMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ArticleCategoryMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ArticleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ArticleMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/BrandMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/BrandMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/CommentMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/CommentMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/CouponListMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/CouponListMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/CouponMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/CouponMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/DeliveryDocMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/DeliveryDocMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/FeedBackMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/FeedBackMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/FlashSaleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/FlashSaleMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/FriendLinkMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/FriendLinkMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/GoodsAttributeMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/GoodsAttributeMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/GoodsCategoryMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/GoodsCategoryMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/GoodsConsultMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/GoodsConsultMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/GoodsMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/GoodsMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/GroupBuyMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/GroupBuyMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/MessageMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/MessageMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/NavigationMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/NavigationMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/OrderActionMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/OrderActionMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/OrderGoodsMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/OrderGoodsMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/PaymentMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/PaymentMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/PluginMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/PluginMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/PromGoodsMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/PromGoodsMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/PromOrderMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/PromOrderMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/RebateLogMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/RebateLogMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/RechargeMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/RechargeMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/Region2Mapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/Region2Mapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/RemittanceMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/RemittanceMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ReturnGoodsMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ReturnGoodsMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ShippingAreaMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ShippingAreaMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/SpecMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/SpecMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/SuppliersMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/SuppliersMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/SystemMenuMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/SystemMenuMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/SystemModuleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/SystemModuleMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/TopicMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/TopicMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/UserAddressMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/UserAddressMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/UserMessageMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/UserMessageMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/UsersMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/UsersMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/VirtualShopMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/VirtualShopMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/WithdrawalsMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/WithdrawalsMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/WxMenuMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/WxMenuMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/WxMsgMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/WxMsgMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/WxTextMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/WxTextMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/WxUserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/WxUserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/ssmshop.iml" afterPath="$PROJECT_DIR$/ssmshop.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -296,16 +76,6 @@
               <folding>
                 <element signature="method#GoodsCategory#0;class#GoodsCategory#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsServiceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="51" column="42" lean-forward="false" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -378,8 +148,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -451,6 +221,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/GoodsCategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/GoodsCategoryManageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/ICommon.java" />
       </list>
     </option>
   </component>
@@ -1125,7 +896,7 @@
       <workItem from="1581819731410" duration="13406000" />
       <workItem from="1581905220001" duration="20067000" />
       <workItem from="1581989556238" duration="20074000" />
-      <workItem from="1582080025909" duration="6108000" />
+      <workItem from="1582080025909" duration="6956000" />
     </task>
     <servers />
   </component>
@@ -1162,7 +933,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171023000" />
+    <option name="totallyTimeSpent" value="171871000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1260,14 +1031,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfigDemo.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6357">
-          <caret line="163" column="43" lean-forward="true" selection-start-line="163" selection-start-column="43" selection-end-line="163" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7371">
@@ -1571,8 +1334,8 @@
         <state relative-caret-position="252">
           <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
           <folding>
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="false" />
+            <element signature="e#453#454#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1670,6 +1433,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="30" column="69" lean-forward="true" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/ICommon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           <folding />
         </state>
       </provider>
