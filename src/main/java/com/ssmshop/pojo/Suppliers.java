@@ -5,7 +5,7 @@ public class Suppliers {
 
     private String suppliersName;
 
-    private Boolean isCheck;
+    private Byte isCheck;
 
     private String suppliersContacts;
 
@@ -13,7 +13,7 @@ public class Suppliers {
 
     private String suppliersDesc;
 
-    public Suppliers(Short suppliersId, String suppliersName, Boolean isCheck, String suppliersContacts, String suppliersPhone, String suppliersDesc) {
+    public Suppliers(Short suppliersId, String suppliersName, Byte isCheck, String suppliersContacts, String suppliersPhone, String suppliersDesc) {
         this.suppliersId = suppliersId;
         this.suppliersName = suppliersName;
         this.isCheck = isCheck;
@@ -42,11 +42,11 @@ public class Suppliers {
         this.suppliersName = suppliersName == null ? null : suppliersName.trim();
     }
 
-    public Boolean getIsCheck() {
+    public Byte getIsCheck() {
         return isCheck;
     }
 
-    public void setIsCheck(Boolean isCheck) {
+    public void setIsCheck(Byte isCheck) {
         this.isCheck = isCheck;
     }
 

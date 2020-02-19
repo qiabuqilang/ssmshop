@@ -244,52 +244,52 @@ public class VirtualShopExample {
             return (Criteria) this;
         }
 
-        public Criteria andShopLevelEqualTo(Boolean value) {
+        public Criteria andShopLevelEqualTo(Byte value) {
             addCriterion("shop_level =", value, "shopLevel");
             return (Criteria) this;
         }
 
-        public Criteria andShopLevelNotEqualTo(Boolean value) {
+        public Criteria andShopLevelNotEqualTo(Byte value) {
             addCriterion("shop_level <>", value, "shopLevel");
             return (Criteria) this;
         }
 
-        public Criteria andShopLevelGreaterThan(Boolean value) {
+        public Criteria andShopLevelGreaterThan(Byte value) {
             addCriterion("shop_level >", value, "shopLevel");
             return (Criteria) this;
         }
 
-        public Criteria andShopLevelGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andShopLevelGreaterThanOrEqualTo(Byte value) {
             addCriterion("shop_level >=", value, "shopLevel");
             return (Criteria) this;
         }
 
-        public Criteria andShopLevelLessThan(Boolean value) {
+        public Criteria andShopLevelLessThan(Byte value) {
             addCriterion("shop_level <", value, "shopLevel");
             return (Criteria) this;
         }
 
-        public Criteria andShopLevelLessThanOrEqualTo(Boolean value) {
+        public Criteria andShopLevelLessThanOrEqualTo(Byte value) {
             addCriterion("shop_level <=", value, "shopLevel");
             return (Criteria) this;
         }
 
-        public Criteria andShopLevelIn(List<Boolean> values) {
+        public Criteria andShopLevelIn(List<Byte> values) {
             addCriterion("shop_level in", values, "shopLevel");
             return (Criteria) this;
         }
 
-        public Criteria andShopLevelNotIn(List<Boolean> values) {
+        public Criteria andShopLevelNotIn(List<Byte> values) {
             addCriterion("shop_level not in", values, "shopLevel");
             return (Criteria) this;
         }
 
-        public Criteria andShopLevelBetween(Boolean value1, Boolean value2) {
+        public Criteria andShopLevelBetween(Byte value1, Byte value2) {
             addCriterion("shop_level between", value1, value2, "shopLevel");
             return (Criteria) this;
         }
 
-        public Criteria andShopLevelNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andShopLevelNotBetween(Byte value1, Byte value2) {
             addCriterion("shop_level not between", value1, value2, "shopLevel");
             return (Criteria) this;
         }
@@ -514,52 +514,52 @@ public class VirtualShopExample {
             return (Criteria) this;
         }
 
-        public Criteria andShopThemeEqualTo(Boolean value) {
+        public Criteria andShopThemeEqualTo(Byte value) {
             addCriterion("shop_theme =", value, "shopTheme");
             return (Criteria) this;
         }
 
-        public Criteria andShopThemeNotEqualTo(Boolean value) {
+        public Criteria andShopThemeNotEqualTo(Byte value) {
             addCriterion("shop_theme <>", value, "shopTheme");
             return (Criteria) this;
         }
 
-        public Criteria andShopThemeGreaterThan(Boolean value) {
+        public Criteria andShopThemeGreaterThan(Byte value) {
             addCriterion("shop_theme >", value, "shopTheme");
             return (Criteria) this;
         }
 
-        public Criteria andShopThemeGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andShopThemeGreaterThanOrEqualTo(Byte value) {
             addCriterion("shop_theme >=", value, "shopTheme");
             return (Criteria) this;
         }
 
-        public Criteria andShopThemeLessThan(Boolean value) {
+        public Criteria andShopThemeLessThan(Byte value) {
             addCriterion("shop_theme <", value, "shopTheme");
             return (Criteria) this;
         }
 
-        public Criteria andShopThemeLessThanOrEqualTo(Boolean value) {
+        public Criteria andShopThemeLessThanOrEqualTo(Byte value) {
             addCriterion("shop_theme <=", value, "shopTheme");
             return (Criteria) this;
         }
 
-        public Criteria andShopThemeIn(List<Boolean> values) {
+        public Criteria andShopThemeIn(List<Byte> values) {
             addCriterion("shop_theme in", values, "shopTheme");
             return (Criteria) this;
         }
 
-        public Criteria andShopThemeNotIn(List<Boolean> values) {
+        public Criteria andShopThemeNotIn(List<Byte> values) {
             addCriterion("shop_theme not in", values, "shopTheme");
             return (Criteria) this;
         }
 
-        public Criteria andShopThemeBetween(Boolean value1, Boolean value2) {
+        public Criteria andShopThemeBetween(Byte value1, Byte value2) {
             addCriterion("shop_theme between", value1, value2, "shopTheme");
             return (Criteria) this;
         }
 
-        public Criteria andShopThemeNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andShopThemeNotBetween(Byte value1, Byte value2) {
             addCriterion("shop_theme not between", value1, value2, "shopTheme");
             return (Criteria) this;
         }

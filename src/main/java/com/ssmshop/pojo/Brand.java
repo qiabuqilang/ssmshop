@@ -17,11 +17,11 @@ public class Brand {
 
     private Integer catId;
 
-    private Boolean isHot;
+    private Byte isHot;
 
     private String desc;
 
-    public Brand(Short id, String name, String logo, String url, Byte sort, String catName, Integer parentCatId, Integer catId, Boolean isHot, String desc) {
+    public Brand(Short id, String name, String logo, String url, Byte sort, String catName, Integer parentCatId, Integer catId, Byte isHot, String desc) {
         this.id = id;
         this.name = name;
         this.logo = logo;
@@ -102,11 +102,11 @@ public class Brand {
         this.catId = catId;
     }
 
-    public Boolean getIsHot() {
+    public Byte getIsHot() {
         return isHot;
     }
 
-    public void setIsHot(Boolean isHot) {
+    public void setIsHot(Byte isHot) {
         this.isHot = isHot;
     }
 

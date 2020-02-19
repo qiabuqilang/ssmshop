@@ -444,52 +444,52 @@ public class PaymentExample {
             return (Criteria) this;
         }
 
-        public Criteria andEnabledEqualTo(Boolean value) {
+        public Criteria andEnabledEqualTo(Byte value) {
             addCriterion("enabled =", value, "enabled");
             return (Criteria) this;
         }
 
-        public Criteria andEnabledNotEqualTo(Boolean value) {
+        public Criteria andEnabledNotEqualTo(Byte value) {
             addCriterion("enabled <>", value, "enabled");
             return (Criteria) this;
         }
 
-        public Criteria andEnabledGreaterThan(Boolean value) {
+        public Criteria andEnabledGreaterThan(Byte value) {
             addCriterion("enabled >", value, "enabled");
             return (Criteria) this;
         }
 
-        public Criteria andEnabledGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andEnabledGreaterThanOrEqualTo(Byte value) {
             addCriterion("enabled >=", value, "enabled");
             return (Criteria) this;
         }
 
-        public Criteria andEnabledLessThan(Boolean value) {
+        public Criteria andEnabledLessThan(Byte value) {
             addCriterion("enabled <", value, "enabled");
             return (Criteria) this;
         }
 
-        public Criteria andEnabledLessThanOrEqualTo(Boolean value) {
+        public Criteria andEnabledLessThanOrEqualTo(Byte value) {
             addCriterion("enabled <=", value, "enabled");
             return (Criteria) this;
         }
 
-        public Criteria andEnabledIn(List<Boolean> values) {
+        public Criteria andEnabledIn(List<Byte> values) {
             addCriterion("enabled in", values, "enabled");
             return (Criteria) this;
         }
 
-        public Criteria andEnabledNotIn(List<Boolean> values) {
+        public Criteria andEnabledNotIn(List<Byte> values) {
             addCriterion("enabled not in", values, "enabled");
             return (Criteria) this;
         }
 
-        public Criteria andEnabledBetween(Boolean value1, Boolean value2) {
+        public Criteria andEnabledBetween(Byte value1, Byte value2) {
             addCriterion("enabled between", value1, value2, "enabled");
             return (Criteria) this;
         }
 
-        public Criteria andEnabledNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andEnabledNotBetween(Byte value1, Byte value2) {
             addCriterion("enabled not between", value1, value2, "enabled");
             return (Criteria) this;
         }
@@ -504,52 +504,52 @@ public class PaymentExample {
             return (Criteria) this;
         }
 
-        public Criteria andIsCodEqualTo(Boolean value) {
+        public Criteria andIsCodEqualTo(Byte value) {
             addCriterion("is_cod =", value, "isCod");
             return (Criteria) this;
         }
 
-        public Criteria andIsCodNotEqualTo(Boolean value) {
+        public Criteria andIsCodNotEqualTo(Byte value) {
             addCriterion("is_cod <>", value, "isCod");
             return (Criteria) this;
         }
 
-        public Criteria andIsCodGreaterThan(Boolean value) {
+        public Criteria andIsCodGreaterThan(Byte value) {
             addCriterion("is_cod >", value, "isCod");
             return (Criteria) this;
         }
 
-        public Criteria andIsCodGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andIsCodGreaterThanOrEqualTo(Byte value) {
             addCriterion("is_cod >=", value, "isCod");
             return (Criteria) this;
         }
 
-        public Criteria andIsCodLessThan(Boolean value) {
+        public Criteria andIsCodLessThan(Byte value) {
             addCriterion("is_cod <", value, "isCod");
             return (Criteria) this;
         }
 
-        public Criteria andIsCodLessThanOrEqualTo(Boolean value) {
+        public Criteria andIsCodLessThanOrEqualTo(Byte value) {
             addCriterion("is_cod <=", value, "isCod");
             return (Criteria) this;
         }
 
-        public Criteria andIsCodIn(List<Boolean> values) {
+        public Criteria andIsCodIn(List<Byte> values) {
             addCriterion("is_cod in", values, "isCod");
             return (Criteria) this;
         }
 
-        public Criteria andIsCodNotIn(List<Boolean> values) {
+        public Criteria andIsCodNotIn(List<Byte> values) {
             addCriterion("is_cod not in", values, "isCod");
             return (Criteria) this;
         }
 
-        public Criteria andIsCodBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsCodBetween(Byte value1, Byte value2) {
             addCriterion("is_cod between", value1, value2, "isCod");
             return (Criteria) this;
         }
 
-        public Criteria andIsCodNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsCodNotBetween(Byte value1, Byte value2) {
             addCriterion("is_cod not between", value1, value2, "isCod");
             return (Criteria) this;
         }
@@ -564,52 +564,52 @@ public class PaymentExample {
             return (Criteria) this;
         }
 
-        public Criteria andIsOnlineEqualTo(Boolean value) {
+        public Criteria andIsOnlineEqualTo(Byte value) {
             addCriterion("is_online =", value, "isOnline");
             return (Criteria) this;
         }
 
-        public Criteria andIsOnlineNotEqualTo(Boolean value) {
+        public Criteria andIsOnlineNotEqualTo(Byte value) {
             addCriterion("is_online <>", value, "isOnline");
             return (Criteria) this;
         }
 
-        public Criteria andIsOnlineGreaterThan(Boolean value) {
+        public Criteria andIsOnlineGreaterThan(Byte value) {
             addCriterion("is_online >", value, "isOnline");
             return (Criteria) this;
         }
 
-        public Criteria andIsOnlineGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andIsOnlineGreaterThanOrEqualTo(Byte value) {
             addCriterion("is_online >=", value, "isOnline");
             return (Criteria) this;
         }
 
-        public Criteria andIsOnlineLessThan(Boolean value) {
+        public Criteria andIsOnlineLessThan(Byte value) {
             addCriterion("is_online <", value, "isOnline");
             return (Criteria) this;
         }
 
-        public Criteria andIsOnlineLessThanOrEqualTo(Boolean value) {
+        public Criteria andIsOnlineLessThanOrEqualTo(Byte value) {
             addCriterion("is_online <=", value, "isOnline");
             return (Criteria) this;
         }
 
-        public Criteria andIsOnlineIn(List<Boolean> values) {
+        public Criteria andIsOnlineIn(List<Byte> values) {
             addCriterion("is_online in", values, "isOnline");
             return (Criteria) this;
         }
 
-        public Criteria andIsOnlineNotIn(List<Boolean> values) {
+        public Criteria andIsOnlineNotIn(List<Byte> values) {
             addCriterion("is_online not in", values, "isOnline");
             return (Criteria) this;
         }
 
-        public Criteria andIsOnlineBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsOnlineBetween(Byte value1, Byte value2) {
             addCriterion("is_online between", value1, value2, "isOnline");
             return (Criteria) this;
         }
 
-        public Criteria andIsOnlineNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsOnlineNotBetween(Byte value1, Byte value2) {
             addCriterion("is_online not between", value1, value2, "isOnline");
             return (Criteria) this;
         }

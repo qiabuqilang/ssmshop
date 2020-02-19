@@ -424,52 +424,52 @@ public class WxMsgExample {
             return (Criteria) this;
         }
 
-        public Criteria andIssendEqualTo(Boolean value) {
+        public Criteria andIssendEqualTo(Byte value) {
             addCriterion("issend =", value, "issend");
             return (Criteria) this;
         }
 
-        public Criteria andIssendNotEqualTo(Boolean value) {
+        public Criteria andIssendNotEqualTo(Byte value) {
             addCriterion("issend <>", value, "issend");
             return (Criteria) this;
         }
 
-        public Criteria andIssendGreaterThan(Boolean value) {
+        public Criteria andIssendGreaterThan(Byte value) {
             addCriterion("issend >", value, "issend");
             return (Criteria) this;
         }
 
-        public Criteria andIssendGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andIssendGreaterThanOrEqualTo(Byte value) {
             addCriterion("issend >=", value, "issend");
             return (Criteria) this;
         }
 
-        public Criteria andIssendLessThan(Boolean value) {
+        public Criteria andIssendLessThan(Byte value) {
             addCriterion("issend <", value, "issend");
             return (Criteria) this;
         }
 
-        public Criteria andIssendLessThanOrEqualTo(Boolean value) {
+        public Criteria andIssendLessThanOrEqualTo(Byte value) {
             addCriterion("issend <=", value, "issend");
             return (Criteria) this;
         }
 
-        public Criteria andIssendIn(List<Boolean> values) {
+        public Criteria andIssendIn(List<Byte> values) {
             addCriterion("issend in", values, "issend");
             return (Criteria) this;
         }
 
-        public Criteria andIssendNotIn(List<Boolean> values) {
+        public Criteria andIssendNotIn(List<Byte> values) {
             addCriterion("issend not in", values, "issend");
             return (Criteria) this;
         }
 
-        public Criteria andIssendBetween(Boolean value1, Boolean value2) {
+        public Criteria andIssendBetween(Byte value1, Byte value2) {
             addCriterion("issend between", value1, value2, "issend");
             return (Criteria) this;
         }
 
-        public Criteria andIssendNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andIssendNotBetween(Byte value1, Byte value2) {
             addCriterion("issend not between", value1, value2, "issend");
             return (Criteria) this;
         }
@@ -484,52 +484,52 @@ public class WxMsgExample {
             return (Criteria) this;
         }
 
-        public Criteria andSendtypeEqualTo(Boolean value) {
+        public Criteria andSendtypeEqualTo(Byte value) {
             addCriterion("sendtype =", value, "sendtype");
             return (Criteria) this;
         }
 
-        public Criteria andSendtypeNotEqualTo(Boolean value) {
+        public Criteria andSendtypeNotEqualTo(Byte value) {
             addCriterion("sendtype <>", value, "sendtype");
             return (Criteria) this;
         }
 
-        public Criteria andSendtypeGreaterThan(Boolean value) {
+        public Criteria andSendtypeGreaterThan(Byte value) {
             addCriterion("sendtype >", value, "sendtype");
             return (Criteria) this;
         }
 
-        public Criteria andSendtypeGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andSendtypeGreaterThanOrEqualTo(Byte value) {
             addCriterion("sendtype >=", value, "sendtype");
             return (Criteria) this;
         }
 
-        public Criteria andSendtypeLessThan(Boolean value) {
+        public Criteria andSendtypeLessThan(Byte value) {
             addCriterion("sendtype <", value, "sendtype");
             return (Criteria) this;
         }
 
-        public Criteria andSendtypeLessThanOrEqualTo(Boolean value) {
+        public Criteria andSendtypeLessThanOrEqualTo(Byte value) {
             addCriterion("sendtype <=", value, "sendtype");
             return (Criteria) this;
         }
 
-        public Criteria andSendtypeIn(List<Boolean> values) {
+        public Criteria andSendtypeIn(List<Byte> values) {
             addCriterion("sendtype in", values, "sendtype");
             return (Criteria) this;
         }
 
-        public Criteria andSendtypeNotIn(List<Boolean> values) {
+        public Criteria andSendtypeNotIn(List<Byte> values) {
             addCriterion("sendtype not in", values, "sendtype");
             return (Criteria) this;
         }
 
-        public Criteria andSendtypeBetween(Boolean value1, Boolean value2) {
+        public Criteria andSendtypeBetween(Byte value1, Byte value2) {
             addCriterion("sendtype between", value1, value2, "sendtype");
             return (Criteria) this;
         }
 
-        public Criteria andSendtypeNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andSendtypeNotBetween(Byte value1, Byte value2) {
             addCriterion("sendtype not between", value1, value2, "sendtype");
             return (Criteria) this;
         }

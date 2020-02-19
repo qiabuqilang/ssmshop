@@ -29,17 +29,17 @@ public class Cart {
 
     private String barCode;
 
-    private Boolean selected;
+    private Byte selected;
 
     private Integer addTime;
 
-    private Boolean promType;
+    private Byte promType;
 
     private Integer promId;
 
     private String sku;
 
-    public Cart(Integer id, Integer userId, String sessionId, Integer goodsId, String goodsSn, String goodsName, BigDecimal marketPrice, BigDecimal goodsPrice, BigDecimal memberGoodsPrice, Short goodsNum, String specKey, String specKeyName, String barCode, Boolean selected, Integer addTime, Boolean promType, Integer promId, String sku) {
+    public Cart(Integer id, Integer userId, String sessionId, Integer goodsId, String goodsSn, String goodsName, BigDecimal marketPrice, BigDecimal goodsPrice, BigDecimal memberGoodsPrice, Short goodsNum, String specKey, String specKeyName, String barCode, Byte selected, Integer addTime, Byte promType, Integer promId, String sku) {
         this.id = id;
         this.userId = userId;
         this.sessionId = sessionId;
@@ -168,11 +168,11 @@ public class Cart {
         this.barCode = barCode == null ? null : barCode.trim();
     }
 
-    public Boolean getSelected() {
+    public Byte getSelected() {
         return selected;
     }
 
-    public void setSelected(Boolean selected) {
+    public void setSelected(Byte selected) {
         this.selected = selected;
     }
 
@@ -184,11 +184,11 @@ public class Cart {
         this.addTime = addTime;
     }
 
-    public Boolean getPromType() {
+    public Byte getPromType() {
         return promType;
     }
 
-    public void setPromType(Boolean promType) {
+    public void setPromType(Byte promType) {
         this.promType = promType;
     }
 

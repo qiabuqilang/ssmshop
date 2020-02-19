@@ -5,7 +5,7 @@ public class VirtualShop {
 
     private String shopName;
 
-    private Boolean shopLevel;
+    private Byte shopLevel;
 
     private String shopLogo;
 
@@ -13,11 +13,11 @@ public class VirtualShop {
 
     private String shopQq;
 
-    private Boolean shopTheme;
+    private Byte shopTheme;
 
     private String shopIntro;
 
-    public VirtualShop(Integer userId, String shopName, Boolean shopLevel, String shopLogo, String shopPhone, String shopQq, Boolean shopTheme, String shopIntro) {
+    public VirtualShop(Integer userId, String shopName, Byte shopLevel, String shopLogo, String shopPhone, String shopQq, Byte shopTheme, String shopIntro) {
         this.userId = userId;
         this.shopName = shopName;
         this.shopLevel = shopLevel;
@@ -48,11 +48,11 @@ public class VirtualShop {
         this.shopName = shopName == null ? null : shopName.trim();
     }
 
-    public Boolean getShopLevel() {
+    public Byte getShopLevel() {
         return shopLevel;
     }
 
-    public void setShopLevel(Boolean shopLevel) {
+    public void setShopLevel(Byte shopLevel) {
         this.shopLevel = shopLevel;
     }
 
@@ -80,11 +80,11 @@ public class VirtualShop {
         this.shopQq = shopQq == null ? null : shopQq.trim();
     }
 
-    public Boolean getShopTheme() {
+    public Byte getShopTheme() {
         return shopTheme;
     }
 
-    public void setShopTheme(Boolean shopTheme) {
+    public void setShopTheme(Byte shopTheme) {
         this.shopTheme = shopTheme;
     }
 

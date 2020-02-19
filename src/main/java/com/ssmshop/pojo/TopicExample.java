@@ -524,52 +524,52 @@ public class TopicExample {
             return (Criteria) this;
         }
 
-        public Criteria andTopicStateEqualTo(Boolean value) {
+        public Criteria andTopicStateEqualTo(Byte value) {
             addCriterion("topic_state =", value, "topicState");
             return (Criteria) this;
         }
 
-        public Criteria andTopicStateNotEqualTo(Boolean value) {
+        public Criteria andTopicStateNotEqualTo(Byte value) {
             addCriterion("topic_state <>", value, "topicState");
             return (Criteria) this;
         }
 
-        public Criteria andTopicStateGreaterThan(Boolean value) {
+        public Criteria andTopicStateGreaterThan(Byte value) {
             addCriterion("topic_state >", value, "topicState");
             return (Criteria) this;
         }
 
-        public Criteria andTopicStateGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andTopicStateGreaterThanOrEqualTo(Byte value) {
             addCriterion("topic_state >=", value, "topicState");
             return (Criteria) this;
         }
 
-        public Criteria andTopicStateLessThan(Boolean value) {
+        public Criteria andTopicStateLessThan(Byte value) {
             addCriterion("topic_state <", value, "topicState");
             return (Criteria) this;
         }
 
-        public Criteria andTopicStateLessThanOrEqualTo(Boolean value) {
+        public Criteria andTopicStateLessThanOrEqualTo(Byte value) {
             addCriterion("topic_state <=", value, "topicState");
             return (Criteria) this;
         }
 
-        public Criteria andTopicStateIn(List<Boolean> values) {
+        public Criteria andTopicStateIn(List<Byte> values) {
             addCriterion("topic_state in", values, "topicState");
             return (Criteria) this;
         }
 
-        public Criteria andTopicStateNotIn(List<Boolean> values) {
+        public Criteria andTopicStateNotIn(List<Byte> values) {
             addCriterion("topic_state not in", values, "topicState");
             return (Criteria) this;
         }
 
-        public Criteria andTopicStateBetween(Boolean value1, Boolean value2) {
+        public Criteria andTopicStateBetween(Byte value1, Byte value2) {
             addCriterion("topic_state between", value1, value2, "topicState");
             return (Criteria) this;
         }
 
-        public Criteria andTopicStateNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andTopicStateNotBetween(Byte value1, Byte value2) {
             addCriterion("topic_state not between", value1, value2, "topicState");
             return (Criteria) this;
         }

@@ -9,11 +9,11 @@ public class ShippingArea {
 
     private Integer updateTime;
 
-    private Boolean isDefault;
+    private Byte isDefault;
 
     private String config;
 
-    public ShippingArea(Short shippingAreaId, String shippingAreaName, String shippingCode, Integer updateTime, Boolean isDefault, String config) {
+    public ShippingArea(Short shippingAreaId, String shippingAreaName, String shippingCode, Integer updateTime, Byte isDefault, String config) {
         this.shippingAreaId = shippingAreaId;
         this.shippingAreaName = shippingAreaName;
         this.shippingCode = shippingCode;
@@ -58,11 +58,11 @@ public class ShippingArea {
         this.updateTime = updateTime;
     }
 
-    public Boolean getIsDefault() {
+    public Byte getIsDefault() {
         return isDefault;
     }
 
-    public void setIsDefault(Boolean isDefault) {
+    public void setIsDefault(Byte isDefault) {
         this.isDefault = isDefault;
     }
 

@@ -5,7 +5,7 @@ public class CommentWithBLOBs extends Comment {
 
     private String img;
 
-    public CommentWithBLOBs(Integer commentId, Integer goodsId, String email, String username, Boolean deliverRank, Integer addTime, String ipAddress, Boolean isShow, Integer parentId, Integer userId, Integer orderId, Boolean goodsRank, Boolean serviceRank, String content, String img) {
+    public CommentWithBLOBs(Integer commentId, Integer goodsId, String email, String username, Byte deliverRank, Integer addTime, String ipAddress, Byte isShow, Integer parentId, Integer userId, Integer orderId, Byte goodsRank, Byte serviceRank, String content, String img) {
         super(commentId, goodsId, email, username, deliverRank, addTime, ipAddress, isShow, parentId, userId, orderId, goodsRank, serviceRank);
         this.content = content;
         this.img = img;

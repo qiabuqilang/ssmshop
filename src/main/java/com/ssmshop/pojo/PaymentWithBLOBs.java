@@ -5,7 +5,7 @@ public class PaymentWithBLOBs extends Payment {
 
     private String payConfig;
 
-    public PaymentWithBLOBs(Byte payId, String payCode, String payName, String payFee, Byte payOrder, Boolean enabled, Boolean isCod, Boolean isOnline, String payDesc, String payConfig) {
+    public PaymentWithBLOBs(Byte payId, String payCode, String payName, String payFee, Byte payOrder, Byte enabled, Byte isCod, Byte isOnline, String payDesc, String payConfig) {
         super(payId, payCode, payName, payFee, payOrder, enabled, isCod, isOnline);
         this.payDesc = payDesc;
         this.payConfig = payConfig;

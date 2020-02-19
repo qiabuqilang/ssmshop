@@ -9,7 +9,7 @@ public class WxText {
 
     private String keyword;
 
-    private Boolean precisions;
+    private Byte precisions;
 
     private String createtime;
 
@@ -21,7 +21,7 @@ public class WxText {
 
     private String text;
 
-    public WxText(Integer id, Integer uid, String uname, String keyword, Boolean precisions, String createtime, String updatetime, Integer click, String token, String text) {
+    public WxText(Integer id, Integer uid, String uname, String keyword, Byte precisions, String createtime, String updatetime, Integer click, String token, String text) {
         this.id = id;
         this.uid = uid;
         this.uname = uname;
@@ -70,11 +70,11 @@ public class WxText {
         this.keyword = keyword == null ? null : keyword.trim();
     }
 
-    public Boolean getPrecisions() {
+    public Byte getPrecisions() {
         return precisions;
     }
 
-    public void setPrecisions(Boolean precisions) {
+    public void setPrecisions(Byte precisions) {
         this.precisions = precisions;
     }
 

@@ -514,52 +514,52 @@ public class ArticleExample {
             return (Criteria) this;
         }
 
-        public Criteria andArticleTypeEqualTo(Boolean value) {
+        public Criteria andArticleTypeEqualTo(Byte value) {
             addCriterion("article_type =", value, "articleType");
             return (Criteria) this;
         }
 
-        public Criteria andArticleTypeNotEqualTo(Boolean value) {
+        public Criteria andArticleTypeNotEqualTo(Byte value) {
             addCriterion("article_type <>", value, "articleType");
             return (Criteria) this;
         }
 
-        public Criteria andArticleTypeGreaterThan(Boolean value) {
+        public Criteria andArticleTypeGreaterThan(Byte value) {
             addCriterion("article_type >", value, "articleType");
             return (Criteria) this;
         }
 
-        public Criteria andArticleTypeGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andArticleTypeGreaterThanOrEqualTo(Byte value) {
             addCriterion("article_type >=", value, "articleType");
             return (Criteria) this;
         }
 
-        public Criteria andArticleTypeLessThan(Boolean value) {
+        public Criteria andArticleTypeLessThan(Byte value) {
             addCriterion("article_type <", value, "articleType");
             return (Criteria) this;
         }
 
-        public Criteria andArticleTypeLessThanOrEqualTo(Boolean value) {
+        public Criteria andArticleTypeLessThanOrEqualTo(Byte value) {
             addCriterion("article_type <=", value, "articleType");
             return (Criteria) this;
         }
 
-        public Criteria andArticleTypeIn(List<Boolean> values) {
+        public Criteria andArticleTypeIn(List<Byte> values) {
             addCriterion("article_type in", values, "articleType");
             return (Criteria) this;
         }
 
-        public Criteria andArticleTypeNotIn(List<Boolean> values) {
+        public Criteria andArticleTypeNotIn(List<Byte> values) {
             addCriterion("article_type not in", values, "articleType");
             return (Criteria) this;
         }
 
-        public Criteria andArticleTypeBetween(Boolean value1, Boolean value2) {
+        public Criteria andArticleTypeBetween(Byte value1, Byte value2) {
             addCriterion("article_type between", value1, value2, "articleType");
             return (Criteria) this;
         }
 
-        public Criteria andArticleTypeNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andArticleTypeNotBetween(Byte value1, Byte value2) {
             addCriterion("article_type not between", value1, value2, "articleType");
             return (Criteria) this;
         }
@@ -574,52 +574,52 @@ public class ArticleExample {
             return (Criteria) this;
         }
 
-        public Criteria andIsOpenEqualTo(Boolean value) {
+        public Criteria andIsOpenEqualTo(Byte value) {
             addCriterion("is_open =", value, "isOpen");
             return (Criteria) this;
         }
 
-        public Criteria andIsOpenNotEqualTo(Boolean value) {
+        public Criteria andIsOpenNotEqualTo(Byte value) {
             addCriterion("is_open <>", value, "isOpen");
             return (Criteria) this;
         }
 
-        public Criteria andIsOpenGreaterThan(Boolean value) {
+        public Criteria andIsOpenGreaterThan(Byte value) {
             addCriterion("is_open >", value, "isOpen");
             return (Criteria) this;
         }
 
-        public Criteria andIsOpenGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andIsOpenGreaterThanOrEqualTo(Byte value) {
             addCriterion("is_open >=", value, "isOpen");
             return (Criteria) this;
         }
 
-        public Criteria andIsOpenLessThan(Boolean value) {
+        public Criteria andIsOpenLessThan(Byte value) {
             addCriterion("is_open <", value, "isOpen");
             return (Criteria) this;
         }
 
-        public Criteria andIsOpenLessThanOrEqualTo(Boolean value) {
+        public Criteria andIsOpenLessThanOrEqualTo(Byte value) {
             addCriterion("is_open <=", value, "isOpen");
             return (Criteria) this;
         }
 
-        public Criteria andIsOpenIn(List<Boolean> values) {
+        public Criteria andIsOpenIn(List<Byte> values) {
             addCriterion("is_open in", values, "isOpen");
             return (Criteria) this;
         }
 
-        public Criteria andIsOpenNotIn(List<Boolean> values) {
+        public Criteria andIsOpenNotIn(List<Byte> values) {
             addCriterion("is_open not in", values, "isOpen");
             return (Criteria) this;
         }
 
-        public Criteria andIsOpenBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsOpenBetween(Byte value1, Byte value2) {
             addCriterion("is_open between", value1, value2, "isOpen");
             return (Criteria) this;
         }
 
-        public Criteria andIsOpenNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsOpenNotBetween(Byte value1, Byte value2) {
             addCriterion("is_open not between", value1, value2, "isOpen");
             return (Criteria) this;
         }
@@ -764,52 +764,52 @@ public class ArticleExample {
             return (Criteria) this;
         }
 
-        public Criteria andOpenTypeEqualTo(Boolean value) {
+        public Criteria andOpenTypeEqualTo(Byte value) {
             addCriterion("open_type =", value, "openType");
             return (Criteria) this;
         }
 
-        public Criteria andOpenTypeNotEqualTo(Boolean value) {
+        public Criteria andOpenTypeNotEqualTo(Byte value) {
             addCriterion("open_type <>", value, "openType");
             return (Criteria) this;
         }
 
-        public Criteria andOpenTypeGreaterThan(Boolean value) {
+        public Criteria andOpenTypeGreaterThan(Byte value) {
             addCriterion("open_type >", value, "openType");
             return (Criteria) this;
         }
 
-        public Criteria andOpenTypeGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andOpenTypeGreaterThanOrEqualTo(Byte value) {
             addCriterion("open_type >=", value, "openType");
             return (Criteria) this;
         }
 
-        public Criteria andOpenTypeLessThan(Boolean value) {
+        public Criteria andOpenTypeLessThan(Byte value) {
             addCriterion("open_type <", value, "openType");
             return (Criteria) this;
         }
 
-        public Criteria andOpenTypeLessThanOrEqualTo(Boolean value) {
+        public Criteria andOpenTypeLessThanOrEqualTo(Byte value) {
             addCriterion("open_type <=", value, "openType");
             return (Criteria) this;
         }
 
-        public Criteria andOpenTypeIn(List<Boolean> values) {
+        public Criteria andOpenTypeIn(List<Byte> values) {
             addCriterion("open_type in", values, "openType");
             return (Criteria) this;
         }
 
-        public Criteria andOpenTypeNotIn(List<Boolean> values) {
+        public Criteria andOpenTypeNotIn(List<Byte> values) {
             addCriterion("open_type not in", values, "openType");
             return (Criteria) this;
         }
 
-        public Criteria andOpenTypeBetween(Boolean value1, Boolean value2) {
+        public Criteria andOpenTypeBetween(Byte value1, Byte value2) {
             addCriterion("open_type between", value1, value2, "openType");
             return (Criteria) this;
         }
 
-        public Criteria andOpenTypeNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andOpenTypeNotBetween(Byte value1, Byte value2) {
             addCriterion("open_type not between", value1, value2, "openType");
             return (Criteria) this;
         }

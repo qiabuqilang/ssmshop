@@ -11,21 +11,21 @@ public class GoodsCategory {
 
     private String parentIdPath;
 
-    private Boolean level;
+    private Byte level;
 
-    private Boolean sortOrder;
+    private Byte sortOrder;
 
-    private Boolean isShow;
+    private Byte isShow;
 
     private String image;
 
-    private Boolean isHot;
+    private Byte isHot;
 
-    private Boolean catGroup;
+    private Byte catGroup;
 
-    private Boolean commissionRate;
+    private Byte commissionRate;
 
-    public GoodsCategory(Short id, String name, String mobileName, Short parentId, String parentIdPath, Boolean level, Boolean sortOrder, Boolean isShow, String image, Boolean isHot, Boolean catGroup, Boolean commissionRate) {
+    public GoodsCategory(Short id, String name, String mobileName, Short parentId, String parentIdPath, Byte level, Byte sortOrder, Byte isShow, String image, Byte isHot, Byte catGroup, Byte commissionRate) {
         this.id = id;
         this.name = name;
         this.mobileName = mobileName;
@@ -84,27 +84,27 @@ public class GoodsCategory {
         this.parentIdPath = parentIdPath == null ? null : parentIdPath.trim();
     }
 
-    public Boolean getLevel() {
+    public Byte getLevel() {
         return level;
     }
 
-    public void setLevel(Boolean level) {
+    public void setLevel(Byte level) {
         this.level = level;
     }
 
-    public Boolean getSortOrder() {
+    public Byte getSortOrder() {
         return sortOrder;
     }
 
-    public void setSortOrder(Boolean sortOrder) {
+    public void setSortOrder(Byte sortOrder) {
         this.sortOrder = sortOrder;
     }
 
-    public Boolean getIsShow() {
+    public Byte getIsShow() {
         return isShow;
     }
 
-    public void setIsShow(Boolean isShow) {
+    public void setIsShow(Byte isShow) {
         this.isShow = isShow;
     }
 
@@ -116,27 +116,27 @@ public class GoodsCategory {
         this.image = image == null ? null : image.trim();
     }
 
-    public Boolean getIsHot() {
+    public Byte getIsHot() {
         return isHot;
     }
 
-    public void setIsHot(Boolean isHot) {
+    public void setIsHot(Byte isHot) {
         this.isHot = isHot;
     }
 
-    public Boolean getCatGroup() {
+    public Byte getCatGroup() {
         return catGroup;
     }
 
-    public void setCatGroup(Boolean catGroup) {
+    public void setCatGroup(Byte catGroup) {
         this.catGroup = catGroup;
     }
 
-    public Boolean getCommissionRate() {
+    public Byte getCommissionRate() {
         return commissionRate;
     }
 
-    public void setCommissionRate(Boolean commissionRate) {
+    public void setCommissionRate(Byte commissionRate) {
         this.commissionRate = commissionRate;
     }
 }

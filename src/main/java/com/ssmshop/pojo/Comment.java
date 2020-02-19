@@ -9,13 +9,13 @@ public class Comment {
 
     private String username;
 
-    private Boolean deliverRank;
+    private Byte deliverRank;
 
     private Integer addTime;
 
     private String ipAddress;
 
-    private Boolean isShow;
+    private Byte isShow;
 
     private Integer parentId;
 
@@ -23,11 +23,11 @@ public class Comment {
 
     private Integer orderId;
 
-    private Boolean goodsRank;
+    private Byte goodsRank;
 
-    private Boolean serviceRank;
+    private Byte serviceRank;
 
-    public Comment(Integer commentId, Integer goodsId, String email, String username, Boolean deliverRank, Integer addTime, String ipAddress, Boolean isShow, Integer parentId, Integer userId, Integer orderId, Boolean goodsRank, Boolean serviceRank) {
+    public Comment(Integer commentId, Integer goodsId, String email, String username, Byte deliverRank, Integer addTime, String ipAddress, Byte isShow, Integer parentId, Integer userId, Integer orderId, Byte goodsRank, Byte serviceRank) {
         this.commentId = commentId;
         this.goodsId = goodsId;
         this.email = email;
@@ -79,11 +79,11 @@ public class Comment {
         this.username = username == null ? null : username.trim();
     }
 
-    public Boolean getDeliverRank() {
+    public Byte getDeliverRank() {
         return deliverRank;
     }
 
-    public void setDeliverRank(Boolean deliverRank) {
+    public void setDeliverRank(Byte deliverRank) {
         this.deliverRank = deliverRank;
     }
 
@@ -103,11 +103,11 @@ public class Comment {
         this.ipAddress = ipAddress == null ? null : ipAddress.trim();
     }
 
-    public Boolean getIsShow() {
+    public Byte getIsShow() {
         return isShow;
     }
 
-    public void setIsShow(Boolean isShow) {
+    public void setIsShow(Byte isShow) {
         this.isShow = isShow;
     }
 
@@ -135,19 +135,19 @@ public class Comment {
         this.orderId = orderId;
     }
 
-    public Boolean getGoodsRank() {
+    public Byte getGoodsRank() {
         return goodsRank;
     }
 
-    public void setGoodsRank(Boolean goodsRank) {
+    public void setGoodsRank(Byte goodsRank) {
         this.goodsRank = goodsRank;
     }
 
-    public Boolean getServiceRank() {
+    public Byte getServiceRank() {
         return serviceRank;
     }
 
-    public void setServiceRank(Boolean serviceRank) {
+    public void setServiceRank(Byte serviceRank) {
         this.serviceRank = serviceRank;
     }
 }

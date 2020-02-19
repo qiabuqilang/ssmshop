@@ -25,11 +25,11 @@ public class UserAddress {
 
     private String mobile;
 
-    private Boolean isDefault;
+    private Byte isDefault;
 
-    private Boolean isPickup;
+    private Byte isPickup;
 
-    public UserAddress(Integer addressId, Integer userId, String consignee, String email, Integer country, Integer province, Integer city, Integer district, Integer twon, String address, String zipcode, String mobile, Boolean isDefault, Boolean isPickup) {
+    public UserAddress(Integer addressId, Integer userId, String consignee, String email, Integer country, Integer province, Integer city, Integer district, Integer twon, String address, String zipcode, String mobile, Byte isDefault, Byte isPickup) {
         this.addressId = addressId;
         this.userId = userId;
         this.consignee = consignee;
@@ -146,19 +146,19 @@ public class UserAddress {
         this.mobile = mobile == null ? null : mobile.trim();
     }
 
-    public Boolean getIsDefault() {
+    public Byte getIsDefault() {
         return isDefault;
     }
 
-    public void setIsDefault(Boolean isDefault) {
+    public void setIsDefault(Byte isDefault) {
         this.isDefault = isDefault;
     }
 
-    public Boolean getIsPickup() {
+    public Byte getIsPickup() {
         return isPickup;
     }
 
-    public void setIsPickup(Boolean isPickup) {
+    public void setIsPickup(Byte isPickup) {
         this.isPickup = isPickup;
     }
 }

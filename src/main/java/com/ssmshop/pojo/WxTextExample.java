@@ -374,52 +374,52 @@ public class WxTextExample {
             return (Criteria) this;
         }
 
-        public Criteria andPrecisionsEqualTo(Boolean value) {
+        public Criteria andPrecisionsEqualTo(Byte value) {
             addCriterion("precisions =", value, "precisions");
             return (Criteria) this;
         }
 
-        public Criteria andPrecisionsNotEqualTo(Boolean value) {
+        public Criteria andPrecisionsNotEqualTo(Byte value) {
             addCriterion("precisions <>", value, "precisions");
             return (Criteria) this;
         }
 
-        public Criteria andPrecisionsGreaterThan(Boolean value) {
+        public Criteria andPrecisionsGreaterThan(Byte value) {
             addCriterion("precisions >", value, "precisions");
             return (Criteria) this;
         }
 
-        public Criteria andPrecisionsGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andPrecisionsGreaterThanOrEqualTo(Byte value) {
             addCriterion("precisions >=", value, "precisions");
             return (Criteria) this;
         }
 
-        public Criteria andPrecisionsLessThan(Boolean value) {
+        public Criteria andPrecisionsLessThan(Byte value) {
             addCriterion("precisions <", value, "precisions");
             return (Criteria) this;
         }
 
-        public Criteria andPrecisionsLessThanOrEqualTo(Boolean value) {
+        public Criteria andPrecisionsLessThanOrEqualTo(Byte value) {
             addCriterion("precisions <=", value, "precisions");
             return (Criteria) this;
         }
 
-        public Criteria andPrecisionsIn(List<Boolean> values) {
+        public Criteria andPrecisionsIn(List<Byte> values) {
             addCriterion("precisions in", values, "precisions");
             return (Criteria) this;
         }
 
-        public Criteria andPrecisionsNotIn(List<Boolean> values) {
+        public Criteria andPrecisionsNotIn(List<Byte> values) {
             addCriterion("precisions not in", values, "precisions");
             return (Criteria) this;
         }
 
-        public Criteria andPrecisionsBetween(Boolean value1, Boolean value2) {
+        public Criteria andPrecisionsBetween(Byte value1, Byte value2) {
             addCriterion("precisions between", value1, value2, "precisions");
             return (Criteria) this;
         }
 
-        public Criteria andPrecisionsNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andPrecisionsNotBetween(Byte value1, Byte value2) {
             addCriterion("precisions not between", value1, value2, "precisions");
             return (Criteria) this;
         }

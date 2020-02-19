@@ -3,7 +3,7 @@ package com.ssmshop.pojo;
 public class WxMenu {
     private Integer id;
 
-    private Boolean level;
+    private Byte level;
 
     private String name;
 
@@ -17,7 +17,7 @@ public class WxMenu {
 
     private Integer pid;
 
-    public WxMenu(Integer id, Boolean level, String name, Integer sort, String type, String value, String token, Integer pid) {
+    public WxMenu(Integer id, Byte level, String name, Integer sort, String type, String value, String token, Integer pid) {
         this.id = id;
         this.level = level;
         this.name = name;
@@ -40,11 +40,11 @@ public class WxMenu {
         this.id = id;
     }
 
-    public Boolean getLevel() {
+    public Byte getLevel() {
         return level;
     }
 
-    public void setLevel(Boolean level) {
+    public void setLevel(Byte level) {
         this.level = level;
     }
 

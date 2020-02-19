@@ -11,11 +11,11 @@ public class FriendLink {
 
     private Byte orderby;
 
-    private Boolean isShow;
+    private Byte isShow;
 
-    private Boolean target;
+    private Byte target;
 
-    public FriendLink(Short linkId, String linkName, String linkUrl, String linkLogo, Byte orderby, Boolean isShow, Boolean target) {
+    public FriendLink(Short linkId, String linkName, String linkUrl, String linkLogo, Byte orderby, Byte isShow, Byte target) {
         this.linkId = linkId;
         this.linkName = linkName;
         this.linkUrl = linkUrl;
@@ -69,19 +69,19 @@ public class FriendLink {
         this.orderby = orderby;
     }
 
-    public Boolean getIsShow() {
+    public Byte getIsShow() {
         return isShow;
     }
 
-    public void setIsShow(Boolean isShow) {
+    public void setIsShow(Byte isShow) {
         this.isShow = isShow;
     }
 
-    public Boolean getTarget() {
+    public Byte getTarget() {
         return target;
     }
 
-    public void setTarget(Boolean target) {
+    public void setTarget(Byte target) {
         this.target = target;
     }
 }

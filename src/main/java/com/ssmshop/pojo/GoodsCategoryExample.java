@@ -444,52 +444,52 @@ public class GoodsCategoryExample {
             return (Criteria) this;
         }
 
-        public Criteria andLevelEqualTo(Boolean value) {
+        public Criteria andLevelEqualTo(Byte value) {
             addCriterion("level =", value, "level");
             return (Criteria) this;
         }
 
-        public Criteria andLevelNotEqualTo(Boolean value) {
+        public Criteria andLevelNotEqualTo(Byte value) {
             addCriterion("level <>", value, "level");
             return (Criteria) this;
         }
 
-        public Criteria andLevelGreaterThan(Boolean value) {
+        public Criteria andLevelGreaterThan(Byte value) {
             addCriterion("level >", value, "level");
             return (Criteria) this;
         }
 
-        public Criteria andLevelGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andLevelGreaterThanOrEqualTo(Byte value) {
             addCriterion("level >=", value, "level");
             return (Criteria) this;
         }
 
-        public Criteria andLevelLessThan(Boolean value) {
+        public Criteria andLevelLessThan(Byte value) {
             addCriterion("level <", value, "level");
             return (Criteria) this;
         }
 
-        public Criteria andLevelLessThanOrEqualTo(Boolean value) {
+        public Criteria andLevelLessThanOrEqualTo(Byte value) {
             addCriterion("level <=", value, "level");
             return (Criteria) this;
         }
 
-        public Criteria andLevelIn(List<Boolean> values) {
+        public Criteria andLevelIn(List<Byte> values) {
             addCriterion("level in", values, "level");
             return (Criteria) this;
         }
 
-        public Criteria andLevelNotIn(List<Boolean> values) {
+        public Criteria andLevelNotIn(List<Byte> values) {
             addCriterion("level not in", values, "level");
             return (Criteria) this;
         }
 
-        public Criteria andLevelBetween(Boolean value1, Boolean value2) {
+        public Criteria andLevelBetween(Byte value1, Byte value2) {
             addCriterion("level between", value1, value2, "level");
             return (Criteria) this;
         }
 
-        public Criteria andLevelNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andLevelNotBetween(Byte value1, Byte value2) {
             addCriterion("level not between", value1, value2, "level");
             return (Criteria) this;
         }
@@ -504,52 +504,52 @@ public class GoodsCategoryExample {
             return (Criteria) this;
         }
 
-        public Criteria andSortOrderEqualTo(Boolean value) {
+        public Criteria andSortOrderEqualTo(Byte value) {
             addCriterion("sort_order =", value, "sortOrder");
             return (Criteria) this;
         }
 
-        public Criteria andSortOrderNotEqualTo(Boolean value) {
+        public Criteria andSortOrderNotEqualTo(Byte value) {
             addCriterion("sort_order <>", value, "sortOrder");
             return (Criteria) this;
         }
 
-        public Criteria andSortOrderGreaterThan(Boolean value) {
+        public Criteria andSortOrderGreaterThan(Byte value) {
             addCriterion("sort_order >", value, "sortOrder");
             return (Criteria) this;
         }
 
-        public Criteria andSortOrderGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andSortOrderGreaterThanOrEqualTo(Byte value) {
             addCriterion("sort_order >=", value, "sortOrder");
             return (Criteria) this;
         }
 
-        public Criteria andSortOrderLessThan(Boolean value) {
+        public Criteria andSortOrderLessThan(Byte value) {
             addCriterion("sort_order <", value, "sortOrder");
             return (Criteria) this;
         }
 
-        public Criteria andSortOrderLessThanOrEqualTo(Boolean value) {
+        public Criteria andSortOrderLessThanOrEqualTo(Byte value) {
             addCriterion("sort_order <=", value, "sortOrder");
             return (Criteria) this;
         }
 
-        public Criteria andSortOrderIn(List<Boolean> values) {
+        public Criteria andSortOrderIn(List<Byte> values) {
             addCriterion("sort_order in", values, "sortOrder");
             return (Criteria) this;
         }
 
-        public Criteria andSortOrderNotIn(List<Boolean> values) {
+        public Criteria andSortOrderNotIn(List<Byte> values) {
             addCriterion("sort_order not in", values, "sortOrder");
             return (Criteria) this;
         }
 
-        public Criteria andSortOrderBetween(Boolean value1, Boolean value2) {
+        public Criteria andSortOrderBetween(Byte value1, Byte value2) {
             addCriterion("sort_order between", value1, value2, "sortOrder");
             return (Criteria) this;
         }
 
-        public Criteria andSortOrderNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andSortOrderNotBetween(Byte value1, Byte value2) {
             addCriterion("sort_order not between", value1, value2, "sortOrder");
             return (Criteria) this;
         }
@@ -564,52 +564,52 @@ public class GoodsCategoryExample {
             return (Criteria) this;
         }
 
-        public Criteria andIsShowEqualTo(Boolean value) {
+        public Criteria andIsShowEqualTo(Byte value) {
             addCriterion("is_show =", value, "isShow");
             return (Criteria) this;
         }
 
-        public Criteria andIsShowNotEqualTo(Boolean value) {
+        public Criteria andIsShowNotEqualTo(Byte value) {
             addCriterion("is_show <>", value, "isShow");
             return (Criteria) this;
         }
 
-        public Criteria andIsShowGreaterThan(Boolean value) {
+        public Criteria andIsShowGreaterThan(Byte value) {
             addCriterion("is_show >", value, "isShow");
             return (Criteria) this;
         }
 
-        public Criteria andIsShowGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andIsShowGreaterThanOrEqualTo(Byte value) {
             addCriterion("is_show >=", value, "isShow");
             return (Criteria) this;
         }
 
-        public Criteria andIsShowLessThan(Boolean value) {
+        public Criteria andIsShowLessThan(Byte value) {
             addCriterion("is_show <", value, "isShow");
             return (Criteria) this;
         }
 
-        public Criteria andIsShowLessThanOrEqualTo(Boolean value) {
+        public Criteria andIsShowLessThanOrEqualTo(Byte value) {
             addCriterion("is_show <=", value, "isShow");
             return (Criteria) this;
         }
 
-        public Criteria andIsShowIn(List<Boolean> values) {
+        public Criteria andIsShowIn(List<Byte> values) {
             addCriterion("is_show in", values, "isShow");
             return (Criteria) this;
         }
 
-        public Criteria andIsShowNotIn(List<Boolean> values) {
+        public Criteria andIsShowNotIn(List<Byte> values) {
             addCriterion("is_show not in", values, "isShow");
             return (Criteria) this;
         }
 
-        public Criteria andIsShowBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsShowBetween(Byte value1, Byte value2) {
             addCriterion("is_show between", value1, value2, "isShow");
             return (Criteria) this;
         }
 
-        public Criteria andIsShowNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsShowNotBetween(Byte value1, Byte value2) {
             addCriterion("is_show not between", value1, value2, "isShow");
             return (Criteria) this;
         }
@@ -694,52 +694,52 @@ public class GoodsCategoryExample {
             return (Criteria) this;
         }
 
-        public Criteria andIsHotEqualTo(Boolean value) {
+        public Criteria andIsHotEqualTo(Byte value) {
             addCriterion("is_hot =", value, "isHot");
             return (Criteria) this;
         }
 
-        public Criteria andIsHotNotEqualTo(Boolean value) {
+        public Criteria andIsHotNotEqualTo(Byte value) {
             addCriterion("is_hot <>", value, "isHot");
             return (Criteria) this;
         }
 
-        public Criteria andIsHotGreaterThan(Boolean value) {
+        public Criteria andIsHotGreaterThan(Byte value) {
             addCriterion("is_hot >", value, "isHot");
             return (Criteria) this;
         }
 
-        public Criteria andIsHotGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andIsHotGreaterThanOrEqualTo(Byte value) {
             addCriterion("is_hot >=", value, "isHot");
             return (Criteria) this;
         }
 
-        public Criteria andIsHotLessThan(Boolean value) {
+        public Criteria andIsHotLessThan(Byte value) {
             addCriterion("is_hot <", value, "isHot");
             return (Criteria) this;
         }
 
-        public Criteria andIsHotLessThanOrEqualTo(Boolean value) {
+        public Criteria andIsHotLessThanOrEqualTo(Byte value) {
             addCriterion("is_hot <=", value, "isHot");
             return (Criteria) this;
         }
 
-        public Criteria andIsHotIn(List<Boolean> values) {
+        public Criteria andIsHotIn(List<Byte> values) {
             addCriterion("is_hot in", values, "isHot");
             return (Criteria) this;
         }
 
-        public Criteria andIsHotNotIn(List<Boolean> values) {
+        public Criteria andIsHotNotIn(List<Byte> values) {
             addCriterion("is_hot not in", values, "isHot");
             return (Criteria) this;
         }
 
-        public Criteria andIsHotBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsHotBetween(Byte value1, Byte value2) {
             addCriterion("is_hot between", value1, value2, "isHot");
             return (Criteria) this;
         }
 
-        public Criteria andIsHotNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsHotNotBetween(Byte value1, Byte value2) {
             addCriterion("is_hot not between", value1, value2, "isHot");
             return (Criteria) this;
         }
@@ -754,52 +754,52 @@ public class GoodsCategoryExample {
             return (Criteria) this;
         }
 
-        public Criteria andCatGroupEqualTo(Boolean value) {
+        public Criteria andCatGroupEqualTo(Byte value) {
             addCriterion("cat_group =", value, "catGroup");
             return (Criteria) this;
         }
 
-        public Criteria andCatGroupNotEqualTo(Boolean value) {
+        public Criteria andCatGroupNotEqualTo(Byte value) {
             addCriterion("cat_group <>", value, "catGroup");
             return (Criteria) this;
         }
 
-        public Criteria andCatGroupGreaterThan(Boolean value) {
+        public Criteria andCatGroupGreaterThan(Byte value) {
             addCriterion("cat_group >", value, "catGroup");
             return (Criteria) this;
         }
 
-        public Criteria andCatGroupGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andCatGroupGreaterThanOrEqualTo(Byte value) {
             addCriterion("cat_group >=", value, "catGroup");
             return (Criteria) this;
         }
 
-        public Criteria andCatGroupLessThan(Boolean value) {
+        public Criteria andCatGroupLessThan(Byte value) {
             addCriterion("cat_group <", value, "catGroup");
             return (Criteria) this;
         }
 
-        public Criteria andCatGroupLessThanOrEqualTo(Boolean value) {
+        public Criteria andCatGroupLessThanOrEqualTo(Byte value) {
             addCriterion("cat_group <=", value, "catGroup");
             return (Criteria) this;
         }
 
-        public Criteria andCatGroupIn(List<Boolean> values) {
+        public Criteria andCatGroupIn(List<Byte> values) {
             addCriterion("cat_group in", values, "catGroup");
             return (Criteria) this;
         }
 
-        public Criteria andCatGroupNotIn(List<Boolean> values) {
+        public Criteria andCatGroupNotIn(List<Byte> values) {
             addCriterion("cat_group not in", values, "catGroup");
             return (Criteria) this;
         }
 
-        public Criteria andCatGroupBetween(Boolean value1, Boolean value2) {
+        public Criteria andCatGroupBetween(Byte value1, Byte value2) {
             addCriterion("cat_group between", value1, value2, "catGroup");
             return (Criteria) this;
         }
 
-        public Criteria andCatGroupNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andCatGroupNotBetween(Byte value1, Byte value2) {
             addCriterion("cat_group not between", value1, value2, "catGroup");
             return (Criteria) this;
         }
@@ -814,52 +814,52 @@ public class GoodsCategoryExample {
             return (Criteria) this;
         }
 
-        public Criteria andCommissionRateEqualTo(Boolean value) {
+        public Criteria andCommissionRateEqualTo(Byte value) {
             addCriterion("commission_rate =", value, "commissionRate");
             return (Criteria) this;
         }
 
-        public Criteria andCommissionRateNotEqualTo(Boolean value) {
+        public Criteria andCommissionRateNotEqualTo(Byte value) {
             addCriterion("commission_rate <>", value, "commissionRate");
             return (Criteria) this;
         }
 
-        public Criteria andCommissionRateGreaterThan(Boolean value) {
+        public Criteria andCommissionRateGreaterThan(Byte value) {
             addCriterion("commission_rate >", value, "commissionRate");
             return (Criteria) this;
         }
 
-        public Criteria andCommissionRateGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andCommissionRateGreaterThanOrEqualTo(Byte value) {
             addCriterion("commission_rate >=", value, "commissionRate");
             return (Criteria) this;
         }
 
-        public Criteria andCommissionRateLessThan(Boolean value) {
+        public Criteria andCommissionRateLessThan(Byte value) {
             addCriterion("commission_rate <", value, "commissionRate");
             return (Criteria) this;
         }
 
-        public Criteria andCommissionRateLessThanOrEqualTo(Boolean value) {
+        public Criteria andCommissionRateLessThanOrEqualTo(Byte value) {
             addCriterion("commission_rate <=", value, "commissionRate");
             return (Criteria) this;
         }
 
-        public Criteria andCommissionRateIn(List<Boolean> values) {
+        public Criteria andCommissionRateIn(List<Byte> values) {
             addCriterion("commission_rate in", values, "commissionRate");
             return (Criteria) this;
         }
 
-        public Criteria andCommissionRateNotIn(List<Boolean> values) {
+        public Criteria andCommissionRateNotIn(List<Byte> values) {
             addCriterion("commission_rate not in", values, "commissionRate");
             return (Criteria) this;
         }
 
-        public Criteria andCommissionRateBetween(Boolean value1, Boolean value2) {
+        public Criteria andCommissionRateBetween(Byte value1, Byte value2) {
             addCriterion("commission_rate between", value1, value2, "commissionRate");
             return (Criteria) this;
         }
 
-        public Criteria andCommissionRateNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andCommissionRateNotBetween(Byte value1, Byte value2) {
             addCriterion("commission_rate not between", value1, value2, "commissionRate");
             return (Criteria) this;
         }

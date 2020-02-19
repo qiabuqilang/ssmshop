@@ -13,7 +13,7 @@ public class Topic {
 
     private String topicRepeat;
 
-    private Boolean topicState;
+    private Byte topicState;
 
     private Byte topicMarginTop;
 
@@ -21,7 +21,7 @@ public class Topic {
 
     private String topicContent;
 
-    public Topic(Integer topicId, String topicTitle, String topicImage, String topicBackgroundColor, String topicBackground, String topicRepeat, Boolean topicState, Byte topicMarginTop, Integer ctime, String topicContent) {
+    public Topic(Integer topicId, String topicTitle, String topicImage, String topicBackgroundColor, String topicBackground, String topicRepeat, Byte topicState, Byte topicMarginTop, Integer ctime, String topicContent) {
         this.topicId = topicId;
         this.topicTitle = topicTitle;
         this.topicImage = topicImage;
@@ -86,11 +86,11 @@ public class Topic {
         this.topicRepeat = topicRepeat == null ? null : topicRepeat.trim();
     }
 
-    public Boolean getTopicState() {
+    public Byte getTopicState() {
         return topicState;
     }
 
-    public void setTopicState(Boolean topicState) {
+    public void setTopicState(Byte topicState) {
         this.topicState = topicState;
     }
 

@@ -11,13 +11,13 @@ public class Payment {
 
     private Byte payOrder;
 
-    private Boolean enabled;
+    private Byte enabled;
 
-    private Boolean isCod;
+    private Byte isCod;
 
-    private Boolean isOnline;
+    private Byte isOnline;
 
-    public Payment(Byte payId, String payCode, String payName, String payFee, Byte payOrder, Boolean enabled, Boolean isCod, Boolean isOnline) {
+    public Payment(Byte payId, String payCode, String payName, String payFee, Byte payOrder, Byte enabled, Byte isCod, Byte isOnline) {
         this.payId = payId;
         this.payCode = payCode;
         this.payName = payName;
@@ -72,27 +72,27 @@ public class Payment {
         this.payOrder = payOrder;
     }
 
-    public Boolean getEnabled() {
+    public Byte getEnabled() {
         return enabled;
     }
 
-    public void setEnabled(Boolean enabled) {
+    public void setEnabled(Byte enabled) {
         this.enabled = enabled;
     }
 
-    public Boolean getIsCod() {
+    public Byte getIsCod() {
         return isCod;
     }
 
-    public void setIsCod(Boolean isCod) {
+    public void setIsCod(Byte isCod) {
         this.isCod = isCod;
     }
 
-    public Boolean getIsOnline() {
+    public Byte getIsOnline() {
         return isOnline;
     }
 
-    public void setIsOnline(Boolean isOnline) {
+    public void setIsOnline(Byte isOnline) {
         this.isOnline = isOnline;
     }
 }

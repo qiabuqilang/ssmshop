@@ -374,52 +374,52 @@ public class WxUserExample {
             return (Criteria) this;
         }
 
-        public Criteria andEncodeEqualTo(Boolean value) {
+        public Criteria andEncodeEqualTo(Byte value) {
             addCriterion("encode =", value, "encode");
             return (Criteria) this;
         }
 
-        public Criteria andEncodeNotEqualTo(Boolean value) {
+        public Criteria andEncodeNotEqualTo(Byte value) {
             addCriterion("encode <>", value, "encode");
             return (Criteria) this;
         }
 
-        public Criteria andEncodeGreaterThan(Boolean value) {
+        public Criteria andEncodeGreaterThan(Byte value) {
             addCriterion("encode >", value, "encode");
             return (Criteria) this;
         }
 
-        public Criteria andEncodeGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andEncodeGreaterThanOrEqualTo(Byte value) {
             addCriterion("encode >=", value, "encode");
             return (Criteria) this;
         }
 
-        public Criteria andEncodeLessThan(Boolean value) {
+        public Criteria andEncodeLessThan(Byte value) {
             addCriterion("encode <", value, "encode");
             return (Criteria) this;
         }
 
-        public Criteria andEncodeLessThanOrEqualTo(Boolean value) {
+        public Criteria andEncodeLessThanOrEqualTo(Byte value) {
             addCriterion("encode <=", value, "encode");
             return (Criteria) this;
         }
 
-        public Criteria andEncodeIn(List<Boolean> values) {
+        public Criteria andEncodeIn(List<Byte> values) {
             addCriterion("encode in", values, "encode");
             return (Criteria) this;
         }
 
-        public Criteria andEncodeNotIn(List<Boolean> values) {
+        public Criteria andEncodeNotIn(List<Byte> values) {
             addCriterion("encode not in", values, "encode");
             return (Criteria) this;
         }
 
-        public Criteria andEncodeBetween(Boolean value1, Boolean value2) {
+        public Criteria andEncodeBetween(Byte value1, Byte value2) {
             addCriterion("encode between", value1, value2, "encode");
             return (Criteria) this;
         }
 
-        public Criteria andEncodeNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andEncodeNotBetween(Byte value1, Byte value2) {
             addCriterion("encode not between", value1, value2, "encode");
             return (Criteria) this;
         }
@@ -1464,52 +1464,52 @@ public class WxUserExample {
             return (Criteria) this;
         }
 
-        public Criteria andTypeEqualTo(Boolean value) {
+        public Criteria andTypeEqualTo(Byte value) {
             addCriterion("type =", value, "type");
             return (Criteria) this;
         }
 
-        public Criteria andTypeNotEqualTo(Boolean value) {
+        public Criteria andTypeNotEqualTo(Byte value) {
             addCriterion("type <>", value, "type");
             return (Criteria) this;
         }
 
-        public Criteria andTypeGreaterThan(Boolean value) {
+        public Criteria andTypeGreaterThan(Byte value) {
             addCriterion("type >", value, "type");
             return (Criteria) this;
         }
 
-        public Criteria andTypeGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andTypeGreaterThanOrEqualTo(Byte value) {
             addCriterion("type >=", value, "type");
             return (Criteria) this;
         }
 
-        public Criteria andTypeLessThan(Boolean value) {
+        public Criteria andTypeLessThan(Byte value) {
             addCriterion("type <", value, "type");
             return (Criteria) this;
         }
 
-        public Criteria andTypeLessThanOrEqualTo(Boolean value) {
+        public Criteria andTypeLessThanOrEqualTo(Byte value) {
             addCriterion("type <=", value, "type");
             return (Criteria) this;
         }
 
-        public Criteria andTypeIn(List<Boolean> values) {
+        public Criteria andTypeIn(List<Byte> values) {
             addCriterion("type in", values, "type");
             return (Criteria) this;
         }
 
-        public Criteria andTypeNotIn(List<Boolean> values) {
+        public Criteria andTypeNotIn(List<Byte> values) {
             addCriterion("type not in", values, "type");
             return (Criteria) this;
         }
 
-        public Criteria andTypeBetween(Boolean value1, Boolean value2) {
+        public Criteria andTypeBetween(Byte value1, Byte value2) {
             addCriterion("type between", value1, value2, "type");
             return (Criteria) this;
         }
 
-        public Criteria andTypeNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andTypeNotBetween(Byte value1, Byte value2) {
             addCriterion("type not between", value1, value2, "type");
             return (Criteria) this;
         }
@@ -1794,52 +1794,52 @@ public class WxUserExample {
             return (Criteria) this;
         }
 
-        public Criteria andWaitAccessEqualTo(Boolean value) {
+        public Criteria andWaitAccessEqualTo(Byte value) {
             addCriterion("wait_access =", value, "waitAccess");
             return (Criteria) this;
         }
 
-        public Criteria andWaitAccessNotEqualTo(Boolean value) {
+        public Criteria andWaitAccessNotEqualTo(Byte value) {
             addCriterion("wait_access <>", value, "waitAccess");
             return (Criteria) this;
         }
 
-        public Criteria andWaitAccessGreaterThan(Boolean value) {
+        public Criteria andWaitAccessGreaterThan(Byte value) {
             addCriterion("wait_access >", value, "waitAccess");
             return (Criteria) this;
         }
 
-        public Criteria andWaitAccessGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andWaitAccessGreaterThanOrEqualTo(Byte value) {
             addCriterion("wait_access >=", value, "waitAccess");
             return (Criteria) this;
         }
 
-        public Criteria andWaitAccessLessThan(Boolean value) {
+        public Criteria andWaitAccessLessThan(Byte value) {
             addCriterion("wait_access <", value, "waitAccess");
             return (Criteria) this;
         }
 
-        public Criteria andWaitAccessLessThanOrEqualTo(Boolean value) {
+        public Criteria andWaitAccessLessThanOrEqualTo(Byte value) {
             addCriterion("wait_access <=", value, "waitAccess");
             return (Criteria) this;
         }
 
-        public Criteria andWaitAccessIn(List<Boolean> values) {
+        public Criteria andWaitAccessIn(List<Byte> values) {
             addCriterion("wait_access in", values, "waitAccess");
             return (Criteria) this;
         }
 
-        public Criteria andWaitAccessNotIn(List<Boolean> values) {
+        public Criteria andWaitAccessNotIn(List<Byte> values) {
             addCriterion("wait_access not in", values, "waitAccess");
             return (Criteria) this;
         }
 
-        public Criteria andWaitAccessBetween(Boolean value1, Boolean value2) {
+        public Criteria andWaitAccessBetween(Byte value1, Byte value2) {
             addCriterion("wait_access between", value1, value2, "waitAccess");
             return (Criteria) this;
         }
 
-        public Criteria andWaitAccessNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andWaitAccessNotBetween(Byte value1, Byte value2) {
             addCriterion("wait_access not between", value1, value2, "waitAccess");
             return (Criteria) this;
         }

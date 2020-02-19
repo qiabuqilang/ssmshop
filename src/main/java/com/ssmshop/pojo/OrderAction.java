@@ -7,11 +7,11 @@ public class OrderAction {
 
     private Integer actionUser;
 
-    private Boolean orderStatus;
+    private Byte orderStatus;
 
-    private Boolean shippingStatus;
+    private Byte shippingStatus;
 
-    private Boolean payStatus;
+    private Byte payStatus;
 
     private String actionNote;
 
@@ -19,7 +19,7 @@ public class OrderAction {
 
     private String statusDesc;
 
-    public OrderAction(Integer actionId, Integer orderId, Integer actionUser, Boolean orderStatus, Boolean shippingStatus, Boolean payStatus, String actionNote, Integer logTime, String statusDesc) {
+    public OrderAction(Integer actionId, Integer orderId, Integer actionUser, Byte orderStatus, Byte shippingStatus, Byte payStatus, String actionNote, Integer logTime, String statusDesc) {
         this.actionId = actionId;
         this.orderId = orderId;
         this.actionUser = actionUser;
@@ -59,27 +59,27 @@ public class OrderAction {
         this.actionUser = actionUser;
     }
 
-    public Boolean getOrderStatus() {
+    public Byte getOrderStatus() {
         return orderStatus;
     }
 
-    public void setOrderStatus(Boolean orderStatus) {
+    public void setOrderStatus(Byte orderStatus) {
         this.orderStatus = orderStatus;
     }
 
-    public Boolean getShippingStatus() {
+    public Byte getShippingStatus() {
         return shippingStatus;
     }
 
-    public void setShippingStatus(Boolean shippingStatus) {
+    public void setShippingStatus(Byte shippingStatus) {
         this.shippingStatus = shippingStatus;
     }
 
-    public Boolean getPayStatus() {
+    public Byte getPayStatus() {
         return payStatus;
     }
 
-    public void setPayStatus(Boolean payStatus) {
+    public void setPayStatus(Byte payStatus) {
         this.payStatus = payStatus;
     }
 

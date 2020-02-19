@@ -7,7 +7,7 @@ public class PluginWithBLOBs extends Plugin {
 
     private String bankCode;
 
-    public PluginWithBLOBs(String code, String name, String version, String author, String desc, Boolean status, String type, String icon, Boolean scene, String config, String configValue, String bankCode) {
+    public PluginWithBLOBs(String code, String name, String version, String author, String desc, Byte status, String type, String icon, Byte scene, String config, String configValue, String bankCode) {
         super(code, name, version, author, desc, status, type, icon, scene);
         this.config = config;
         this.configValue = configValue;

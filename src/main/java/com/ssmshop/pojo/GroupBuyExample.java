@@ -915,52 +915,52 @@ public class GroupBuyExample {
             return (Criteria) this;
         }
 
-        public Criteria andRecommendedEqualTo(Boolean value) {
+        public Criteria andRecommendedEqualTo(Byte value) {
             addCriterion("recommended =", value, "recommended");
             return (Criteria) this;
         }
 
-        public Criteria andRecommendedNotEqualTo(Boolean value) {
+        public Criteria andRecommendedNotEqualTo(Byte value) {
             addCriterion("recommended <>", value, "recommended");
             return (Criteria) this;
         }
 
-        public Criteria andRecommendedGreaterThan(Boolean value) {
+        public Criteria andRecommendedGreaterThan(Byte value) {
             addCriterion("recommended >", value, "recommended");
             return (Criteria) this;
         }
 
-        public Criteria andRecommendedGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andRecommendedGreaterThanOrEqualTo(Byte value) {
             addCriterion("recommended >=", value, "recommended");
             return (Criteria) this;
         }
 
-        public Criteria andRecommendedLessThan(Boolean value) {
+        public Criteria andRecommendedLessThan(Byte value) {
             addCriterion("recommended <", value, "recommended");
             return (Criteria) this;
         }
 
-        public Criteria andRecommendedLessThanOrEqualTo(Boolean value) {
+        public Criteria andRecommendedLessThanOrEqualTo(Byte value) {
             addCriterion("recommended <=", value, "recommended");
             return (Criteria) this;
         }
 
-        public Criteria andRecommendedIn(List<Boolean> values) {
+        public Criteria andRecommendedIn(List<Byte> values) {
             addCriterion("recommended in", values, "recommended");
             return (Criteria) this;
         }
 
-        public Criteria andRecommendedNotIn(List<Boolean> values) {
+        public Criteria andRecommendedNotIn(List<Byte> values) {
             addCriterion("recommended not in", values, "recommended");
             return (Criteria) this;
         }
 
-        public Criteria andRecommendedBetween(Boolean value1, Boolean value2) {
+        public Criteria andRecommendedBetween(Byte value1, Byte value2) {
             addCriterion("recommended between", value1, value2, "recommended");
             return (Criteria) this;
         }
 
-        public Criteria andRecommendedNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andRecommendedNotBetween(Byte value1, Byte value2) {
             addCriterion("recommended not between", value1, value2, "recommended");
             return (Criteria) this;
         }

@@ -7,7 +7,7 @@ public class Coupon {
 
     private String name;
 
-    private Boolean type;
+    private Byte type;
 
     private BigDecimal money;
 
@@ -29,7 +29,7 @@ public class Coupon {
 
     private Integer addTime;
 
-    public Coupon(Integer id, String name, Boolean type, BigDecimal money, BigDecimal condition, Integer createnum, Integer sendNum, Integer useNum, Integer sendStartTime, Integer sendEndTime, Integer useStartTime, Integer useEndTime, Integer addTime) {
+    public Coupon(Integer id, String name, Byte type, BigDecimal money, BigDecimal condition, Integer createnum, Integer sendNum, Integer useNum, Integer sendStartTime, Integer sendEndTime, Integer useStartTime, Integer useEndTime, Integer addTime) {
         this.id = id;
         this.name = name;
         this.type = type;
@@ -65,11 +65,11 @@ public class Coupon {
         this.name = name == null ? null : name.trim();
     }
 
-    public Boolean getType() {
+    public Byte getType() {
         return type;
     }
 
-    public void setType(Boolean type) {
+    public void setType(Byte type) {
         this.type = type;
     }
 

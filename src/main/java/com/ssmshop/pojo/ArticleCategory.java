@@ -9,7 +9,7 @@ public class ArticleCategory {
 
     private Short parentId;
 
-    private Boolean showInNav;
+    private Byte showInNav;
 
     private Short sortOrder;
 
@@ -19,7 +19,7 @@ public class ArticleCategory {
 
     private String catAlias;
 
-    public ArticleCategory(Integer catId, String catName, Short catType, Short parentId, Boolean showInNav, Short sortOrder, String catDesc, String keywords, String catAlias) {
+    public ArticleCategory(Integer catId, String catName, Short catType, Short parentId, Byte showInNav, Short sortOrder, String catDesc, String keywords, String catAlias) {
         this.catId = catId;
         this.catName = catName;
         this.catType = catType;
@@ -67,11 +67,11 @@ public class ArticleCategory {
         this.parentId = parentId;
     }
 
-    public Boolean getShowInNav() {
+    public Byte getShowInNav() {
         return showInNav;
     }
 
-    public void setShowInNav(Boolean showInNav) {
+    public void setShowInNav(Byte showInNav) {
         this.showInNav = showInNav;
     }
 

@@ -11,9 +11,9 @@ public class FeedBack {
 
     private String msgTitle;
 
-    private Boolean msgType;
+    private Byte msgType;
 
-    private Boolean msgStatus;
+    private Byte msgStatus;
 
     private Integer msgTime;
 
@@ -21,11 +21,11 @@ public class FeedBack {
 
     private Integer orderId;
 
-    private Boolean msgArea;
+    private Byte msgArea;
 
     private String msgContent;
 
-    public FeedBack(Integer msgId, Integer parentId, Integer userId, String userName, String msgTitle, Boolean msgType, Boolean msgStatus, Integer msgTime, String messageImg, Integer orderId, Boolean msgArea, String msgContent) {
+    public FeedBack(Integer msgId, Integer parentId, Integer userId, String userName, String msgTitle, Byte msgType, Byte msgStatus, Integer msgTime, String messageImg, Integer orderId, Byte msgArea, String msgContent) {
         this.msgId = msgId;
         this.parentId = parentId;
         this.userId = userId;
@@ -84,19 +84,19 @@ public class FeedBack {
         this.msgTitle = msgTitle == null ? null : msgTitle.trim();
     }
 
-    public Boolean getMsgType() {
+    public Byte getMsgType() {
         return msgType;
     }
 
-    public void setMsgType(Boolean msgType) {
+    public void setMsgType(Byte msgType) {
         this.msgType = msgType;
     }
 
-    public Boolean getMsgStatus() {
+    public Byte getMsgStatus() {
         return msgStatus;
     }
 
-    public void setMsgStatus(Boolean msgStatus) {
+    public void setMsgStatus(Byte msgStatus) {
         this.msgStatus = msgStatus;
     }
 
@@ -124,11 +124,11 @@ public class FeedBack {
         this.orderId = orderId;
     }
 
-    public Boolean getMsgArea() {
+    public Byte getMsgArea() {
         return msgArea;
     }
 
-    public void setMsgArea(Boolean msgArea) {
+    public void setMsgArea(Byte msgArea) {
         this.msgArea = msgArea;
     }
 

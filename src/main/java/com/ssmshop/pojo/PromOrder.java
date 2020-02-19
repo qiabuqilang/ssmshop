@@ -15,13 +15,13 @@ public class PromOrder {
 
     private Integer endTime;
 
-    private Boolean isClose;
+    private Byte isClose;
 
     private String group;
 
     private String description;
 
-    public PromOrder(Long id, String name, Integer type, Float money, String expression, Integer startTime, Integer endTime, Boolean isClose, String group, String description) {
+    public PromOrder(Long id, String name, Integer type, Float money, String expression, Integer startTime, Integer endTime, Byte isClose, String group, String description) {
         this.id = id;
         this.name = name;
         this.type = type;
@@ -94,11 +94,11 @@ public class PromOrder {
         this.endTime = endTime;
     }
 
-    public Boolean getIsClose() {
+    public Byte getIsClose() {
         return isClose;
     }
 
-    public void setIsClose(Boolean isClose) {
+    public void setIsClose(Byte isClose) {
         this.isClose = isClose;
     }
 

@@ -19,9 +19,9 @@ public class Withdrawals {
 
     private String remark;
 
-    private Boolean status;
+    private Byte status;
 
-    public Withdrawals(Integer id, Integer userId, Integer createTime, BigDecimal money, String bankName, String accountBank, String accountName, String remark, Boolean status) {
+    public Withdrawals(Integer id, Integer userId, Integer createTime, BigDecimal money, String bankName, String accountBank, String accountName, String remark, Byte status) {
         this.id = id;
         this.userId = userId;
         this.createTime = createTime;
@@ -101,11 +101,11 @@ public class Withdrawals {
         this.remark = remark == null ? null : remark.trim();
     }
 
-    public Boolean getStatus() {
+    public Byte getStatus() {
         return status;
     }
 
-    public void setStatus(Boolean status) {
+    public void setStatus(Byte status) {
         this.status = status;
     }
 }

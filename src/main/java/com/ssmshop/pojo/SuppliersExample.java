@@ -244,52 +244,52 @@ public class SuppliersExample {
             return (Criteria) this;
         }
 
-        public Criteria andIsCheckEqualTo(Boolean value) {
+        public Criteria andIsCheckEqualTo(Byte value) {
             addCriterion("is_check =", value, "isCheck");
             return (Criteria) this;
         }
 
-        public Criteria andIsCheckNotEqualTo(Boolean value) {
+        public Criteria andIsCheckNotEqualTo(Byte value) {
             addCriterion("is_check <>", value, "isCheck");
             return (Criteria) this;
         }
 
-        public Criteria andIsCheckGreaterThan(Boolean value) {
+        public Criteria andIsCheckGreaterThan(Byte value) {
             addCriterion("is_check >", value, "isCheck");
             return (Criteria) this;
         }
 
-        public Criteria andIsCheckGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andIsCheckGreaterThanOrEqualTo(Byte value) {
             addCriterion("is_check >=", value, "isCheck");
             return (Criteria) this;
         }
 
-        public Criteria andIsCheckLessThan(Boolean value) {
+        public Criteria andIsCheckLessThan(Byte value) {
             addCriterion("is_check <", value, "isCheck");
             return (Criteria) this;
         }
 
-        public Criteria andIsCheckLessThanOrEqualTo(Boolean value) {
+        public Criteria andIsCheckLessThanOrEqualTo(Byte value) {
             addCriterion("is_check <=", value, "isCheck");
             return (Criteria) this;
         }
 
-        public Criteria andIsCheckIn(List<Boolean> values) {
+        public Criteria andIsCheckIn(List<Byte> values) {
             addCriterion("is_check in", values, "isCheck");
             return (Criteria) this;
         }
 
-        public Criteria andIsCheckNotIn(List<Boolean> values) {
+        public Criteria andIsCheckNotIn(List<Byte> values) {
             addCriterion("is_check not in", values, "isCheck");
             return (Criteria) this;
         }
 
-        public Criteria andIsCheckBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsCheckBetween(Byte value1, Byte value2) {
             addCriterion("is_check between", value1, value2, "isCheck");
             return (Criteria) this;
         }
 
-        public Criteria andIsCheckNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsCheckNotBetween(Byte value1, Byte value2) {
             addCriterion("is_check not between", value1, value2, "isCheck");
             return (Criteria) this;
         }

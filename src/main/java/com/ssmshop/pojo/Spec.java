@@ -9,9 +9,9 @@ public class Spec {
 
     private Integer order;
 
-    private Boolean searchIndex;
+    private Byte searchIndex;
 
-    public Spec(Integer id, Integer typeId, String name, Integer order, Boolean searchIndex) {
+    public Spec(Integer id, Integer typeId, String name, Integer order, Byte searchIndex) {
         this.id = id;
         this.typeId = typeId;
         this.name = name;
@@ -55,11 +55,11 @@ public class Spec {
         this.order = order;
     }
 
-    public Boolean getSearchIndex() {
+    public Byte getSearchIndex() {
         return searchIndex;
     }
 
-    public void setSearchIndex(Boolean searchIndex) {
+    public void setSearchIndex(Byte searchIndex) {
         this.searchIndex = searchIndex;
     }
 }

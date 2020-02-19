@@ -9,7 +9,7 @@ public class ReturnGoods {
 
     private Integer goodsId;
 
-    private Boolean type;
+    private Byte type;
 
     private String reason;
 
@@ -17,7 +17,7 @@ public class ReturnGoods {
 
     private Integer addtime;
 
-    private Boolean status;
+    private Byte status;
 
     private String remark;
 
@@ -25,7 +25,7 @@ public class ReturnGoods {
 
     private String specKey;
 
-    public ReturnGoods(Integer id, Integer orderId, String orderSn, Integer goodsId, Boolean type, String reason, String imgs, Integer addtime, Boolean status, String remark, Integer userId, String specKey) {
+    public ReturnGoods(Integer id, Integer orderId, String orderSn, Integer goodsId, Byte type, String reason, String imgs, Integer addtime, Byte status, String remark, Integer userId, String specKey) {
         this.id = id;
         this.orderId = orderId;
         this.orderSn = orderSn;
@@ -76,11 +76,11 @@ public class ReturnGoods {
         this.goodsId = goodsId;
     }
 
-    public Boolean getType() {
+    public Byte getType() {
         return type;
     }
 
-    public void setType(Boolean type) {
+    public void setType(Byte type) {
         this.type = type;
     }
 
@@ -108,11 +108,11 @@ public class ReturnGoods {
         this.addtime = addtime;
     }
 
-    public Boolean getStatus() {
+    public Byte getStatus() {
         return status;
     }
 
-    public void setStatus(Boolean status) {
+    public void setStatus(Byte status) {
         this.status = status;
     }
 

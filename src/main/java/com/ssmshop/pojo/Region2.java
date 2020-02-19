@@ -7,9 +7,9 @@ public class Region2 {
 
     private Integer parentId;
 
-    private Boolean level;
+    private Byte level;
 
-    public Region2(Integer id, String name, Integer parentId, Boolean level) {
+    public Region2(Integer id, String name, Integer parentId, Byte level) {
         this.id = id;
         this.name = name;
         this.parentId = parentId;
@@ -44,11 +44,11 @@ public class Region2 {
         this.parentId = parentId;
     }
 
-    public Boolean getLevel() {
+    public Byte getLevel() {
         return level;
     }
 
-    public void setLevel(Boolean level) {
+    public void setLevel(Byte level) {
         this.level = level;
     }
 }

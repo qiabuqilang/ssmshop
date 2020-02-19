@@ -5,15 +5,15 @@ public class Message {
 
     private Short adminId;
 
-    private Boolean type;
+    private Byte type;
 
-    private Boolean category;
+    private Byte category;
 
     private Integer sendTime;
 
     private String message;
 
-    public Message(Integer messageId, Short adminId, Boolean type, Boolean category, Integer sendTime, String message) {
+    public Message(Integer messageId, Short adminId, Byte type, Byte category, Integer sendTime, String message) {
         this.messageId = messageId;
         this.adminId = adminId;
         this.type = type;
@@ -42,19 +42,19 @@ public class Message {
         this.adminId = adminId;
     }
 
-    public Boolean getType() {
+    public Byte getType() {
         return type;
     }
 
-    public void setType(Boolean type) {
+    public void setType(Byte type) {
         this.type = type;
     }
 
-    public Boolean getCategory() {
+    public Byte getCategory() {
         return category;
     }
 
-    public void setCategory(Boolean category) {
+    public void setCategory(Byte category) {
         this.category = category;
     }
 

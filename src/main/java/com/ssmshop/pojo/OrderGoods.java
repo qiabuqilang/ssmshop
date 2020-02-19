@@ -31,19 +31,19 @@ public class OrderGoods {
 
     private String barCode;
 
-    private Boolean isComment;
+    private Byte isComment;
 
-    private Boolean promType;
+    private Byte promType;
 
     private Integer promId;
 
-    private Boolean isSend;
+    private Byte isSend;
 
     private Integer deliveryId;
 
     private String sku;
 
-    public OrderGoods(Integer recId, Integer orderId, Integer goodsId, String goodsName, String goodsSn, Short goodsNum, BigDecimal marketPrice, BigDecimal goodsPrice, BigDecimal costPrice, BigDecimal memberGoodsPrice, Integer giveIntegral, String specKey, String specKeyName, String barCode, Boolean isComment, Boolean promType, Integer promId, Boolean isSend, Integer deliveryId, String sku) {
+    public OrderGoods(Integer recId, Integer orderId, Integer goodsId, String goodsName, String goodsSn, Short goodsNum, BigDecimal marketPrice, BigDecimal goodsPrice, BigDecimal costPrice, BigDecimal memberGoodsPrice, Integer giveIntegral, String specKey, String specKeyName, String barCode, Byte isComment, Byte promType, Integer promId, Byte isSend, Integer deliveryId, String sku) {
         this.recId = recId;
         this.orderId = orderId;
         this.goodsId = goodsId;
@@ -182,19 +182,19 @@ public class OrderGoods {
         this.barCode = barCode == null ? null : barCode.trim();
     }
 
-    public Boolean getIsComment() {
+    public Byte getIsComment() {
         return isComment;
     }
 
-    public void setIsComment(Boolean isComment) {
+    public void setIsComment(Byte isComment) {
         this.isComment = isComment;
     }
 
-    public Boolean getPromType() {
+    public Byte getPromType() {
         return promType;
     }
 
-    public void setPromType(Boolean promType) {
+    public void setPromType(Byte promType) {
         this.promType = promType;
     }
 
@@ -206,11 +206,11 @@ public class OrderGoods {
         this.promId = promId;
     }
 
-    public Boolean getIsSend() {
+    public Byte getIsSend() {
         return isSend;
     }
 
-    public void setIsSend(Boolean isSend) {
+    public void setIsSend(Byte isSend) {
         this.isSend = isSend;
     }
 

@@ -494,52 +494,52 @@ public class PromGoodsExample {
             return (Criteria) this;
         }
 
-        public Criteria andIsCloseEqualTo(Boolean value) {
+        public Criteria andIsCloseEqualTo(Byte value) {
             addCriterion("is_close =", value, "isClose");
             return (Criteria) this;
         }
 
-        public Criteria andIsCloseNotEqualTo(Boolean value) {
+        public Criteria andIsCloseNotEqualTo(Byte value) {
             addCriterion("is_close <>", value, "isClose");
             return (Criteria) this;
         }
 
-        public Criteria andIsCloseGreaterThan(Boolean value) {
+        public Criteria andIsCloseGreaterThan(Byte value) {
             addCriterion("is_close >", value, "isClose");
             return (Criteria) this;
         }
 
-        public Criteria andIsCloseGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andIsCloseGreaterThanOrEqualTo(Byte value) {
             addCriterion("is_close >=", value, "isClose");
             return (Criteria) this;
         }
 
-        public Criteria andIsCloseLessThan(Boolean value) {
+        public Criteria andIsCloseLessThan(Byte value) {
             addCriterion("is_close <", value, "isClose");
             return (Criteria) this;
         }
 
-        public Criteria andIsCloseLessThanOrEqualTo(Boolean value) {
+        public Criteria andIsCloseLessThanOrEqualTo(Byte value) {
             addCriterion("is_close <=", value, "isClose");
             return (Criteria) this;
         }
 
-        public Criteria andIsCloseIn(List<Boolean> values) {
+        public Criteria andIsCloseIn(List<Byte> values) {
             addCriterion("is_close in", values, "isClose");
             return (Criteria) this;
         }
 
-        public Criteria andIsCloseNotIn(List<Boolean> values) {
+        public Criteria andIsCloseNotIn(List<Byte> values) {
             addCriterion("is_close not in", values, "isClose");
             return (Criteria) this;
         }
 
-        public Criteria andIsCloseBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsCloseBetween(Byte value1, Byte value2) {
             addCriterion("is_close between", value1, value2, "isClose");
             return (Criteria) this;
         }
 
-        public Criteria andIsCloseNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsCloseNotBetween(Byte value1, Byte value2) {
             addCriterion("is_close not between", value1, value2, "isClose");
             return (Criteria) this;
         }

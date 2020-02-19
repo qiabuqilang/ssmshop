@@ -9,7 +9,7 @@ public class WxUser {
 
     private String aeskey;
 
-    private Boolean encode;
+    private Byte encode;
 
     private String appid;
 
@@ -41,7 +41,7 @@ public class WxUser {
 
     private String authorizerExpires;
 
-    private Boolean type;
+    private Byte type;
 
     private String webAccessToken;
 
@@ -51,11 +51,11 @@ public class WxUser {
 
     private String qr;
 
-    private Boolean waitAccess;
+    private Byte waitAccess;
 
     private String menuConfig;
 
-    public WxUser(Integer id, Integer uid, String wxname, String aeskey, Boolean encode, String appid, String appsecret, String wxid, String weixin, String headerpic, String token, String wToken, Integer createTime, Integer updatetime, String tplcontentid, String shareTicket, String shareDated, String authorizerAccessToken, String authorizerRefreshToken, String authorizerExpires, Boolean type, String webAccessToken, String webRefreshToken, Integer webExpires, String qr, Boolean waitAccess, String menuConfig) {
+    public WxUser(Integer id, Integer uid, String wxname, String aeskey, Byte encode, String appid, String appsecret, String wxid, String weixin, String headerpic, String token, String wToken, Integer createTime, Integer updatetime, String tplcontentid, String shareTicket, String shareDated, String authorizerAccessToken, String authorizerRefreshToken, String authorizerExpires, Byte type, String webAccessToken, String webRefreshToken, Integer webExpires, String qr, Byte waitAccess, String menuConfig) {
         this.id = id;
         this.uid = uid;
         this.wxname = wxname;
@@ -121,11 +121,11 @@ public class WxUser {
         this.aeskey = aeskey == null ? null : aeskey.trim();
     }
 
-    public Boolean getEncode() {
+    public Byte getEncode() {
         return encode;
     }
 
-    public void setEncode(Boolean encode) {
+    public void setEncode(Byte encode) {
         this.encode = encode;
     }
 
@@ -249,11 +249,11 @@ public class WxUser {
         this.authorizerExpires = authorizerExpires == null ? null : authorizerExpires.trim();
     }
 
-    public Boolean getType() {
+    public Byte getType() {
         return type;
     }
 
-    public void setType(Boolean type) {
+    public void setType(Byte type) {
         this.type = type;
     }
 
@@ -289,11 +289,11 @@ public class WxUser {
         this.qr = qr == null ? null : qr.trim();
     }
 
-    public Boolean getWaitAccess() {
+    public Byte getWaitAccess() {
         return waitAccess;
     }
 
-    public void setWaitAccess(Boolean waitAccess) {
+    public void setWaitAccess(Byte waitAccess) {
         this.waitAccess = waitAccess;
     }
 

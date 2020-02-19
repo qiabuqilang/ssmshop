@@ -464,52 +464,52 @@ public class PluginExample {
             return (Criteria) this;
         }
 
-        public Criteria andStatusEqualTo(Boolean value) {
+        public Criteria andStatusEqualTo(Byte value) {
             addCriterion("status =", value, "status");
             return (Criteria) this;
         }
 
-        public Criteria andStatusNotEqualTo(Boolean value) {
+        public Criteria andStatusNotEqualTo(Byte value) {
             addCriterion("status <>", value, "status");
             return (Criteria) this;
         }
 
-        public Criteria andStatusGreaterThan(Boolean value) {
+        public Criteria andStatusGreaterThan(Byte value) {
             addCriterion("status >", value, "status");
             return (Criteria) this;
         }
 
-        public Criteria andStatusGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andStatusGreaterThanOrEqualTo(Byte value) {
             addCriterion("status >=", value, "status");
             return (Criteria) this;
         }
 
-        public Criteria andStatusLessThan(Boolean value) {
+        public Criteria andStatusLessThan(Byte value) {
             addCriterion("status <", value, "status");
             return (Criteria) this;
         }
 
-        public Criteria andStatusLessThanOrEqualTo(Boolean value) {
+        public Criteria andStatusLessThanOrEqualTo(Byte value) {
             addCriterion("status <=", value, "status");
             return (Criteria) this;
         }
 
-        public Criteria andStatusIn(List<Boolean> values) {
+        public Criteria andStatusIn(List<Byte> values) {
             addCriterion("status in", values, "status");
             return (Criteria) this;
         }
 
-        public Criteria andStatusNotIn(List<Boolean> values) {
+        public Criteria andStatusNotIn(List<Byte> values) {
             addCriterion("status not in", values, "status");
             return (Criteria) this;
         }
 
-        public Criteria andStatusBetween(Boolean value1, Boolean value2) {
+        public Criteria andStatusBetween(Byte value1, Byte value2) {
             addCriterion("status between", value1, value2, "status");
             return (Criteria) this;
         }
 
-        public Criteria andStatusNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andStatusNotBetween(Byte value1, Byte value2) {
             addCriterion("status not between", value1, value2, "status");
             return (Criteria) this;
         }
@@ -664,52 +664,52 @@ public class PluginExample {
             return (Criteria) this;
         }
 
-        public Criteria andSceneEqualTo(Boolean value) {
+        public Criteria andSceneEqualTo(Byte value) {
             addCriterion("scene =", value, "scene");
             return (Criteria) this;
         }
 
-        public Criteria andSceneNotEqualTo(Boolean value) {
+        public Criteria andSceneNotEqualTo(Byte value) {
             addCriterion("scene <>", value, "scene");
             return (Criteria) this;
         }
 
-        public Criteria andSceneGreaterThan(Boolean value) {
+        public Criteria andSceneGreaterThan(Byte value) {
             addCriterion("scene >", value, "scene");
             return (Criteria) this;
         }
 
-        public Criteria andSceneGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andSceneGreaterThanOrEqualTo(Byte value) {
             addCriterion("scene >=", value, "scene");
             return (Criteria) this;
         }
 
-        public Criteria andSceneLessThan(Boolean value) {
+        public Criteria andSceneLessThan(Byte value) {
             addCriterion("scene <", value, "scene");
             return (Criteria) this;
         }
 
-        public Criteria andSceneLessThanOrEqualTo(Boolean value) {
+        public Criteria andSceneLessThanOrEqualTo(Byte value) {
             addCriterion("scene <=", value, "scene");
             return (Criteria) this;
         }
 
-        public Criteria andSceneIn(List<Boolean> values) {
+        public Criteria andSceneIn(List<Byte> values) {
             addCriterion("scene in", values, "scene");
             return (Criteria) this;
         }
 
-        public Criteria andSceneNotIn(List<Boolean> values) {
+        public Criteria andSceneNotIn(List<Byte> values) {
             addCriterion("scene not in", values, "scene");
             return (Criteria) this;
         }
 
-        public Criteria andSceneBetween(Boolean value1, Boolean value2) {
+        public Criteria andSceneBetween(Byte value1, Byte value2) {
             addCriterion("scene between", value1, value2, "scene");
             return (Criteria) this;
         }
 
-        public Criteria andSceneNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andSceneNotBetween(Byte value1, Byte value2) {
             addCriterion("scene not between", value1, value2, "scene");
             return (Criteria) this;
         }

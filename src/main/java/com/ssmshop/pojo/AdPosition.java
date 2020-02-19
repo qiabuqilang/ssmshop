@@ -11,11 +11,11 @@ public class AdPosition {
 
     private String positionDesc;
 
-    private Boolean isOpen;
+    private Byte isOpen;
 
     private String positionStyle;
 
-    public AdPosition(Integer positionId, String positionName, Short adWidth, Short adHeight, String positionDesc, Boolean isOpen, String positionStyle) {
+    public AdPosition(Integer positionId, String positionName, Short adWidth, Short adHeight, String positionDesc, Byte isOpen, String positionStyle) {
         this.positionId = positionId;
         this.positionName = positionName;
         this.adWidth = adWidth;
@@ -69,11 +69,11 @@ public class AdPosition {
         this.positionDesc = positionDesc == null ? null : positionDesc.trim();
     }
 
-    public Boolean getIsOpen() {
+    public Byte getIsOpen() {
         return isOpen;
     }
 
-    public void setIsOpen(Boolean isOpen) {
+    public void setIsOpen(Byte isOpen) {
         this.isOpen = isOpen;
     }
 

@@ -5,7 +5,7 @@ public class ArticleWithBLOBs extends Article {
 
     private String description;
 
-    public ArticleWithBLOBs(Integer articleId, Short catId, String title, String author, String authorEmail, String keywords, Boolean articleType, Boolean isOpen, Integer addTime, String fileUrl, Boolean openType, String link, Integer click, Integer publishTime, String thumb, String content, String description) {
+    public ArticleWithBLOBs(Integer articleId, Short catId, String title, String author, String authorEmail, String keywords, Byte articleType, Byte isOpen, Integer addTime, String fileUrl, Byte openType, String link, Integer click, Integer publishTime, String thumb, String content, String description) {
         super(articleId, catId, title, author, authorEmail, keywords, articleType, isOpen, addTime, fileUrl, openType, link, click, publishTime, thumb);
         this.content = content;
         this.description = description;

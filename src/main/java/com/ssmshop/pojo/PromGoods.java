@@ -13,7 +13,7 @@ public class PromGoods {
 
     private Integer endTime;
 
-    private Boolean isClose;
+    private Byte isClose;
 
     private String group;
 
@@ -21,7 +21,7 @@ public class PromGoods {
 
     private String description;
 
-    public PromGoods(Long id, String name, Integer type, String expression, Integer startTime, Integer endTime, Boolean isClose, String group, String promImg, String description) {
+    public PromGoods(Long id, String name, Integer type, String expression, Integer startTime, Integer endTime, Byte isClose, String group, String promImg, String description) {
         this.id = id;
         this.name = name;
         this.type = type;
@@ -86,11 +86,11 @@ public class PromGoods {
         this.endTime = endTime;
     }
 
-    public Boolean getIsClose() {
+    public Byte getIsClose() {
         return isClose;
     }
 
-    public void setIsClose(Boolean isClose) {
+    public void setIsClose(Byte isClose) {
         this.isClose = isClose;
     }
 

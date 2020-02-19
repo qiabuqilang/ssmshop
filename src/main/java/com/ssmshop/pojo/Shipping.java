@@ -11,9 +11,9 @@ public class Shipping {
 
     private String insure;
 
-    private Boolean enabled;
+    private Byte enabled;
 
-    public Shipping(Byte shippingId, String shippingCode, String shippingName, String shippingDesc, String insure, Boolean enabled) {
+    public Shipping(Byte shippingId, String shippingCode, String shippingName, String shippingDesc, String insure, Byte enabled) {
         this.shippingId = shippingId;
         this.shippingCode = shippingCode;
         this.shippingName = shippingName;
@@ -66,11 +66,11 @@ public class Shipping {
         this.insure = insure == null ? null : insure.trim();
     }
 
-    public Boolean getEnabled() {
+    public Byte getEnabled() {
         return enabled;
     }
 
-    public void setEnabled(Boolean enabled) {
+    public void setEnabled(Byte enabled) {
         this.enabled = enabled;
     }
 }

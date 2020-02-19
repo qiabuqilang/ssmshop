@@ -15,7 +15,7 @@ public class Remittance {
 
     private BigDecimal money;
 
-    private Boolean status;
+    private Byte status;
 
     private Integer createTime;
 
@@ -25,7 +25,7 @@ public class Remittance {
 
     private Integer withdrawalsId;
 
-    public Remittance(Integer id, Integer userId, String bankName, String accountBank, String accountName, BigDecimal money, Boolean status, Integer createTime, String remark, Integer adminId, Integer withdrawalsId) {
+    public Remittance(Integer id, Integer userId, String bankName, String accountBank, String accountName, BigDecimal money, Byte status, Integer createTime, String remark, Integer adminId, Integer withdrawalsId) {
         this.id = id;
         this.userId = userId;
         this.bankName = bankName;
@@ -91,11 +91,11 @@ public class Remittance {
         this.money = money;
     }
 
-    public Boolean getStatus() {
+    public Byte getStatus() {
         return status;
     }
 
-    public void setStatus(Boolean status) {
+    public void setStatus(Byte status) {
         this.status = status;
     }
 

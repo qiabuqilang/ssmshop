@@ -5,7 +5,7 @@ public class CouponList {
 
     private Integer cid;
 
-    private Boolean type;
+    private Byte type;
 
     private Integer uid;
 
@@ -17,7 +17,7 @@ public class CouponList {
 
     private Integer sendTime;
 
-    public CouponList(Integer id, Integer cid, Boolean type, Integer uid, Integer orderId, Integer useTime, String code, Integer sendTime) {
+    public CouponList(Integer id, Integer cid, Byte type, Integer uid, Integer orderId, Integer useTime, String code, Integer sendTime) {
         this.id = id;
         this.cid = cid;
         this.type = type;
@@ -48,11 +48,11 @@ public class CouponList {
         this.cid = cid;
     }
 
-    public Boolean getType() {
+    public Byte getType() {
         return type;
     }
 
-    public void setType(Boolean type) {
+    public void setType(Byte type) {
         this.type = type;
     }
 

@@ -11,15 +11,15 @@ public class Plugin {
 
     private String desc;
 
-    private Boolean status;
+    private Byte status;
 
     private String type;
 
     private String icon;
 
-    private Boolean scene;
+    private Byte scene;
 
-    public Plugin(String code, String name, String version, String author, String desc, Boolean status, String type, String icon, Boolean scene) {
+    public Plugin(String code, String name, String version, String author, String desc, Byte status, String type, String icon, Byte scene) {
         this.code = code;
         this.name = name;
         this.version = version;
@@ -75,11 +75,11 @@ public class Plugin {
         this.desc = desc == null ? null : desc.trim();
     }
 
-    public Boolean getStatus() {
+    public Byte getStatus() {
         return status;
     }
 
-    public void setStatus(Boolean status) {
+    public void setStatus(Byte status) {
         this.status = status;
     }
 
@@ -99,11 +99,11 @@ public class Plugin {
         this.icon = icon == null ? null : icon.trim();
     }
 
-    public Boolean getScene() {
+    public Byte getScene() {
         return scene;
     }
 
-    public void setScene(Boolean scene) {
+    public void setScene(Byte scene) {
         this.scene = scene;
     }
 }

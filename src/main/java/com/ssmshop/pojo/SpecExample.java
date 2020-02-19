@@ -364,52 +364,52 @@ public class SpecExample {
             return (Criteria) this;
         }
 
-        public Criteria andSearchIndexEqualTo(Boolean value) {
+        public Criteria andSearchIndexEqualTo(Byte value) {
             addCriterion("search_index =", value, "searchIndex");
             return (Criteria) this;
         }
 
-        public Criteria andSearchIndexNotEqualTo(Boolean value) {
+        public Criteria andSearchIndexNotEqualTo(Byte value) {
             addCriterion("search_index <>", value, "searchIndex");
             return (Criteria) this;
         }
 
-        public Criteria andSearchIndexGreaterThan(Boolean value) {
+        public Criteria andSearchIndexGreaterThan(Byte value) {
             addCriterion("search_index >", value, "searchIndex");
             return (Criteria) this;
         }
 
-        public Criteria andSearchIndexGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andSearchIndexGreaterThanOrEqualTo(Byte value) {
             addCriterion("search_index >=", value, "searchIndex");
             return (Criteria) this;
         }
 
-        public Criteria andSearchIndexLessThan(Boolean value) {
+        public Criteria andSearchIndexLessThan(Byte value) {
             addCriterion("search_index <", value, "searchIndex");
             return (Criteria) this;
         }
 
-        public Criteria andSearchIndexLessThanOrEqualTo(Boolean value) {
+        public Criteria andSearchIndexLessThanOrEqualTo(Byte value) {
             addCriterion("search_index <=", value, "searchIndex");
             return (Criteria) this;
         }
 
-        public Criteria andSearchIndexIn(List<Boolean> values) {
+        public Criteria andSearchIndexIn(List<Byte> values) {
             addCriterion("search_index in", values, "searchIndex");
             return (Criteria) this;
         }
 
-        public Criteria andSearchIndexNotIn(List<Boolean> values) {
+        public Criteria andSearchIndexNotIn(List<Byte> values) {
             addCriterion("search_index not in", values, "searchIndex");
             return (Criteria) this;
         }
 
-        public Criteria andSearchIndexBetween(Boolean value1, Boolean value2) {
+        public Criteria andSearchIndexBetween(Byte value1, Byte value2) {
             addCriterion("search_index between", value1, value2, "searchIndex");
             return (Criteria) this;
         }
 
-        public Criteria andSearchIndexNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andSearchIndexNotBetween(Byte value1, Byte value2) {
             addCriterion("search_index not between", value1, value2, "searchIndex");
             return (Criteria) this;
         }

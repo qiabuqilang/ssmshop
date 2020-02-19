@@ -244,52 +244,52 @@ public class SystemModuleExample {
             return (Criteria) this;
         }
 
-        public Criteria andLevelEqualTo(Boolean value) {
+        public Criteria andLevelEqualTo(Byte value) {
             addCriterion("level =", value, "level");
             return (Criteria) this;
         }
 
-        public Criteria andLevelNotEqualTo(Boolean value) {
+        public Criteria andLevelNotEqualTo(Byte value) {
             addCriterion("level <>", value, "level");
             return (Criteria) this;
         }
 
-        public Criteria andLevelGreaterThan(Boolean value) {
+        public Criteria andLevelGreaterThan(Byte value) {
             addCriterion("level >", value, "level");
             return (Criteria) this;
         }
 
-        public Criteria andLevelGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andLevelGreaterThanOrEqualTo(Byte value) {
             addCriterion("level >=", value, "level");
             return (Criteria) this;
         }
 
-        public Criteria andLevelLessThan(Boolean value) {
+        public Criteria andLevelLessThan(Byte value) {
             addCriterion("level <", value, "level");
             return (Criteria) this;
         }
 
-        public Criteria andLevelLessThanOrEqualTo(Boolean value) {
+        public Criteria andLevelLessThanOrEqualTo(Byte value) {
             addCriterion("level <=", value, "level");
             return (Criteria) this;
         }
 
-        public Criteria andLevelIn(List<Boolean> values) {
+        public Criteria andLevelIn(List<Byte> values) {
             addCriterion("level in", values, "level");
             return (Criteria) this;
         }
 
-        public Criteria andLevelNotIn(List<Boolean> values) {
+        public Criteria andLevelNotIn(List<Byte> values) {
             addCriterion("level not in", values, "level");
             return (Criteria) this;
         }
 
-        public Criteria andLevelBetween(Boolean value1, Boolean value2) {
+        public Criteria andLevelBetween(Byte value1, Byte value2) {
             addCriterion("level between", value1, value2, "level");
             return (Criteria) this;
         }
 
-        public Criteria andLevelNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andLevelNotBetween(Byte value1, Byte value2) {
             addCriterion("level not between", value1, value2, "level");
             return (Criteria) this;
         }
@@ -514,52 +514,52 @@ public class SystemModuleExample {
             return (Criteria) this;
         }
 
-        public Criteria andVisibleEqualTo(Boolean value) {
+        public Criteria andVisibleEqualTo(Byte value) {
             addCriterion("visible =", value, "visible");
             return (Criteria) this;
         }
 
-        public Criteria andVisibleNotEqualTo(Boolean value) {
+        public Criteria andVisibleNotEqualTo(Byte value) {
             addCriterion("visible <>", value, "visible");
             return (Criteria) this;
         }
 
-        public Criteria andVisibleGreaterThan(Boolean value) {
+        public Criteria andVisibleGreaterThan(Byte value) {
             addCriterion("visible >", value, "visible");
             return (Criteria) this;
         }
 
-        public Criteria andVisibleGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andVisibleGreaterThanOrEqualTo(Byte value) {
             addCriterion("visible >=", value, "visible");
             return (Criteria) this;
         }
 
-        public Criteria andVisibleLessThan(Boolean value) {
+        public Criteria andVisibleLessThan(Byte value) {
             addCriterion("visible <", value, "visible");
             return (Criteria) this;
         }
 
-        public Criteria andVisibleLessThanOrEqualTo(Boolean value) {
+        public Criteria andVisibleLessThanOrEqualTo(Byte value) {
             addCriterion("visible <=", value, "visible");
             return (Criteria) this;
         }
 
-        public Criteria andVisibleIn(List<Boolean> values) {
+        public Criteria andVisibleIn(List<Byte> values) {
             addCriterion("visible in", values, "visible");
             return (Criteria) this;
         }
 
-        public Criteria andVisibleNotIn(List<Boolean> values) {
+        public Criteria andVisibleNotIn(List<Byte> values) {
             addCriterion("visible not in", values, "visible");
             return (Criteria) this;
         }
 
-        public Criteria andVisibleBetween(Boolean value1, Boolean value2) {
+        public Criteria andVisibleBetween(Byte value1, Byte value2) {
             addCriterion("visible between", value1, value2, "visible");
             return (Criteria) this;
         }
 
-        public Criteria andVisibleNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andVisibleNotBetween(Byte value1, Byte value2) {
             addCriterion("visible not between", value1, value2, "visible");
             return (Criteria) this;
         }

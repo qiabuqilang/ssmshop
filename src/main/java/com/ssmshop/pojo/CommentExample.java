@@ -374,52 +374,52 @@ public class CommentExample {
             return (Criteria) this;
         }
 
-        public Criteria andDeliverRankEqualTo(Boolean value) {
+        public Criteria andDeliverRankEqualTo(Byte value) {
             addCriterion("deliver_rank =", value, "deliverRank");
             return (Criteria) this;
         }
 
-        public Criteria andDeliverRankNotEqualTo(Boolean value) {
+        public Criteria andDeliverRankNotEqualTo(Byte value) {
             addCriterion("deliver_rank <>", value, "deliverRank");
             return (Criteria) this;
         }
 
-        public Criteria andDeliverRankGreaterThan(Boolean value) {
+        public Criteria andDeliverRankGreaterThan(Byte value) {
             addCriterion("deliver_rank >", value, "deliverRank");
             return (Criteria) this;
         }
 
-        public Criteria andDeliverRankGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andDeliverRankGreaterThanOrEqualTo(Byte value) {
             addCriterion("deliver_rank >=", value, "deliverRank");
             return (Criteria) this;
         }
 
-        public Criteria andDeliverRankLessThan(Boolean value) {
+        public Criteria andDeliverRankLessThan(Byte value) {
             addCriterion("deliver_rank <", value, "deliverRank");
             return (Criteria) this;
         }
 
-        public Criteria andDeliverRankLessThanOrEqualTo(Boolean value) {
+        public Criteria andDeliverRankLessThanOrEqualTo(Byte value) {
             addCriterion("deliver_rank <=", value, "deliverRank");
             return (Criteria) this;
         }
 
-        public Criteria andDeliverRankIn(List<Boolean> values) {
+        public Criteria andDeliverRankIn(List<Byte> values) {
             addCriterion("deliver_rank in", values, "deliverRank");
             return (Criteria) this;
         }
 
-        public Criteria andDeliverRankNotIn(List<Boolean> values) {
+        public Criteria andDeliverRankNotIn(List<Byte> values) {
             addCriterion("deliver_rank not in", values, "deliverRank");
             return (Criteria) this;
         }
 
-        public Criteria andDeliverRankBetween(Boolean value1, Boolean value2) {
+        public Criteria andDeliverRankBetween(Byte value1, Byte value2) {
             addCriterion("deliver_rank between", value1, value2, "deliverRank");
             return (Criteria) this;
         }
 
-        public Criteria andDeliverRankNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andDeliverRankNotBetween(Byte value1, Byte value2) {
             addCriterion("deliver_rank not between", value1, value2, "deliverRank");
             return (Criteria) this;
         }
@@ -564,52 +564,52 @@ public class CommentExample {
             return (Criteria) this;
         }
 
-        public Criteria andIsShowEqualTo(Boolean value) {
+        public Criteria andIsShowEqualTo(Byte value) {
             addCriterion("is_show =", value, "isShow");
             return (Criteria) this;
         }
 
-        public Criteria andIsShowNotEqualTo(Boolean value) {
+        public Criteria andIsShowNotEqualTo(Byte value) {
             addCriterion("is_show <>", value, "isShow");
             return (Criteria) this;
         }
 
-        public Criteria andIsShowGreaterThan(Boolean value) {
+        public Criteria andIsShowGreaterThan(Byte value) {
             addCriterion("is_show >", value, "isShow");
             return (Criteria) this;
         }
 
-        public Criteria andIsShowGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andIsShowGreaterThanOrEqualTo(Byte value) {
             addCriterion("is_show >=", value, "isShow");
             return (Criteria) this;
         }
 
-        public Criteria andIsShowLessThan(Boolean value) {
+        public Criteria andIsShowLessThan(Byte value) {
             addCriterion("is_show <", value, "isShow");
             return (Criteria) this;
         }
 
-        public Criteria andIsShowLessThanOrEqualTo(Boolean value) {
+        public Criteria andIsShowLessThanOrEqualTo(Byte value) {
             addCriterion("is_show <=", value, "isShow");
             return (Criteria) this;
         }
 
-        public Criteria andIsShowIn(List<Boolean> values) {
+        public Criteria andIsShowIn(List<Byte> values) {
             addCriterion("is_show in", values, "isShow");
             return (Criteria) this;
         }
 
-        public Criteria andIsShowNotIn(List<Boolean> values) {
+        public Criteria andIsShowNotIn(List<Byte> values) {
             addCriterion("is_show not in", values, "isShow");
             return (Criteria) this;
         }
 
-        public Criteria andIsShowBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsShowBetween(Byte value1, Byte value2) {
             addCriterion("is_show between", value1, value2, "isShow");
             return (Criteria) this;
         }
 
-        public Criteria andIsShowNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsShowNotBetween(Byte value1, Byte value2) {
             addCriterion("is_show not between", value1, value2, "isShow");
             return (Criteria) this;
         }
@@ -804,52 +804,52 @@ public class CommentExample {
             return (Criteria) this;
         }
 
-        public Criteria andGoodsRankEqualTo(Boolean value) {
+        public Criteria andGoodsRankEqualTo(Byte value) {
             addCriterion("goods_rank =", value, "goodsRank");
             return (Criteria) this;
         }
 
-        public Criteria andGoodsRankNotEqualTo(Boolean value) {
+        public Criteria andGoodsRankNotEqualTo(Byte value) {
             addCriterion("goods_rank <>", value, "goodsRank");
             return (Criteria) this;
         }
 
-        public Criteria andGoodsRankGreaterThan(Boolean value) {
+        public Criteria andGoodsRankGreaterThan(Byte value) {
             addCriterion("goods_rank >", value, "goodsRank");
             return (Criteria) this;
         }
 
-        public Criteria andGoodsRankGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andGoodsRankGreaterThanOrEqualTo(Byte value) {
             addCriterion("goods_rank >=", value, "goodsRank");
             return (Criteria) this;
         }
 
-        public Criteria andGoodsRankLessThan(Boolean value) {
+        public Criteria andGoodsRankLessThan(Byte value) {
             addCriterion("goods_rank <", value, "goodsRank");
             return (Criteria) this;
         }
 
-        public Criteria andGoodsRankLessThanOrEqualTo(Boolean value) {
+        public Criteria andGoodsRankLessThanOrEqualTo(Byte value) {
             addCriterion("goods_rank <=", value, "goodsRank");
             return (Criteria) this;
         }
 
-        public Criteria andGoodsRankIn(List<Boolean> values) {
+        public Criteria andGoodsRankIn(List<Byte> values) {
             addCriterion("goods_rank in", values, "goodsRank");
             return (Criteria) this;
         }
 
-        public Criteria andGoodsRankNotIn(List<Boolean> values) {
+        public Criteria andGoodsRankNotIn(List<Byte> values) {
             addCriterion("goods_rank not in", values, "goodsRank");
             return (Criteria) this;
         }
 
-        public Criteria andGoodsRankBetween(Boolean value1, Boolean value2) {
+        public Criteria andGoodsRankBetween(Byte value1, Byte value2) {
             addCriterion("goods_rank between", value1, value2, "goodsRank");
             return (Criteria) this;
         }
 
-        public Criteria andGoodsRankNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andGoodsRankNotBetween(Byte value1, Byte value2) {
             addCriterion("goods_rank not between", value1, value2, "goodsRank");
             return (Criteria) this;
         }
@@ -864,52 +864,52 @@ public class CommentExample {
             return (Criteria) this;
         }
 
-        public Criteria andServiceRankEqualTo(Boolean value) {
+        public Criteria andServiceRankEqualTo(Byte value) {
             addCriterion("service_rank =", value, "serviceRank");
             return (Criteria) this;
         }
 
-        public Criteria andServiceRankNotEqualTo(Boolean value) {
+        public Criteria andServiceRankNotEqualTo(Byte value) {
             addCriterion("service_rank <>", value, "serviceRank");
             return (Criteria) this;
         }
 
-        public Criteria andServiceRankGreaterThan(Boolean value) {
+        public Criteria andServiceRankGreaterThan(Byte value) {
             addCriterion("service_rank >", value, "serviceRank");
             return (Criteria) this;
         }
 
-        public Criteria andServiceRankGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andServiceRankGreaterThanOrEqualTo(Byte value) {
             addCriterion("service_rank >=", value, "serviceRank");
             return (Criteria) this;
         }
 
-        public Criteria andServiceRankLessThan(Boolean value) {
+        public Criteria andServiceRankLessThan(Byte value) {
             addCriterion("service_rank <", value, "serviceRank");
             return (Criteria) this;
         }
 
-        public Criteria andServiceRankLessThanOrEqualTo(Boolean value) {
+        public Criteria andServiceRankLessThanOrEqualTo(Byte value) {
             addCriterion("service_rank <=", value, "serviceRank");
             return (Criteria) this;
         }
 
-        public Criteria andServiceRankIn(List<Boolean> values) {
+        public Criteria andServiceRankIn(List<Byte> values) {
             addCriterion("service_rank in", values, "serviceRank");
             return (Criteria) this;
         }
 
-        public Criteria andServiceRankNotIn(List<Boolean> values) {
+        public Criteria andServiceRankNotIn(List<Byte> values) {
             addCriterion("service_rank not in", values, "serviceRank");
             return (Criteria) this;
         }
 
-        public Criteria andServiceRankBetween(Boolean value1, Boolean value2) {
+        public Criteria andServiceRankBetween(Byte value1, Byte value2) {
             addCriterion("service_rank between", value1, value2, "serviceRank");
             return (Criteria) this;
         }
 
-        public Criteria andServiceRankNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andServiceRankNotBetween(Byte value1, Byte value2) {
             addCriterion("service_rank not between", value1, value2, "serviceRank");
             return (Criteria) this;
         }

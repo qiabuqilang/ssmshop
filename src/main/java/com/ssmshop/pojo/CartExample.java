@@ -955,52 +955,52 @@ public class CartExample {
             return (Criteria) this;
         }
 
-        public Criteria andSelectedEqualTo(Boolean value) {
+        public Criteria andSelectedEqualTo(Byte value) {
             addCriterion("selected =", value, "selected");
             return (Criteria) this;
         }
 
-        public Criteria andSelectedNotEqualTo(Boolean value) {
+        public Criteria andSelectedNotEqualTo(Byte value) {
             addCriterion("selected <>", value, "selected");
             return (Criteria) this;
         }
 
-        public Criteria andSelectedGreaterThan(Boolean value) {
+        public Criteria andSelectedGreaterThan(Byte value) {
             addCriterion("selected >", value, "selected");
             return (Criteria) this;
         }
 
-        public Criteria andSelectedGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andSelectedGreaterThanOrEqualTo(Byte value) {
             addCriterion("selected >=", value, "selected");
             return (Criteria) this;
         }
 
-        public Criteria andSelectedLessThan(Boolean value) {
+        public Criteria andSelectedLessThan(Byte value) {
             addCriterion("selected <", value, "selected");
             return (Criteria) this;
         }
 
-        public Criteria andSelectedLessThanOrEqualTo(Boolean value) {
+        public Criteria andSelectedLessThanOrEqualTo(Byte value) {
             addCriterion("selected <=", value, "selected");
             return (Criteria) this;
         }
 
-        public Criteria andSelectedIn(List<Boolean> values) {
+        public Criteria andSelectedIn(List<Byte> values) {
             addCriterion("selected in", values, "selected");
             return (Criteria) this;
         }
 
-        public Criteria andSelectedNotIn(List<Boolean> values) {
+        public Criteria andSelectedNotIn(List<Byte> values) {
             addCriterion("selected not in", values, "selected");
             return (Criteria) this;
         }
 
-        public Criteria andSelectedBetween(Boolean value1, Boolean value2) {
+        public Criteria andSelectedBetween(Byte value1, Byte value2) {
             addCriterion("selected between", value1, value2, "selected");
             return (Criteria) this;
         }
 
-        public Criteria andSelectedNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andSelectedNotBetween(Byte value1, Byte value2) {
             addCriterion("selected not between", value1, value2, "selected");
             return (Criteria) this;
         }
@@ -1075,52 +1075,52 @@ public class CartExample {
             return (Criteria) this;
         }
 
-        public Criteria andPromTypeEqualTo(Boolean value) {
+        public Criteria andPromTypeEqualTo(Byte value) {
             addCriterion("prom_type =", value, "promType");
             return (Criteria) this;
         }
 
-        public Criteria andPromTypeNotEqualTo(Boolean value) {
+        public Criteria andPromTypeNotEqualTo(Byte value) {
             addCriterion("prom_type <>", value, "promType");
             return (Criteria) this;
         }
 
-        public Criteria andPromTypeGreaterThan(Boolean value) {
+        public Criteria andPromTypeGreaterThan(Byte value) {
             addCriterion("prom_type >", value, "promType");
             return (Criteria) this;
         }
 
-        public Criteria andPromTypeGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andPromTypeGreaterThanOrEqualTo(Byte value) {
             addCriterion("prom_type >=", value, "promType");
             return (Criteria) this;
         }
 
-        public Criteria andPromTypeLessThan(Boolean value) {
+        public Criteria andPromTypeLessThan(Byte value) {
             addCriterion("prom_type <", value, "promType");
             return (Criteria) this;
         }
 
-        public Criteria andPromTypeLessThanOrEqualTo(Boolean value) {
+        public Criteria andPromTypeLessThanOrEqualTo(Byte value) {
             addCriterion("prom_type <=", value, "promType");
             return (Criteria) this;
         }
 
-        public Criteria andPromTypeIn(List<Boolean> values) {
+        public Criteria andPromTypeIn(List<Byte> values) {
             addCriterion("prom_type in", values, "promType");
             return (Criteria) this;
         }
 
-        public Criteria andPromTypeNotIn(List<Boolean> values) {
+        public Criteria andPromTypeNotIn(List<Byte> values) {
             addCriterion("prom_type not in", values, "promType");
             return (Criteria) this;
         }
 
-        public Criteria andPromTypeBetween(Boolean value1, Boolean value2) {
+        public Criteria andPromTypeBetween(Byte value1, Byte value2) {
             addCriterion("prom_type between", value1, value2, "promType");
             return (Criteria) this;
         }
 
-        public Criteria andPromTypeNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andPromTypeNotBetween(Byte value1, Byte value2) {
             addCriterion("prom_type not between", value1, value2, "promType");
             return (Criteria) this;
         }

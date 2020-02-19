@@ -7,11 +7,11 @@ public class SystemMenu {
 
     private String group;
 
-    private Boolean isDel;
+    private Byte isDel;
 
     private String right;
 
-    public SystemMenu(Short id, String name, String group, Boolean isDel, String right) {
+    public SystemMenu(Short id, String name, String group, Byte isDel, String right) {
         this.id = id;
         this.name = name;
         this.group = group;
@@ -47,11 +47,11 @@ public class SystemMenu {
         this.group = group == null ? null : group.trim();
     }
 
-    public Boolean getIsDel() {
+    public Byte getIsDel() {
         return isDel;
     }
 
-    public void setIsDel(Boolean isDel) {
+    public void setIsDel(Byte isDel) {
         this.isDel = isDel;
     }
 

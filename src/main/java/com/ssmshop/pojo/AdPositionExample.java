@@ -434,52 +434,52 @@ public class AdPositionExample {
             return (Criteria) this;
         }
 
-        public Criteria andIsOpenEqualTo(Boolean value) {
+        public Criteria andIsOpenEqualTo(Byte value) {
             addCriterion("is_open =", value, "isOpen");
             return (Criteria) this;
         }
 
-        public Criteria andIsOpenNotEqualTo(Boolean value) {
+        public Criteria andIsOpenNotEqualTo(Byte value) {
             addCriterion("is_open <>", value, "isOpen");
             return (Criteria) this;
         }
 
-        public Criteria andIsOpenGreaterThan(Boolean value) {
+        public Criteria andIsOpenGreaterThan(Byte value) {
             addCriterion("is_open >", value, "isOpen");
             return (Criteria) this;
         }
 
-        public Criteria andIsOpenGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andIsOpenGreaterThanOrEqualTo(Byte value) {
             addCriterion("is_open >=", value, "isOpen");
             return (Criteria) this;
         }
 
-        public Criteria andIsOpenLessThan(Boolean value) {
+        public Criteria andIsOpenLessThan(Byte value) {
             addCriterion("is_open <", value, "isOpen");
             return (Criteria) this;
         }
 
-        public Criteria andIsOpenLessThanOrEqualTo(Boolean value) {
+        public Criteria andIsOpenLessThanOrEqualTo(Byte value) {
             addCriterion("is_open <=", value, "isOpen");
             return (Criteria) this;
         }
 
-        public Criteria andIsOpenIn(List<Boolean> values) {
+        public Criteria andIsOpenIn(List<Byte> values) {
             addCriterion("is_open in", values, "isOpen");
             return (Criteria) this;
         }
 
-        public Criteria andIsOpenNotIn(List<Boolean> values) {
+        public Criteria andIsOpenNotIn(List<Byte> values) {
             addCriterion("is_open not in", values, "isOpen");
             return (Criteria) this;
         }
 
-        public Criteria andIsOpenBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsOpenBetween(Byte value1, Byte value2) {
             addCriterion("is_open between", value1, value2, "isOpen");
             return (Criteria) this;
         }
 
-        public Criteria andIsOpenNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsOpenNotBetween(Byte value1, Byte value2) {
             addCriterion("is_open not between", value1, value2, "isOpen");
             return (Criteria) this;
         }

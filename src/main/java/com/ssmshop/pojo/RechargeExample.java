@@ -694,52 +694,52 @@ public class RechargeExample {
             return (Criteria) this;
         }
 
-        public Criteria andPayStatusEqualTo(Boolean value) {
+        public Criteria andPayStatusEqualTo(Byte value) {
             addCriterion("pay_status =", value, "payStatus");
             return (Criteria) this;
         }
 
-        public Criteria andPayStatusNotEqualTo(Boolean value) {
+        public Criteria andPayStatusNotEqualTo(Byte value) {
             addCriterion("pay_status <>", value, "payStatus");
             return (Criteria) this;
         }
 
-        public Criteria andPayStatusGreaterThan(Boolean value) {
+        public Criteria andPayStatusGreaterThan(Byte value) {
             addCriterion("pay_status >", value, "payStatus");
             return (Criteria) this;
         }
 
-        public Criteria andPayStatusGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andPayStatusGreaterThanOrEqualTo(Byte value) {
             addCriterion("pay_status >=", value, "payStatus");
             return (Criteria) this;
         }
 
-        public Criteria andPayStatusLessThan(Boolean value) {
+        public Criteria andPayStatusLessThan(Byte value) {
             addCriterion("pay_status <", value, "payStatus");
             return (Criteria) this;
         }
 
-        public Criteria andPayStatusLessThanOrEqualTo(Boolean value) {
+        public Criteria andPayStatusLessThanOrEqualTo(Byte value) {
             addCriterion("pay_status <=", value, "payStatus");
             return (Criteria) this;
         }
 
-        public Criteria andPayStatusIn(List<Boolean> values) {
+        public Criteria andPayStatusIn(List<Byte> values) {
             addCriterion("pay_status in", values, "payStatus");
             return (Criteria) this;
         }
 
-        public Criteria andPayStatusNotIn(List<Boolean> values) {
+        public Criteria andPayStatusNotIn(List<Byte> values) {
             addCriterion("pay_status not in", values, "payStatus");
             return (Criteria) this;
         }
 
-        public Criteria andPayStatusBetween(Boolean value1, Boolean value2) {
+        public Criteria andPayStatusBetween(Byte value1, Byte value2) {
             addCriterion("pay_status between", value1, value2, "payStatus");
             return (Criteria) this;
         }
 
-        public Criteria andPayStatusNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andPayStatusNotBetween(Byte value1, Byte value2) {
             addCriterion("pay_status not between", value1, value2, "payStatus");
             return (Criteria) this;
         }

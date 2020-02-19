@@ -944,52 +944,52 @@ public class AdExample {
             return (Criteria) this;
         }
 
-        public Criteria andTargetEqualTo(Boolean value) {
+        public Criteria andTargetEqualTo(Byte value) {
             addCriterion("target =", value, "target");
             return (Criteria) this;
         }
 
-        public Criteria andTargetNotEqualTo(Boolean value) {
+        public Criteria andTargetNotEqualTo(Byte value) {
             addCriterion("target <>", value, "target");
             return (Criteria) this;
         }
 
-        public Criteria andTargetGreaterThan(Boolean value) {
+        public Criteria andTargetGreaterThan(Byte value) {
             addCriterion("target >", value, "target");
             return (Criteria) this;
         }
 
-        public Criteria andTargetGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andTargetGreaterThanOrEqualTo(Byte value) {
             addCriterion("target >=", value, "target");
             return (Criteria) this;
         }
 
-        public Criteria andTargetLessThan(Boolean value) {
+        public Criteria andTargetLessThan(Byte value) {
             addCriterion("target <", value, "target");
             return (Criteria) this;
         }
 
-        public Criteria andTargetLessThanOrEqualTo(Boolean value) {
+        public Criteria andTargetLessThanOrEqualTo(Byte value) {
             addCriterion("target <=", value, "target");
             return (Criteria) this;
         }
 
-        public Criteria andTargetIn(List<Boolean> values) {
+        public Criteria andTargetIn(List<Byte> values) {
             addCriterion("target in", values, "target");
             return (Criteria) this;
         }
 
-        public Criteria andTargetNotIn(List<Boolean> values) {
+        public Criteria andTargetNotIn(List<Byte> values) {
             addCriterion("target not in", values, "target");
             return (Criteria) this;
         }
 
-        public Criteria andTargetBetween(Boolean value1, Boolean value2) {
+        public Criteria andTargetBetween(Byte value1, Byte value2) {
             addCriterion("target between", value1, value2, "target");
             return (Criteria) this;
         }
 
-        public Criteria andTargetNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andTargetNotBetween(Byte value1, Byte value2) {
             addCriterion("target not between", value1, value2, "target");
             return (Criteria) this;
         }

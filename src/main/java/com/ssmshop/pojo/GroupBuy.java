@@ -29,13 +29,13 @@ public class GroupBuy {
 
     private String goodsName;
 
-    private Boolean recommended;
+    private Byte recommended;
 
     private Integer views;
 
     private String intro;
 
-    public GroupBuy(Integer id, String title, Integer startTime, Integer endTime, Integer goodsId, BigDecimal price, Integer goodsNum, Integer buyNum, Integer orderNum, Integer virtualNum, BigDecimal rebate, BigDecimal goodsPrice, String goodsName, Boolean recommended, Integer views, String intro) {
+    public GroupBuy(Integer id, String title, Integer startTime, Integer endTime, Integer goodsId, BigDecimal price, Integer goodsNum, Integer buyNum, Integer orderNum, Integer virtualNum, BigDecimal rebate, BigDecimal goodsPrice, String goodsName, Byte recommended, Integer views, String intro) {
         this.id = id;
         this.title = title;
         this.startTime = startTime;
@@ -162,11 +162,11 @@ public class GroupBuy {
         this.goodsName = goodsName == null ? null : goodsName.trim();
     }
 
-    public Boolean getRecommended() {
+    public Byte getRecommended() {
         return recommended;
     }
 
-    public void setRecommended(Boolean recommended) {
+    public void setRecommended(Byte recommended) {
         this.recommended = recommended;
     }
 

@@ -19,9 +19,9 @@ public class Recharge {
 
     private String payName;
 
-    private Boolean payStatus;
+    private Byte payStatus;
 
-    public Recharge(Long orderId, Long userId, String nickname, String orderSn, Float account, Integer ctime, Integer payTime, String payCode, String payName, Boolean payStatus) {
+    public Recharge(Long orderId, Long userId, String nickname, String orderSn, Float account, Integer ctime, Integer payTime, String payCode, String payName, Byte payStatus) {
         this.orderId = orderId;
         this.userId = userId;
         this.nickname = nickname;
@@ -110,11 +110,11 @@ public class Recharge {
         this.payName = payName == null ? null : payName.trim();
     }
 
-    public Boolean getPayStatus() {
+    public Byte getPayStatus() {
         return payStatus;
     }
 
-    public void setPayStatus(Boolean payStatus) {
+    public void setPayStatus(Byte payStatus) {
         this.payStatus = payStatus;
     }
 }

@@ -27,13 +27,13 @@ public class Ad {
 
     private Short orderby;
 
-    private Boolean target;
+    private Byte target;
 
     private String bgcolor;
 
     private String adCode;
 
-    public Ad(Integer adId, Integer pid, Byte mediaType, String adName, String adLink, Integer startTime, Integer endTime, String linkMan, String linkEmail, String linkPhone, Integer clickCount, Byte enabled, Short orderby, Boolean target, String bgcolor, String adCode) {
+    public Ad(Integer adId, Integer pid, Byte mediaType, String adName, String adLink, Integer startTime, Integer endTime, String linkMan, String linkEmail, String linkPhone, Integer clickCount, Byte enabled, Short orderby, Byte target, String bgcolor, String adCode) {
         this.adId = adId;
         this.pid = pid;
         this.mediaType = mediaType;
@@ -160,11 +160,11 @@ public class Ad {
         this.orderby = orderby;
     }
 
-    public Boolean getTarget() {
+    public Byte getTarget() {
         return target;
     }
 
-    public void setTarget(Boolean target) {
+    public void setTarget(Byte target) {
         this.target = target;
     }
 

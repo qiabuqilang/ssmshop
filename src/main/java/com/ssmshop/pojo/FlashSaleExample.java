@@ -724,52 +724,52 @@ public class FlashSaleExample {
             return (Criteria) this;
         }
 
-        public Criteria andIsEndEqualTo(Boolean value) {
+        public Criteria andIsEndEqualTo(Byte value) {
             addCriterion("is_end =", value, "isEnd");
             return (Criteria) this;
         }
 
-        public Criteria andIsEndNotEqualTo(Boolean value) {
+        public Criteria andIsEndNotEqualTo(Byte value) {
             addCriterion("is_end <>", value, "isEnd");
             return (Criteria) this;
         }
 
-        public Criteria andIsEndGreaterThan(Boolean value) {
+        public Criteria andIsEndGreaterThan(Byte value) {
             addCriterion("is_end >", value, "isEnd");
             return (Criteria) this;
         }
 
-        public Criteria andIsEndGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andIsEndGreaterThanOrEqualTo(Byte value) {
             addCriterion("is_end >=", value, "isEnd");
             return (Criteria) this;
         }
 
-        public Criteria andIsEndLessThan(Boolean value) {
+        public Criteria andIsEndLessThan(Byte value) {
             addCriterion("is_end <", value, "isEnd");
             return (Criteria) this;
         }
 
-        public Criteria andIsEndLessThanOrEqualTo(Boolean value) {
+        public Criteria andIsEndLessThanOrEqualTo(Byte value) {
             addCriterion("is_end <=", value, "isEnd");
             return (Criteria) this;
         }
 
-        public Criteria andIsEndIn(List<Boolean> values) {
+        public Criteria andIsEndIn(List<Byte> values) {
             addCriterion("is_end in", values, "isEnd");
             return (Criteria) this;
         }
 
-        public Criteria andIsEndNotIn(List<Boolean> values) {
+        public Criteria andIsEndNotIn(List<Byte> values) {
             addCriterion("is_end not in", values, "isEnd");
             return (Criteria) this;
         }
 
-        public Criteria andIsEndBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsEndBetween(Byte value1, Byte value2) {
             addCriterion("is_end between", value1, value2, "isEnd");
             return (Criteria) this;
         }
 
-        public Criteria andIsEndNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsEndNotBetween(Byte value1, Byte value2) {
             addCriterion("is_end not between", value1, value2, "isEnd");
             return (Criteria) this;
         }

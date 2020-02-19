@@ -21,13 +21,13 @@ public class FlashSale {
 
     private Integer endTime;
 
-    private Boolean isEnd;
+    private Byte isEnd;
 
     private String goodsName;
 
     private String description;
 
-    public FlashSale(Long id, String title, Integer goodsId, Float price, Integer goodsNum, Integer buyLimit, Integer buyNum, Integer orderNum, Integer startTime, Integer endTime, Boolean isEnd, String goodsName, String description) {
+    public FlashSale(Long id, String title, Integer goodsId, Float price, Integer goodsNum, Integer buyLimit, Integer buyNum, Integer orderNum, Integer startTime, Integer endTime, Byte isEnd, String goodsName, String description) {
         this.id = id;
         this.title = title;
         this.goodsId = goodsId;
@@ -127,11 +127,11 @@ public class FlashSale {
         this.endTime = endTime;
     }
 
-    public Boolean getIsEnd() {
+    public Byte getIsEnd() {
         return isEnd;
     }
 
-    public void setIsEnd(Boolean isEnd) {
+    public void setIsEnd(Byte isEnd) {
         this.isEnd = isEnd;
     }
 

@@ -11,13 +11,13 @@ public class WxMsg {
 
     private Integer sendtime;
 
-    private Boolean issend;
+    private Byte issend;
 
-    private Boolean sendtype;
+    private Byte sendtype;
 
     private String content;
 
-    public WxMsg(Integer msgid, Integer adminId, String titile, Integer createtime, Integer sendtime, Boolean issend, Boolean sendtype, String content) {
+    public WxMsg(Integer msgid, Integer adminId, String titile, Integer createtime, Integer sendtime, Byte issend, Byte sendtype, String content) {
         this.msgid = msgid;
         this.adminId = adminId;
         this.titile = titile;
@@ -72,19 +72,19 @@ public class WxMsg {
         this.sendtime = sendtime;
     }
 
-    public Boolean getIssend() {
+    public Byte getIssend() {
         return issend;
     }
 
-    public void setIssend(Boolean issend) {
+    public void setIssend(Byte issend) {
         this.issend = issend;
     }
 
-    public Boolean getSendtype() {
+    public Byte getSendtype() {
         return sendtype;
     }
 
-    public void setSendtype(Boolean sendtype) {
+    public void setSendtype(Byte sendtype) {
         this.sendtype = sendtype;
     }
 

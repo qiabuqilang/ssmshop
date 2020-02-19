@@ -9,15 +9,15 @@ public class GoodsConsult {
 
     private Integer addTime;
 
-    private Boolean consultType;
+    private Byte consultType;
 
     private String content;
 
     private Integer parentId;
 
-    private Boolean isShow;
+    private Byte isShow;
 
-    public GoodsConsult(Integer id, Integer goodsId, String username, Integer addTime, Boolean consultType, String content, Integer parentId, Boolean isShow) {
+    public GoodsConsult(Integer id, Integer goodsId, String username, Integer addTime, Byte consultType, String content, Integer parentId, Byte isShow) {
         this.id = id;
         this.goodsId = goodsId;
         this.username = username;
@@ -64,11 +64,11 @@ public class GoodsConsult {
         this.addTime = addTime;
     }
 
-    public Boolean getConsultType() {
+    public Byte getConsultType() {
         return consultType;
     }
 
-    public void setConsultType(Boolean consultType) {
+    public void setConsultType(Byte consultType) {
         this.consultType = consultType;
     }
 
@@ -88,11 +88,11 @@ public class GoodsConsult {
         this.parentId = parentId;
     }
 
-    public Boolean getIsShow() {
+    public Byte getIsShow() {
         return isShow;
     }
 
-    public void setIsShow(Boolean isShow) {
+    public void setIsShow(Byte isShow) {
         this.isShow = isShow;
     }
 }

@@ -37,19 +37,19 @@ public class Goods {
 
     private Byte isReal;
 
-    private Boolean isOnSale;
+    private Byte isOnSale;
 
-    private Boolean isFreeShipping;
+    private Byte isFreeShipping;
 
     private Integer onTime;
 
     private Short sort;
 
-    private Boolean isRecommend;
+    private Byte isRecommend;
 
-    private Boolean isNew;
+    private Byte isNew;
 
-    private Boolean isHot;
+    private Byte isHot;
 
     private Integer lastUpdate;
 
@@ -65,7 +65,7 @@ public class Goods {
 
     private Integer salesSum;
 
-    private Boolean promType;
+    private Byte promType;
 
     private Integer promId;
 
@@ -79,7 +79,7 @@ public class Goods {
 
     private String goodsContent;
 
-    public Goods(Integer goodsId, Integer catId, Integer extendCatId, String goodsSn, String goodsName, Integer clickCount, Short brandId, Short storeCount, Short commentCount, Integer weight, BigDecimal marketPrice, BigDecimal shopPrice, BigDecimal costPrice, String keywords, String goodsRemark, String originalImg, Byte isReal, Boolean isOnSale, Boolean isFreeShipping, Integer onTime, Short sort, Boolean isRecommend, Boolean isNew, Boolean isHot, Integer lastUpdate, Short goodsType, Short specType, Integer giveIntegral, Integer exchangeIntegral, Short suppliersId, Integer salesSum, Boolean promType, Integer promId, BigDecimal commission, String spu, String sku, String shippingAreaIds, String goodsContent) {
+    public Goods(Integer goodsId, Integer catId, Integer extendCatId, String goodsSn, String goodsName, Integer clickCount, Short brandId, Short storeCount, Short commentCount, Integer weight, BigDecimal marketPrice, BigDecimal shopPrice, BigDecimal costPrice, String keywords, String goodsRemark, String originalImg, Byte isReal, Byte isOnSale, Byte isFreeShipping, Integer onTime, Short sort, Byte isRecommend, Byte isNew, Byte isHot, Integer lastUpdate, Short goodsType, Short specType, Integer giveIntegral, Integer exchangeIntegral, Short suppliersId, Integer salesSum, Byte promType, Integer promId, BigDecimal commission, String spu, String sku, String shippingAreaIds, String goodsContent) {
         this.goodsId = goodsId;
         this.catId = catId;
         this.extendCatId = extendCatId;
@@ -260,19 +260,19 @@ public class Goods {
         this.isReal = isReal;
     }
 
-    public Boolean getIsOnSale() {
+    public Byte getIsOnSale() {
         return isOnSale;
     }
 
-    public void setIsOnSale(Boolean isOnSale) {
+    public void setIsOnSale(Byte isOnSale) {
         this.isOnSale = isOnSale;
     }
 
-    public Boolean getIsFreeShipping() {
+    public Byte getIsFreeShipping() {
         return isFreeShipping;
     }
 
-    public void setIsFreeShipping(Boolean isFreeShipping) {
+    public void setIsFreeShipping(Byte isFreeShipping) {
         this.isFreeShipping = isFreeShipping;
     }
 
@@ -292,27 +292,27 @@ public class Goods {
         this.sort = sort;
     }
 
-    public Boolean getIsRecommend() {
+    public Byte getIsRecommend() {
         return isRecommend;
     }
 
-    public void setIsRecommend(Boolean isRecommend) {
+    public void setIsRecommend(Byte isRecommend) {
         this.isRecommend = isRecommend;
     }
 
-    public Boolean getIsNew() {
+    public Byte getIsNew() {
         return isNew;
     }
 
-    public void setIsNew(Boolean isNew) {
+    public void setIsNew(Byte isNew) {
         this.isNew = isNew;
     }
 
-    public Boolean getIsHot() {
+    public Byte getIsHot() {
         return isHot;
     }
 
-    public void setIsHot(Boolean isHot) {
+    public void setIsHot(Byte isHot) {
         this.isHot = isHot;
     }
 
@@ -372,11 +372,11 @@ public class Goods {
         this.salesSum = salesSum;
     }
 
-    public Boolean getPromType() {
+    public Byte getPromType() {
         return promType;
     }
 
-    public void setPromType(Boolean promType) {
+    public void setPromType(Byte promType) {
         this.promType = promType;
     }
 

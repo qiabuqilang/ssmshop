@@ -5,15 +5,15 @@ public class Navigation {
 
     private String name;
 
-    private Boolean isShow;
+    private Byte isShow;
 
-    private Boolean isNew;
+    private Byte isNew;
 
     private Short sort;
 
     private String url;
 
-    public Navigation(Integer id, String name, Boolean isShow, Boolean isNew, Short sort, String url) {
+    public Navigation(Integer id, String name, Byte isShow, Byte isNew, Short sort, String url) {
         this.id = id;
         this.name = name;
         this.isShow = isShow;
@@ -42,19 +42,19 @@ public class Navigation {
         this.name = name == null ? null : name.trim();
     }
 
-    public Boolean getIsShow() {
+    public Byte getIsShow() {
         return isShow;
     }
 
-    public void setIsShow(Boolean isShow) {
+    public void setIsShow(Byte isShow) {
         this.isShow = isShow;
     }
 
-    public Boolean getIsNew() {
+    public Byte getIsNew() {
         return isNew;
     }
 
-    public void setIsNew(Boolean isNew) {
+    public void setIsNew(Byte isNew) {
         this.isNew = isNew;
     }
 

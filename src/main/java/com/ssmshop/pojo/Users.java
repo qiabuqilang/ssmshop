@@ -11,7 +11,7 @@ public class Users {
 
     private String paypwd;
 
-    private Boolean sex;
+    private Byte sex;
 
     private Integer birthday;
 
@@ -51,19 +51,19 @@ public class Users {
 
     private Integer district;
 
-    private Boolean emailValidated;
+    private Byte emailValidated;
 
     private String nickname;
 
-    private Boolean level;
+    private Byte level;
 
     private BigDecimal discount;
 
     private BigDecimal totalAmount;
 
-    private Boolean isLock;
+    private Byte isLock;
 
-    private Boolean isDistribut;
+    private Byte isDistribut;
 
     private Integer firstLeader;
 
@@ -73,7 +73,7 @@ public class Users {
 
     private String token;
 
-    public Users(Integer userId, String email, String password, String paypwd, Boolean sex, Integer birthday, BigDecimal userMoney, BigDecimal frozenMoney, BigDecimal distributMoney, Integer payPoints, Integer addressId, Integer regTime, Integer lastLogin, String lastIp, String qq, String mobile, Byte mobileValidated, String oauth, String openid, String unionid, String headPic, Integer province, Integer city, Integer district, Boolean emailValidated, String nickname, Boolean level, BigDecimal discount, BigDecimal totalAmount, Boolean isLock, Boolean isDistribut, Integer firstLeader, Integer secondLeader, Integer thirdLeader, String token) {
+    public Users(Integer userId, String email, String password, String paypwd, Byte sex, Integer birthday, BigDecimal userMoney, BigDecimal frozenMoney, BigDecimal distributMoney, Integer payPoints, Integer addressId, Integer regTime, Integer lastLogin, String lastIp, String qq, String mobile, Byte mobileValidated, String oauth, String openid, String unionid, String headPic, Integer province, Integer city, Integer district, Byte emailValidated, String nickname, Byte level, BigDecimal discount, BigDecimal totalAmount, Byte isLock, Byte isDistribut, Integer firstLeader, Integer secondLeader, Integer thirdLeader, String token) {
         this.userId = userId;
         this.email = email;
         this.password = password;
@@ -147,11 +147,11 @@ public class Users {
         this.paypwd = paypwd == null ? null : paypwd.trim();
     }
 
-    public Boolean getSex() {
+    public Byte getSex() {
         return sex;
     }
 
-    public void setSex(Boolean sex) {
+    public void setSex(Byte sex) {
         this.sex = sex;
     }
 
@@ -307,11 +307,11 @@ public class Users {
         this.district = district;
     }
 
-    public Boolean getEmailValidated() {
+    public Byte getEmailValidated() {
         return emailValidated;
     }
 
-    public void setEmailValidated(Boolean emailValidated) {
+    public void setEmailValidated(Byte emailValidated) {
         this.emailValidated = emailValidated;
     }
 
@@ -323,11 +323,11 @@ public class Users {
         this.nickname = nickname == null ? null : nickname.trim();
     }
 
-    public Boolean getLevel() {
+    public Byte getLevel() {
         return level;
     }
 
-    public void setLevel(Boolean level) {
+    public void setLevel(Byte level) {
         this.level = level;
     }
 
@@ -347,19 +347,19 @@ public class Users {
         this.totalAmount = totalAmount;
     }
 
-    public Boolean getIsLock() {
+    public Byte getIsLock() {
         return isLock;
     }
 
-    public void setIsLock(Boolean isLock) {
+    public void setIsLock(Byte isLock) {
         this.isLock = isLock;
     }
 
-    public Boolean getIsDistribut() {
+    public Byte getIsDistribut() {
         return isDistribut;
     }
 
-    public void setIsDistribut(Boolean isDistribut) {
+    public void setIsDistribut(Byte isDistribut) {
         this.isDistribut = isDistribut;
     }
 

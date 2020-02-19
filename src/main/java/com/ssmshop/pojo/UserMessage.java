@@ -7,11 +7,11 @@ public class UserMessage {
 
     private Integer messageId;
 
-    private Boolean category;
+    private Byte category;
 
-    private Boolean status;
+    private Byte status;
 
-    public UserMessage(Integer recId, Integer userId, Integer messageId, Boolean category, Boolean status) {
+    public UserMessage(Integer recId, Integer userId, Integer messageId, Byte category, Byte status) {
         this.recId = recId;
         this.userId = userId;
         this.messageId = messageId;
@@ -47,19 +47,19 @@ public class UserMessage {
         this.messageId = messageId;
     }
 
-    public Boolean getCategory() {
+    public Byte getCategory() {
         return category;
     }
 
-    public void setCategory(Boolean category) {
+    public void setCategory(Byte category) {
         this.category = category;
     }
 
-    public Boolean getStatus() {
+    public Byte getStatus() {
         return status;
     }
 
-    public void setStatus(Boolean status) {
+    public void setStatus(Byte status) {
         this.status = status;
     }
 }

@@ -454,52 +454,52 @@ public class ShippingExample {
             return (Criteria) this;
         }
 
-        public Criteria andEnabledEqualTo(Boolean value) {
+        public Criteria andEnabledEqualTo(Byte value) {
             addCriterion("enabled =", value, "enabled");
             return (Criteria) this;
         }
 
-        public Criteria andEnabledNotEqualTo(Boolean value) {
+        public Criteria andEnabledNotEqualTo(Byte value) {
             addCriterion("enabled <>", value, "enabled");
             return (Criteria) this;
         }
 
-        public Criteria andEnabledGreaterThan(Boolean value) {
+        public Criteria andEnabledGreaterThan(Byte value) {
             addCriterion("enabled >", value, "enabled");
             return (Criteria) this;
         }
 
-        public Criteria andEnabledGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andEnabledGreaterThanOrEqualTo(Byte value) {
             addCriterion("enabled >=", value, "enabled");
             return (Criteria) this;
         }
 
-        public Criteria andEnabledLessThan(Boolean value) {
+        public Criteria andEnabledLessThan(Byte value) {
             addCriterion("enabled <", value, "enabled");
             return (Criteria) this;
         }
 
-        public Criteria andEnabledLessThanOrEqualTo(Boolean value) {
+        public Criteria andEnabledLessThanOrEqualTo(Byte value) {
             addCriterion("enabled <=", value, "enabled");
             return (Criteria) this;
         }
 
-        public Criteria andEnabledIn(List<Boolean> values) {
+        public Criteria andEnabledIn(List<Byte> values) {
             addCriterion("enabled in", values, "enabled");
             return (Criteria) this;
         }
 
-        public Criteria andEnabledNotIn(List<Boolean> values) {
+        public Criteria andEnabledNotIn(List<Byte> values) {
             addCriterion("enabled not in", values, "enabled");
             return (Criteria) this;
         }
 
-        public Criteria andEnabledBetween(Boolean value1, Boolean value2) {
+        public Criteria andEnabledBetween(Byte value1, Byte value2) {
             addCriterion("enabled between", value1, value2, "enabled");
             return (Criteria) this;
         }
 
-        public Criteria andEnabledNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andEnabledNotBetween(Byte value1, Byte value2) {
             addCriterion("enabled not between", value1, value2, "enabled");
             return (Criteria) this;
         }

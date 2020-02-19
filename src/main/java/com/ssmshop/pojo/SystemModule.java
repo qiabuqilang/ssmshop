@@ -5,7 +5,7 @@ public class SystemModule {
 
     private String module;
 
-    private Boolean level;
+    private Byte level;
 
     private String ctl;
 
@@ -13,7 +13,7 @@ public class SystemModule {
 
     private String title;
 
-    private Boolean visible;
+    private Byte visible;
 
     private Short parentId;
 
@@ -21,7 +21,7 @@ public class SystemModule {
 
     private String icon;
 
-    public SystemModule(Short modId, String module, Boolean level, String ctl, String act, String title, Boolean visible, Short parentId, Short orderby, String icon) {
+    public SystemModule(Short modId, String module, Byte level, String ctl, String act, String title, Byte visible, Short parentId, Short orderby, String icon) {
         this.modId = modId;
         this.module = module;
         this.level = level;
@@ -54,11 +54,11 @@ public class SystemModule {
         this.module = module == null ? null : module.trim();
     }
 
-    public Boolean getLevel() {
+    public Byte getLevel() {
         return level;
     }
 
-    public void setLevel(Boolean level) {
+    public void setLevel(Byte level) {
         this.level = level;
     }
 
@@ -86,11 +86,11 @@ public class SystemModule {
         this.title = title == null ? null : title.trim();
     }
 
-    public Boolean getVisible() {
+    public Byte getVisible() {
         return visible;
     }
 
-    public void setVisible(Boolean visible) {
+    public void setVisible(Byte visible) {
         this.visible = visible;
     }
 

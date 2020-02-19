@@ -9,11 +9,11 @@ public class Order {
 
     private Integer userId;
 
-    private Boolean orderStatus;
+    private Byte orderStatus;
 
-    private Boolean shippingStatus;
+    private Byte shippingStatus;
 
-    private Boolean payStatus;
+    private Byte payStatus;
 
     private String consignee;
 
@@ -81,9 +81,9 @@ public class Order {
 
     private String parentSn;
 
-    private Boolean isDistribut;
+    private Byte isDistribut;
 
-    public Order(Integer orderId, String orderSn, Integer userId, Boolean orderStatus, Boolean shippingStatus, Boolean payStatus, String consignee, Integer country, Integer province, Integer city, Integer district, Integer twon, String address, String zipcode, String mobile, String email, String shippingCode, String shippingName, String payCode, String payName, String invoiceTitle, BigDecimal goodsPrice, BigDecimal shippingPrice, BigDecimal userMoney, BigDecimal couponPrice, Integer integral, BigDecimal integralMoney, BigDecimal orderAmount, BigDecimal totalAmount, Integer addTime, Integer shippingTime, Integer confirmTime, Integer payTime, Short orderPromId, BigDecimal orderPromAmount, BigDecimal discount, String userNote, String adminNote, String parentSn, Boolean isDistribut) {
+    public Order(Integer orderId, String orderSn, Integer userId, Byte orderStatus, Byte shippingStatus, Byte payStatus, String consignee, Integer country, Integer province, Integer city, Integer district, Integer twon, String address, String zipcode, String mobile, String email, String shippingCode, String shippingName, String payCode, String payName, String invoiceTitle, BigDecimal goodsPrice, BigDecimal shippingPrice, BigDecimal userMoney, BigDecimal couponPrice, Integer integral, BigDecimal integralMoney, BigDecimal orderAmount, BigDecimal totalAmount, Integer addTime, Integer shippingTime, Integer confirmTime, Integer payTime, Short orderPromId, BigDecimal orderPromAmount, BigDecimal discount, String userNote, String adminNote, String parentSn, Byte isDistribut) {
         this.orderId = orderId;
         this.orderSn = orderSn;
         this.userId = userId;
@@ -154,27 +154,27 @@ public class Order {
         this.userId = userId;
     }
 
-    public Boolean getOrderStatus() {
+    public Byte getOrderStatus() {
         return orderStatus;
     }
 
-    public void setOrderStatus(Boolean orderStatus) {
+    public void setOrderStatus(Byte orderStatus) {
         this.orderStatus = orderStatus;
     }
 
-    public Boolean getShippingStatus() {
+    public Byte getShippingStatus() {
         return shippingStatus;
     }
 
-    public void setShippingStatus(Boolean shippingStatus) {
+    public void setShippingStatus(Byte shippingStatus) {
         this.shippingStatus = shippingStatus;
     }
 
-    public Boolean getPayStatus() {
+    public Byte getPayStatus() {
         return payStatus;
     }
 
-    public void setPayStatus(Boolean payStatus) {
+    public void setPayStatus(Byte payStatus) {
         this.payStatus = payStatus;
     }
 
@@ -442,11 +442,11 @@ public class Order {
         this.parentSn = parentSn == null ? null : parentSn.trim();
     }
 
-    public Boolean getIsDistribut() {
+    public Byte getIsDistribut() {
         return isDistribut;
     }
 
-    public void setIsDistribut(Boolean isDistribut) {
+    public void setIsDistribut(Byte isDistribut) {
         this.isDistribut = isDistribut;
     }
 }

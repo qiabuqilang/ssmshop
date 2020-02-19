@@ -434,52 +434,52 @@ public class FeedBackExample {
             return (Criteria) this;
         }
 
-        public Criteria andMsgTypeEqualTo(Boolean value) {
+        public Criteria andMsgTypeEqualTo(Byte value) {
             addCriterion("msg_type =", value, "msgType");
             return (Criteria) this;
         }
 
-        public Criteria andMsgTypeNotEqualTo(Boolean value) {
+        public Criteria andMsgTypeNotEqualTo(Byte value) {
             addCriterion("msg_type <>", value, "msgType");
             return (Criteria) this;
         }
 
-        public Criteria andMsgTypeGreaterThan(Boolean value) {
+        public Criteria andMsgTypeGreaterThan(Byte value) {
             addCriterion("msg_type >", value, "msgType");
             return (Criteria) this;
         }
 
-        public Criteria andMsgTypeGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andMsgTypeGreaterThanOrEqualTo(Byte value) {
             addCriterion("msg_type >=", value, "msgType");
             return (Criteria) this;
         }
 
-        public Criteria andMsgTypeLessThan(Boolean value) {
+        public Criteria andMsgTypeLessThan(Byte value) {
             addCriterion("msg_type <", value, "msgType");
             return (Criteria) this;
         }
 
-        public Criteria andMsgTypeLessThanOrEqualTo(Boolean value) {
+        public Criteria andMsgTypeLessThanOrEqualTo(Byte value) {
             addCriterion("msg_type <=", value, "msgType");
             return (Criteria) this;
         }
 
-        public Criteria andMsgTypeIn(List<Boolean> values) {
+        public Criteria andMsgTypeIn(List<Byte> values) {
             addCriterion("msg_type in", values, "msgType");
             return (Criteria) this;
         }
 
-        public Criteria andMsgTypeNotIn(List<Boolean> values) {
+        public Criteria andMsgTypeNotIn(List<Byte> values) {
             addCriterion("msg_type not in", values, "msgType");
             return (Criteria) this;
         }
 
-        public Criteria andMsgTypeBetween(Boolean value1, Boolean value2) {
+        public Criteria andMsgTypeBetween(Byte value1, Byte value2) {
             addCriterion("msg_type between", value1, value2, "msgType");
             return (Criteria) this;
         }
 
-        public Criteria andMsgTypeNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andMsgTypeNotBetween(Byte value1, Byte value2) {
             addCriterion("msg_type not between", value1, value2, "msgType");
             return (Criteria) this;
         }
@@ -494,52 +494,52 @@ public class FeedBackExample {
             return (Criteria) this;
         }
 
-        public Criteria andMsgStatusEqualTo(Boolean value) {
+        public Criteria andMsgStatusEqualTo(Byte value) {
             addCriterion("msg_status =", value, "msgStatus");
             return (Criteria) this;
         }
 
-        public Criteria andMsgStatusNotEqualTo(Boolean value) {
+        public Criteria andMsgStatusNotEqualTo(Byte value) {
             addCriterion("msg_status <>", value, "msgStatus");
             return (Criteria) this;
         }
 
-        public Criteria andMsgStatusGreaterThan(Boolean value) {
+        public Criteria andMsgStatusGreaterThan(Byte value) {
             addCriterion("msg_status >", value, "msgStatus");
             return (Criteria) this;
         }
 
-        public Criteria andMsgStatusGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andMsgStatusGreaterThanOrEqualTo(Byte value) {
             addCriterion("msg_status >=", value, "msgStatus");
             return (Criteria) this;
         }
 
-        public Criteria andMsgStatusLessThan(Boolean value) {
+        public Criteria andMsgStatusLessThan(Byte value) {
             addCriterion("msg_status <", value, "msgStatus");
             return (Criteria) this;
         }
 
-        public Criteria andMsgStatusLessThanOrEqualTo(Boolean value) {
+        public Criteria andMsgStatusLessThanOrEqualTo(Byte value) {
             addCriterion("msg_status <=", value, "msgStatus");
             return (Criteria) this;
         }
 
-        public Criteria andMsgStatusIn(List<Boolean> values) {
+        public Criteria andMsgStatusIn(List<Byte> values) {
             addCriterion("msg_status in", values, "msgStatus");
             return (Criteria) this;
         }
 
-        public Criteria andMsgStatusNotIn(List<Boolean> values) {
+        public Criteria andMsgStatusNotIn(List<Byte> values) {
             addCriterion("msg_status not in", values, "msgStatus");
             return (Criteria) this;
         }
 
-        public Criteria andMsgStatusBetween(Boolean value1, Boolean value2) {
+        public Criteria andMsgStatusBetween(Byte value1, Byte value2) {
             addCriterion("msg_status between", value1, value2, "msgStatus");
             return (Criteria) this;
         }
 
-        public Criteria andMsgStatusNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andMsgStatusNotBetween(Byte value1, Byte value2) {
             addCriterion("msg_status not between", value1, value2, "msgStatus");
             return (Criteria) this;
         }
@@ -744,52 +744,52 @@ public class FeedBackExample {
             return (Criteria) this;
         }
 
-        public Criteria andMsgAreaEqualTo(Boolean value) {
+        public Criteria andMsgAreaEqualTo(Byte value) {
             addCriterion("msg_area =", value, "msgArea");
             return (Criteria) this;
         }
 
-        public Criteria andMsgAreaNotEqualTo(Boolean value) {
+        public Criteria andMsgAreaNotEqualTo(Byte value) {
             addCriterion("msg_area <>", value, "msgArea");
             return (Criteria) this;
         }
 
-        public Criteria andMsgAreaGreaterThan(Boolean value) {
+        public Criteria andMsgAreaGreaterThan(Byte value) {
             addCriterion("msg_area >", value, "msgArea");
             return (Criteria) this;
         }
 
-        public Criteria andMsgAreaGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andMsgAreaGreaterThanOrEqualTo(Byte value) {
             addCriterion("msg_area >=", value, "msgArea");
             return (Criteria) this;
         }
 
-        public Criteria andMsgAreaLessThan(Boolean value) {
+        public Criteria andMsgAreaLessThan(Byte value) {
             addCriterion("msg_area <", value, "msgArea");
             return (Criteria) this;
         }
 
-        public Criteria andMsgAreaLessThanOrEqualTo(Boolean value) {
+        public Criteria andMsgAreaLessThanOrEqualTo(Byte value) {
             addCriterion("msg_area <=", value, "msgArea");
             return (Criteria) this;
         }
 
-        public Criteria andMsgAreaIn(List<Boolean> values) {
+        public Criteria andMsgAreaIn(List<Byte> values) {
             addCriterion("msg_area in", values, "msgArea");
             return (Criteria) this;
         }
 
-        public Criteria andMsgAreaNotIn(List<Boolean> values) {
+        public Criteria andMsgAreaNotIn(List<Byte> values) {
             addCriterion("msg_area not in", values, "msgArea");
             return (Criteria) this;
         }
 
-        public Criteria andMsgAreaBetween(Boolean value1, Boolean value2) {
+        public Criteria andMsgAreaBetween(Byte value1, Byte value2) {
             addCriterion("msg_area between", value1, value2, "msgArea");
             return (Criteria) this;
         }
 
-        public Criteria andMsgAreaNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andMsgAreaNotBetween(Byte value1, Byte value2) {
             addCriterion("msg_area not between", value1, value2, "msgArea");
             return (Criteria) this;
         }

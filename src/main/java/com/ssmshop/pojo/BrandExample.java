@@ -634,52 +634,52 @@ public class BrandExample {
             return (Criteria) this;
         }
 
-        public Criteria andIsHotEqualTo(Boolean value) {
+        public Criteria andIsHotEqualTo(Byte value) {
             addCriterion("is_hot =", value, "isHot");
             return (Criteria) this;
         }
 
-        public Criteria andIsHotNotEqualTo(Boolean value) {
+        public Criteria andIsHotNotEqualTo(Byte value) {
             addCriterion("is_hot <>", value, "isHot");
             return (Criteria) this;
         }
 
-        public Criteria andIsHotGreaterThan(Boolean value) {
+        public Criteria andIsHotGreaterThan(Byte value) {
             addCriterion("is_hot >", value, "isHot");
             return (Criteria) this;
         }
 
-        public Criteria andIsHotGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andIsHotGreaterThanOrEqualTo(Byte value) {
             addCriterion("is_hot >=", value, "isHot");
             return (Criteria) this;
         }
 
-        public Criteria andIsHotLessThan(Boolean value) {
+        public Criteria andIsHotLessThan(Byte value) {
             addCriterion("is_hot <", value, "isHot");
             return (Criteria) this;
         }
 
-        public Criteria andIsHotLessThanOrEqualTo(Boolean value) {
+        public Criteria andIsHotLessThanOrEqualTo(Byte value) {
             addCriterion("is_hot <=", value, "isHot");
             return (Criteria) this;
         }
 
-        public Criteria andIsHotIn(List<Boolean> values) {
+        public Criteria andIsHotIn(List<Byte> values) {
             addCriterion("is_hot in", values, "isHot");
             return (Criteria) this;
         }
 
-        public Criteria andIsHotNotIn(List<Boolean> values) {
+        public Criteria andIsHotNotIn(List<Byte> values) {
             addCriterion("is_hot not in", values, "isHot");
             return (Criteria) this;
         }
 
-        public Criteria andIsHotBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsHotBetween(Byte value1, Byte value2) {
             addCriterion("is_hot between", value1, value2, "isHot");
             return (Criteria) this;
         }
 
-        public Criteria andIsHotNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsHotNotBetween(Byte value1, Byte value2) {
             addCriterion("is_hot not between", value1, value2, "isHot");
             return (Criteria) this;
         }

@@ -43,11 +43,11 @@ public class DeliveryDoc {
 
     private Integer createTime;
 
-    private Boolean isDel;
+    private Byte isDel;
 
     private String note;
 
-    public DeliveryDoc(Integer id, Integer orderId, String orderSn, Integer userId, Integer adminId, String consignee, String zipcode, String mobile, Integer country, Integer province, Integer city, Integer district, String address, String shippingCode, String shippingName, BigDecimal shippingPrice, String invoiceNo, String tel, Integer bestTime, Integer createTime, Boolean isDel, String note) {
+    public DeliveryDoc(Integer id, Integer orderId, String orderSn, Integer userId, Integer adminId, String consignee, String zipcode, String mobile, Integer country, Integer province, Integer city, Integer district, String address, String shippingCode, String shippingName, BigDecimal shippingPrice, String invoiceNo, String tel, Integer bestTime, Integer createTime, Byte isDel, String note) {
         this.id = id;
         this.orderId = orderId;
         this.orderSn = orderSn;
@@ -236,11 +236,11 @@ public class DeliveryDoc {
         this.createTime = createTime;
     }
 
-    public Boolean getIsDel() {
+    public Byte getIsDel() {
         return isDel;
     }
 
-    public void setIsDel(Boolean isDel) {
+    public void setIsDel(Byte isDel) {
         this.isDel = isDel;
     }
 

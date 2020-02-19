@@ -1005,52 +1005,52 @@ public class OrderGoodsExample {
             return (Criteria) this;
         }
 
-        public Criteria andIsCommentEqualTo(Boolean value) {
+        public Criteria andIsCommentEqualTo(Byte value) {
             addCriterion("is_comment =", value, "isComment");
             return (Criteria) this;
         }
 
-        public Criteria andIsCommentNotEqualTo(Boolean value) {
+        public Criteria andIsCommentNotEqualTo(Byte value) {
             addCriterion("is_comment <>", value, "isComment");
             return (Criteria) this;
         }
 
-        public Criteria andIsCommentGreaterThan(Boolean value) {
+        public Criteria andIsCommentGreaterThan(Byte value) {
             addCriterion("is_comment >", value, "isComment");
             return (Criteria) this;
         }
 
-        public Criteria andIsCommentGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andIsCommentGreaterThanOrEqualTo(Byte value) {
             addCriterion("is_comment >=", value, "isComment");
             return (Criteria) this;
         }
 
-        public Criteria andIsCommentLessThan(Boolean value) {
+        public Criteria andIsCommentLessThan(Byte value) {
             addCriterion("is_comment <", value, "isComment");
             return (Criteria) this;
         }
 
-        public Criteria andIsCommentLessThanOrEqualTo(Boolean value) {
+        public Criteria andIsCommentLessThanOrEqualTo(Byte value) {
             addCriterion("is_comment <=", value, "isComment");
             return (Criteria) this;
         }
 
-        public Criteria andIsCommentIn(List<Boolean> values) {
+        public Criteria andIsCommentIn(List<Byte> values) {
             addCriterion("is_comment in", values, "isComment");
             return (Criteria) this;
         }
 
-        public Criteria andIsCommentNotIn(List<Boolean> values) {
+        public Criteria andIsCommentNotIn(List<Byte> values) {
             addCriterion("is_comment not in", values, "isComment");
             return (Criteria) this;
         }
 
-        public Criteria andIsCommentBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsCommentBetween(Byte value1, Byte value2) {
             addCriterion("is_comment between", value1, value2, "isComment");
             return (Criteria) this;
         }
 
-        public Criteria andIsCommentNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsCommentNotBetween(Byte value1, Byte value2) {
             addCriterion("is_comment not between", value1, value2, "isComment");
             return (Criteria) this;
         }
@@ -1065,52 +1065,52 @@ public class OrderGoodsExample {
             return (Criteria) this;
         }
 
-        public Criteria andPromTypeEqualTo(Boolean value) {
+        public Criteria andPromTypeEqualTo(Byte value) {
             addCriterion("prom_type =", value, "promType");
             return (Criteria) this;
         }
 
-        public Criteria andPromTypeNotEqualTo(Boolean value) {
+        public Criteria andPromTypeNotEqualTo(Byte value) {
             addCriterion("prom_type <>", value, "promType");
             return (Criteria) this;
         }
 
-        public Criteria andPromTypeGreaterThan(Boolean value) {
+        public Criteria andPromTypeGreaterThan(Byte value) {
             addCriterion("prom_type >", value, "promType");
             return (Criteria) this;
         }
 
-        public Criteria andPromTypeGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andPromTypeGreaterThanOrEqualTo(Byte value) {
             addCriterion("prom_type >=", value, "promType");
             return (Criteria) this;
         }
 
-        public Criteria andPromTypeLessThan(Boolean value) {
+        public Criteria andPromTypeLessThan(Byte value) {
             addCriterion("prom_type <", value, "promType");
             return (Criteria) this;
         }
 
-        public Criteria andPromTypeLessThanOrEqualTo(Boolean value) {
+        public Criteria andPromTypeLessThanOrEqualTo(Byte value) {
             addCriterion("prom_type <=", value, "promType");
             return (Criteria) this;
         }
 
-        public Criteria andPromTypeIn(List<Boolean> values) {
+        public Criteria andPromTypeIn(List<Byte> values) {
             addCriterion("prom_type in", values, "promType");
             return (Criteria) this;
         }
 
-        public Criteria andPromTypeNotIn(List<Boolean> values) {
+        public Criteria andPromTypeNotIn(List<Byte> values) {
             addCriterion("prom_type not in", values, "promType");
             return (Criteria) this;
         }
 
-        public Criteria andPromTypeBetween(Boolean value1, Boolean value2) {
+        public Criteria andPromTypeBetween(Byte value1, Byte value2) {
             addCriterion("prom_type between", value1, value2, "promType");
             return (Criteria) this;
         }
 
-        public Criteria andPromTypeNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andPromTypeNotBetween(Byte value1, Byte value2) {
             addCriterion("prom_type not between", value1, value2, "promType");
             return (Criteria) this;
         }
@@ -1185,52 +1185,52 @@ public class OrderGoodsExample {
             return (Criteria) this;
         }
 
-        public Criteria andIsSendEqualTo(Boolean value) {
+        public Criteria andIsSendEqualTo(Byte value) {
             addCriterion("is_send =", value, "isSend");
             return (Criteria) this;
         }
 
-        public Criteria andIsSendNotEqualTo(Boolean value) {
+        public Criteria andIsSendNotEqualTo(Byte value) {
             addCriterion("is_send <>", value, "isSend");
             return (Criteria) this;
         }
 
-        public Criteria andIsSendGreaterThan(Boolean value) {
+        public Criteria andIsSendGreaterThan(Byte value) {
             addCriterion("is_send >", value, "isSend");
             return (Criteria) this;
         }
 
-        public Criteria andIsSendGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andIsSendGreaterThanOrEqualTo(Byte value) {
             addCriterion("is_send >=", value, "isSend");
             return (Criteria) this;
         }
 
-        public Criteria andIsSendLessThan(Boolean value) {
+        public Criteria andIsSendLessThan(Byte value) {
             addCriterion("is_send <", value, "isSend");
             return (Criteria) this;
         }
 
-        public Criteria andIsSendLessThanOrEqualTo(Boolean value) {
+        public Criteria andIsSendLessThanOrEqualTo(Byte value) {
             addCriterion("is_send <=", value, "isSend");
             return (Criteria) this;
         }
 
-        public Criteria andIsSendIn(List<Boolean> values) {
+        public Criteria andIsSendIn(List<Byte> values) {
             addCriterion("is_send in", values, "isSend");
             return (Criteria) this;
         }
 
-        public Criteria andIsSendNotIn(List<Boolean> values) {
+        public Criteria andIsSendNotIn(List<Byte> values) {
             addCriterion("is_send not in", values, "isSend");
             return (Criteria) this;
         }
 
-        public Criteria andIsSendBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsSendBetween(Byte value1, Byte value2) {
             addCriterion("is_send between", value1, value2, "isSend");
             return (Criteria) this;
         }
 
-        public Criteria andIsSendNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andIsSendNotBetween(Byte value1, Byte value2) {
             addCriterion("is_send not between", value1, value2, "isSend");
             return (Criteria) this;
         }

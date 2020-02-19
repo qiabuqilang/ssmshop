@@ -19,19 +19,19 @@ public class RebateLog {
 
     private BigDecimal money;
 
-    private Boolean level;
+    private Byte level;
 
     private Integer createTime;
 
     private Integer confirm;
 
-    private Boolean status;
+    private Byte status;
 
     private Integer confirmTime;
 
     private String remark;
 
-    public RebateLog(Integer id, Integer userId, Integer buyUserId, String nickname, String orderSn, Integer orderId, BigDecimal goodsPrice, BigDecimal money, Boolean level, Integer createTime, Integer confirm, Boolean status, Integer confirmTime, String remark) {
+    public RebateLog(Integer id, Integer userId, Integer buyUserId, String nickname, String orderSn, Integer orderId, BigDecimal goodsPrice, BigDecimal money, Byte level, Integer createTime, Integer confirm, Byte status, Integer confirmTime, String remark) {
         this.id = id;
         this.userId = userId;
         this.buyUserId = buyUserId;
@@ -116,11 +116,11 @@ public class RebateLog {
         this.money = money;
     }
 
-    public Boolean getLevel() {
+    public Byte getLevel() {
         return level;
     }
 
-    public void setLevel(Boolean level) {
+    public void setLevel(Byte level) {
         this.level = level;
     }
 
@@ -140,11 +140,11 @@ public class RebateLog {
         this.confirm = confirm;
     }
 
-    public Boolean getStatus() {
+    public Byte getStatus() {
         return status;
     }
 
-    public void setStatus(Boolean status) {
+    public void setStatus(Byte status) {
         this.status = status;
     }
 

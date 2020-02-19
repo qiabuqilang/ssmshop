@@ -13,15 +13,15 @@ public class Article {
 
     private String keywords;
 
-    private Boolean articleType;
+    private Byte articleType;
 
-    private Boolean isOpen;
+    private Byte isOpen;
 
     private Integer addTime;
 
     private String fileUrl;
 
-    private Boolean openType;
+    private Byte openType;
 
     private String link;
 
@@ -31,7 +31,7 @@ public class Article {
 
     private String thumb;
 
-    public Article(Integer articleId, Short catId, String title, String author, String authorEmail, String keywords, Boolean articleType, Boolean isOpen, Integer addTime, String fileUrl, Boolean openType, String link, Integer click, Integer publishTime, String thumb) {
+    public Article(Integer articleId, Short catId, String title, String author, String authorEmail, String keywords, Byte articleType, Byte isOpen, Integer addTime, String fileUrl, Byte openType, String link, Integer click, Integer publishTime, String thumb) {
         this.articleId = articleId;
         this.catId = catId;
         this.title = title;
@@ -101,19 +101,19 @@ public class Article {
         this.keywords = keywords == null ? null : keywords.trim();
     }
 
-    public Boolean getArticleType() {
+    public Byte getArticleType() {
         return articleType;
     }
 
-    public void setArticleType(Boolean articleType) {
+    public void setArticleType(Byte articleType) {
         this.articleType = articleType;
     }
 
-    public Boolean getIsOpen() {
+    public Byte getIsOpen() {
         return isOpen;
     }
 
-    public void setIsOpen(Boolean isOpen) {
+    public void setIsOpen(Byte isOpen) {
         this.isOpen = isOpen;
     }
 
@@ -133,11 +133,11 @@ public class Article {
         this.fileUrl = fileUrl == null ? null : fileUrl.trim();
     }
 
-    public Boolean getOpenType() {
+    public Byte getOpenType() {
         return openType;
     }
 
-    public void setOpenType(Boolean openType) {
+    public void setOpenType(Byte openType) {
         this.openType = openType;
     }
 
