@@ -78,6 +78,27 @@ public class Goods {
     private String shippingAreaIds;
 
     private String goodsContent;
+    public Goods(Integer goodsId, Integer catId, Integer extendCatId, String goodsSn, String goodsName, Short brandId, Short storeCount,BigDecimal shopPrice, Byte isOnSale, Short sort, Byte isRecommend, Byte isNew, Byte isHot) {
+        this.goodsId = goodsId;
+        this.catId = catId;
+        this.extendCatId = extendCatId;
+        this.goodsSn = goodsSn;
+        this.goodsName = goodsName;
+
+        this.brandId = brandId;
+
+        this.storeCount = storeCount;
+
+        this.shopPrice = shopPrice;
+
+        this.isOnSale = isOnSale;
+
+        this.sort = sort;
+        this.isRecommend = isRecommend;
+        this.isNew = isNew;
+        this.isHot = isHot;
+
+    }
 
     public Goods(Integer goodsId, Integer catId, Integer extendCatId, String goodsSn, String goodsName, Integer clickCount, Short brandId, Short storeCount, Short commentCount, Integer weight, BigDecimal marketPrice, BigDecimal shopPrice, BigDecimal costPrice, String keywords, String goodsRemark, String originalImg, Byte isReal, Byte isOnSale, Byte isFreeShipping, Integer onTime, Short sort, Byte isRecommend, Byte isNew, Byte isHot, Integer lastUpdate, Short goodsType, Short specType, Integer giveIntegral, Integer exchangeIntegral, Short suppliersId, Integer salesSum, Byte promType, Integer promId, BigDecimal commission, String spu, String sku, String shippingAreaIds, String goodsContent) {
         this.goodsId = goodsId;

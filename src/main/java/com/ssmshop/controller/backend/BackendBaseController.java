@@ -1,15 +1,13 @@
 package com.ssmshop.controller.backend;
 
 import com.ssmshop.common.ServerResponse;
-import com.ssmshop.service.IFile;
-import com.ssmshop.utils.Dump;
+import com.ssmshop.service.IFileService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
-import sun.misc.Request;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -20,7 +18,7 @@ import java.util.Map;
 @RequestMapping(value = "/common/")
 public class BackendBaseController {
     @Autowired
-    private IFile iFile;
+    private IFileService iFileService;
     @RequestMapping(value = "test.do")
     @ResponseBody
     public ServerResponse test(){
@@ -32,8 +30,7 @@ public class BackendBaseController {
 
         Map<String,String> resultMap = new HashMap<>();
         String path = request.getSession().getServletContext().getRealPath("upload");
-        System.out.println("path:-------"+path);
-        String targetFileName = this.iFile.upload(multipartFile,path);
+        String targetFileName = this.iFileService.upload(multipartFile,path);
         if(StringUtils.isBlank(targetFileName)){
             resultMap.put("success","false");
             resultMap.put("msg","上传失败");

@@ -1,27 +1,19 @@
 package com.ssmshop.service.impl;
 
-import ch.qos.logback.classic.Level;
-import com.google.gson.annotations.Until;
-import com.ssmshop.common.ResponseCode;
 import com.ssmshop.common.ServerResponse;
 import com.ssmshop.dao.GoodsCategoryMapper;
 import com.ssmshop.pojo.GoodsCategory;
 import com.ssmshop.pojo.GoodsCategoryExample;
-import com.ssmshop.service.IGoodsCategory;
-import com.ssmshop.utils.Dump;
+import com.ssmshop.service.IGoodsCategoryServiceService;
 import com.ssmshop.vo.GoodsCategoryVo;
-import com.sun.org.apache.xpath.internal.operations.Bool;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Properties;
 
 @Service("iGoodsCategory")
-public class GoodsCategoryServiceImpl extends BaseServiceImpl implements IGoodsCategory{
+public class GoodsCategoryServiceImpl extends BaseServiceImpl implements IGoodsCategoryServiceService {
     @Autowired
     private GoodsCategoryMapper goodsCategoryMapper;
     @Override

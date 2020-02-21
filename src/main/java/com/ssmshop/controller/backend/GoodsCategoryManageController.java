@@ -2,7 +2,7 @@ package com.ssmshop.controller.backend;
 
 import com.ssmshop.common.ServerResponse;
 import com.ssmshop.pojo.GoodsCategory;
-import com.ssmshop.service.IGoodsCategory;
+import com.ssmshop.service.IGoodsCategoryServiceService;
 import com.ssmshop.utils.Dump;
 import com.ssmshop.vo.GoodsCategoryVo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 
@@ -19,26 +18,26 @@ import java.util.List;
 @RequestMapping(value = "/manage/goodsCategory/")
 public class GoodsCategoryManageController extends BackendBaseController {
     @Autowired
-    private IGoodsCategory iGoodsCategory;
+    private IGoodsCategoryServiceService iGoodsCategoryService;
 
     @RequestMapping(value = "list.do")
     @ResponseBody
     public ServerResponse<List<GoodsCategoryVo>> list(){
-        return this.iGoodsCategory.list();
+        return this.iGoodsCategoryService.list();
     }
 
     @RequestMapping(value = "add.do",method = RequestMethod.POST)
     @ResponseBody
     public ServerResponse<String> add(GoodsCategory goodsCategory){
         Dump.printObjectFields(goodsCategory);
-        return this.iGoodsCategory.add(goodsCategory);
+        return this.iGoodsCategoryService.add(goodsCategory);
     }
 
     @RequestMapping(value = "remove.do",method = RequestMethod.POST)
     @ResponseBody
     public ServerResponse<String> remove(@RequestParam(value = "id",defaultValue = "0") int id){
         if (id>0){
-            return this.iGoodsCategory.remove(id);
+            return this.iGoodsCategoryService.remove(id);
         }else {
             return ServerResponse.createByError();
         }
@@ -50,7 +49,7 @@ public class GoodsCategoryManageController extends BackendBaseController {
     public ServerResponse<String> edit(@RequestParam(value = "id") int id,GoodsCategory goodsCategory){
         goodsCategory.setId((short)id);
         if (id>0){
-            return this.iGoodsCategory.edit(goodsCategory);
+            return this.iGoodsCategoryService.edit(goodsCategory);
         }else {
             return ServerResponse.createByError();
         }

@@ -1,7 +1,6 @@
 package com.ssmshop.service.impl;
 
-import com.google.common.collect.Lists;
-import com.ssmshop.service.IFile;
+import com.ssmshop.service.IFileService;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,7 +13,7 @@ import java.util.UUID;
 
 
 @Service("iFileService")
-public class FileServiceImpl implements IFile {
+public class FileServiceImpl implements IFileService {
 
     private Logger logger = LoggerFactory.getLogger(FileServiceImpl.class);
 

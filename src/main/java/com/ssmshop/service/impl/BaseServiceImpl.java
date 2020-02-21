@@ -1,12 +1,12 @@
 package com.ssmshop.service.impl;
 
 import com.ssmshop.common.ServerResponse;
-import com.ssmshop.service.IBase;
+import com.ssmshop.service.IBaseService;
 import com.ssmshop.utils.Dump;
 
 import java.util.List;
 
-public class BaseServiceImpl implements IBase{
+public class BaseServiceImpl implements IBaseService {
 
     @Override
     public <T> void dump(List<T> List) {

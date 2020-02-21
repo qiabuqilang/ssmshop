@@ -1,64 +1,68 @@
 package com.ssmshop.service;
 
 import com.alibaba.fastjson.JSON;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonObject;
 import com.ssmshop.BaseTest;
-import com.ssmshop.common.ServerResponse;
-import com.ssmshop.dao.GoodsCategoryMapper;
 import com.ssmshop.dao.GoodsMapper;
-import com.ssmshop.pojo.GoodsCategory;
-import com.ssmshop.service.impl.GoodsCategoryServiceImpl;
-import com.ssmshop.utils.Dump;
+import com.ssmshop.pojo.Goods;
+import com.ssmshop.vo.GoodsVo;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.math.BigDecimal;
 
-
-public class GoodsServiceTest extends BaseTest{
+public class GoodsServiceTest extends BaseTest {
     @Autowired
-    private IGoodsCategory iGoodsCategory;
-    @Autowired
-    private GoodsCategoryMapper goodsCategoryMapper;
+    private IGoodsService iGoodsService;
     @Test
-    public void listTest(){
+    public void goodsListTest(){
+        int pageNum = 1;
+        int pageSize =10;
+        String keywords ="洗衣机";
+        GoodsVo goodsVo = new GoodsVo();
+        goodsVo.setBrandId((short)11);
+        goodsVo.setCatId(12);
+        goodsVo.setIsHot((byte)1);
+        goodsVo.setIsNew((byte)1);
+        goodsVo.setIsOnSale((byte) 1);
+        System.out.println(JSON.toJSON(this.iGoodsService.list(pageNum,pageSize))+"\n-------------");
+        System.out.println(JSON.toJSON(this.iGoodsService.list(pageNum,pageSize,keywords))+"\n-------------");
+        System.out.println(JSON.toJSON(this.iGoodsService.list(pageNum,pageSize,keywords,goodsVo))+"\n-------------");
 
-        System.out.println( JSON.toJSON(this.iGoodsCategory.list()));
     }
 
     @Test
     public void addTest(){
-        GoodsCategory goodsCategory = new GoodsCategory();
-        Byte t = 1;
-        goodsCategory.setIsHot(t);
-        goodsCategory.setIsShow(t);
-        goodsCategory.setName("test00");
-        goodsCategory.setMobileName("test00");
-        goodsCategory.setLevel((byte) 1);
-        goodsCategory.setParentId((short) 94);
-        goodsCategory.setCommissionRate((byte) 2);
-        goodsCategory.setSortOrder((byte) 1);
-        jsonPrint(this.iGoodsCategory.add(goodsCategory));
+        Goods goods = new Goods();
+        goods.setBrandId((short)11);
+        goods.setCatId(191);
+        goods.setGoodsName("test00");
+        goods.setMarketPrice(BigDecimal.valueOf(3300));
+        goods.setSalesSum(110);
+        goods.setClickCount(100);
+        goods.setShopPrice(BigDecimal.valueOf(3000));
+        goods.setGoodsContent("test0000000000000");
+        goods.setCommission(BigDecimal.valueOf(100));
+        goods.setCommentCount((short)8);
+        System.out.println(JSON.toJSON(this.iGoodsService.add(goods)));
+
+    }
+    @Test
+    public void editTest(){
+        Goods goods = new Goods();
+        int goodsId = 144;
+        goods.setGoodsName("test00修改");
+        System.out.println(JSON.toJSON(this.iGoodsService.edit(goodsId,goods)));
     }
 
     @Test
     public void removeTest(){
-        int id = 880;
-        jsonPrint(this.iGoodsCategory.remove(id));
+        int goodsId = 144;
+        System.out.println(JSON.toJSON(this.iGoodsService.remove(goodsId)));
     }
 
     @Test
-    public void editTest(){
-        GoodsCategory goodsCategory = this.goodsCategoryMapper.selectByPrimaryKey((short) 881);
-        Dump.printObjectFields(goodsCategory);
-        goodsCategory.setMobileName("test00修改00");
-        goodsCategory.setName("test00修改00");
-        goodsCategory.setParentId((short) 49);
-        jsonPrint(this.iGoodsCategory.edit(goodsCategory));
+    public void detailTest(){
+        int goodsId = 143;
+        System.out.println(JSON.toJSON(this.iGoodsService.detail(goodsId)));
     }
 }
