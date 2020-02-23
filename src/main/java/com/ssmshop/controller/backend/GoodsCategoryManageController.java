@@ -2,7 +2,7 @@ package com.ssmshop.controller.backend;
 
 import com.ssmshop.common.ServerResponse;
 import com.ssmshop.pojo.GoodsCategory;
-import com.ssmshop.service.IGoodsCategoryServiceService;
+import com.ssmshop.service.IGoodsCategoryService;
 import com.ssmshop.utils.Dump;
 import com.ssmshop.vo.GoodsCategoryVo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +18,7 @@ import java.util.List;
 @RequestMapping(value = "/manage/goodsCategory/")
 public class GoodsCategoryManageController extends BackendBaseController {
     @Autowired
-    private IGoodsCategoryServiceService iGoodsCategoryService;
+    private IGoodsCategoryService iGoodsCategoryService;
 
     @RequestMapping(value = "list.do")
     @ResponseBody

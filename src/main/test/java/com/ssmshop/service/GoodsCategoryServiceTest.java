@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 public class GoodsCategoryServiceTest extends BaseTest{
     @Autowired
-    private IGoodsCategoryServiceService iGoodsCategoryService;
+    private IGoodsCategoryService iGoodsCategoryService;
     @Autowired
     private GoodsCategoryMapper goodsCategoryMapper;
     @Test

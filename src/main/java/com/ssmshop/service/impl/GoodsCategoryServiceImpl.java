@@ -4,7 +4,7 @@ import com.ssmshop.common.ServerResponse;
 import com.ssmshop.dao.GoodsCategoryMapper;
 import com.ssmshop.pojo.GoodsCategory;
 import com.ssmshop.pojo.GoodsCategoryExample;
-import com.ssmshop.service.IGoodsCategoryServiceService;
+import com.ssmshop.service.IGoodsCategoryService;
 import com.ssmshop.vo.GoodsCategoryVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service("iGoodsCategory")
-public class GoodsCategoryServiceImpl extends BaseServiceImpl implements IGoodsCategoryServiceService {
+public class GoodsCategoryServiceImpl extends BaseServiceImpl implements IGoodsCategoryService {
     @Autowired
     private GoodsCategoryMapper goodsCategoryMapper;
     @Override

@@ -6,7 +6,7 @@ import com.ssmshop.vo.GoodsCategoryVo;
 
 import java.util.List;
 
-public interface IGoodsCategoryServiceService extends IBaseService {
+public interface IGoodsCategoryService extends IBaseService {
     ServerResponse<List<GoodsCategoryVo>> list();
     ServerResponse<String> add(GoodsCategory goodsCategory);
     ServerResponse<String> remove(int goodsCategoryId);
