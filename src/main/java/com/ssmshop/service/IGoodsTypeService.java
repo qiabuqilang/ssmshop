@@ -9,5 +9,6 @@ public interface IGoodsTypeService {
     ServerResponse<PageInfo<GoodsType>> list(int pageNum,int pageSize);
     ServerResponse<String> add(GoodsType goodsType);
     ServerResponse<String> remove(int goodsTypeId);
-    ServerResponse<String> edit(int goodsTypeId,GoodsType goodsType);
+    ServerResponse edit(int goodsTypeId,GoodsType goodsType);
+    ServerResponse<GoodsType> detail(int goodsTypeId);
 }

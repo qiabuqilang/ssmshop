@@ -24,23 +24,30 @@ public class GoodsSpecServiceImpl extends BaseServiceImpl implements IGoodsSpecS
         PageInfo pageInfo = new PageInfo(specList);
         return ServerResponse.createBySuccess(pageInfo);
     }
-
     @Override
-    public ServerResponse<String> add(Spec spec,int goodsTypeId) {
-        if (goodsTypeId>0){
-            spec.setTypeId(goodsTypeId);
-            return super.responseBase(this.specMapper.insertSelective(spec));
-        }else{
-            return ServerResponse.createByError();
-        }
+    public ServerResponse<PageInfo> list(int pageNum, int pageSize) {
+        SpecExample specExample = new SpecExample();
+        specExample.createCriteria();
+        PageHelper.startPage(pageNum,pageSize);
+        List<Spec> specList = this.specMapper.selectByExample(specExample);
+        PageInfo pageInfo = new PageInfo(specList);
+        return ServerResponse.createBySuccess(pageInfo);
+    }
+    @Override
+    public ServerResponse<String> add(Spec spec) {
+        return super.responseBase(this.specMapper.insertSelective(spec));
 
     }
 
     @Override
-    public ServerResponse<String> edit(int specId, Spec spec) {
+    public ServerResponse<?> edit(int specId, Spec spec) {
         if (specId >0 ){
             spec.setId(specId);
-            return  super.responseBase(this.specMapper.updateByPrimaryKeySelective(spec));
+            if (super.responseBase(this.specMapper.updateByPrimaryKeySelective(spec)).isSuccess()){
+                return this.detail(specId);
+            }else{
+                return ServerResponse.createByError();
+            }
         }else {
             return ServerResponse.createByError();
         }

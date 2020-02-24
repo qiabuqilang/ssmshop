@@ -6,7 +6,7 @@
       <idArg column="id" jdbcType="INTEGER" javaType="java.lang.Integer" />
       <arg column="type_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
       <arg column="name" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="order" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="type_order" jdbcType="INTEGER" javaType="java.lang.Integer" />
       <arg column="search_index" jdbcType="TINYINT" javaType="java.lang.Byte" />
     </constructor>
   </resultMap>
@@ -69,7 +69,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    id, type_id, name, order, search_index
+    id, type_id, name, type_order, search_index
   </sql>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.ssmshop.pojo.SpecExample" >
     select
@@ -103,9 +103,9 @@
   </delete>
   <insert id="insert" parameterType="com.ssmshop.pojo.Spec" >
     insert into tp_spec (id, type_id, name, 
-      order, search_index)
+      type_order, search_index)
     values (#{id,jdbcType=INTEGER}, #{typeId,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, 
-      #{order,jdbcType=INTEGER}, #{searchIndex,jdbcType=TINYINT})
+      #{typeOrder,jdbcType=INTEGER}, #{searchIndex,jdbcType=TINYINT})
   </insert>
   <insert id="insertSelective" parameterType="com.ssmshop.pojo.Spec" >
     insert into tp_spec
@@ -119,8 +119,8 @@
       <if test="name != null" >
         name,
       </if>
-      <if test="order != null" >
-        order,
+      <if test="typeOrder != null" >
+        type_order,
       </if>
       <if test="searchIndex != null" >
         search_index,
@@ -136,8 +136,8 @@
       <if test="name != null" >
         #{name,jdbcType=VARCHAR},
       </if>
-      <if test="order != null" >
-        #{order,jdbcType=INTEGER},
+      <if test="typeOrder != null" >
+        #{typeOrder,jdbcType=INTEGER},
       </if>
       <if test="searchIndex != null" >
         #{searchIndex,jdbcType=TINYINT},
@@ -162,8 +162,8 @@
       <if test="record.name != null" >
         name = #{record.name,jdbcType=VARCHAR},
       </if>
-      <if test="record.order != null" >
-        order = #{record.order,jdbcType=INTEGER},
+      <if test="record.typeOrder != null" >
+        type_order = #{record.typeOrder,jdbcType=INTEGER},
       </if>
       <if test="record.searchIndex != null" >
         search_index = #{record.searchIndex,jdbcType=TINYINT},
@@ -178,7 +178,7 @@
     set id = #{record.id,jdbcType=INTEGER},
       type_id = #{record.typeId,jdbcType=INTEGER},
       name = #{record.name,jdbcType=VARCHAR},
-      order = #{record.order,jdbcType=INTEGER},
+      type_order = #{record.typeOrder,jdbcType=INTEGER},
       search_index = #{record.searchIndex,jdbcType=TINYINT}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
@@ -193,8 +193,8 @@
       <if test="name != null" >
         name = #{name,jdbcType=VARCHAR},
       </if>
-      <if test="order != null" >
-        order = #{order,jdbcType=INTEGER},
+      <if test="typeOrder != null" >
+        type_order = #{typeOrder,jdbcType=INTEGER},
       </if>
       <if test="searchIndex != null" >
         search_index = #{searchIndex,jdbcType=TINYINT},
@@ -206,7 +206,7 @@
     update tp_spec
     set type_id = #{typeId,jdbcType=INTEGER},
       name = #{name,jdbcType=VARCHAR},
-      order = #{order,jdbcType=INTEGER},
+      type_order = #{typeOrder,jdbcType=INTEGER},
       search_index = #{searchIndex,jdbcType=TINYINT}
     where id = #{id,jdbcType=INTEGER}
   </update>

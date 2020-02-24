@@ -42,23 +42,6 @@
       <arg column="shipping_area_ids" jdbcType="VARCHAR" javaType="java.lang.String" />
     </constructor>
   </resultMap>
-  <resultMap id="BaseMainResultMap" type="com.ssmshop.pojo.Goods" >
-    <constructor >
-      <idArg column="goods_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
-      <arg column="cat_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
-      <arg column="extend_cat_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
-      <arg column="goods_sn" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="goods_name" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="brand_id" jdbcType="SMALLINT" javaType="java.lang.Short" />
-      <arg column="store_count" jdbcType="SMALLINT" javaType="java.lang.Short" />
-      <arg column="shop_price" jdbcType="DECIMAL" javaType="java.math.BigDecimal" />
-      <arg column="is_on_sale" jdbcType="TINYINT" javaType="java.lang.Byte" />
-      <arg column="sort" jdbcType="SMALLINT" javaType="java.lang.Short" />
-      <arg column="is_recommend" jdbcType="TINYINT" javaType="java.lang.Byte" />
-      <arg column="is_new" jdbcType="TINYINT" javaType="java.lang.Byte" />
-      <arg column="is_hot" jdbcType="TINYINT" javaType="java.lang.Byte" />
-    </constructor>
-  </resultMap>
   <resultMap id="ResultMapWithBLOBs" type="com.ssmshop.pojo.Goods" >
     <constructor >
       <idArg column="goods_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
@@ -160,16 +143,11 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    goods_id, cat_id, extend_cat_id, goods_sn, goods_name, click_count, brand_id, store_count,
-    comment_count, weight, market_price, shop_price, cost_price, keywords, goods_remark,
-    original_img, is_real, is_on_sale, is_free_shipping, on_time, sort, is_recommend,
-    is_new, is_hot, last_update, goods_type, spec_type, give_integral, exchange_integral,
+    goods_id, cat_id, extend_cat_id, goods_sn, goods_name, click_count, brand_id, store_count, 
+    comment_count, weight, market_price, shop_price, cost_price, keywords, goods_remark, 
+    original_img, is_real, is_on_sale, is_free_shipping, on_time, sort, is_recommend, 
+    is_new, is_hot, last_update, goods_type, spec_type, give_integral, exchange_integral, 
     suppliers_id, sales_sum, prom_type, prom_id, commission, spu, sku, shipping_area_ids
-  </sql>
-  <sql id="Base_Main_Column_List" >
-    goods_id, cat_id, extend_cat_id, goods_sn, goods_name, click_count, brand_id, store_count,
-    shop_price,  is_on_sale,  sort, is_recommend,
-    is_new, is_hot
   </sql>
   <sql id="Blob_Column_List" >
     goods_content
@@ -190,12 +168,12 @@
       order by ${orderByClause}
     </if>
   </select>
-  <select id="selectByExample" resultMap="BaseMainResultMap" parameterType="com.ssmshop.pojo.GoodsExample" >
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.ssmshop.pojo.GoodsExample" >
     select
     <if test="distinct" >
       distinct
     </if>
-    <include refid="Base_Main_Column_List" />
+    <include refid="Base_Column_List" />
     from tp_goods
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />

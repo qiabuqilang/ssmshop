@@ -294,63 +294,63 @@ public class SpecExample {
             return (Criteria) this;
         }
 
-        public Criteria andOrderIsNull() {
-            addCriterion("order is null");
+        public Criteria andTypeOrderIsNull() {
+            addCriterion("type_order is null");
             return (Criteria) this;
         }
 
-        public Criteria andOrderIsNotNull() {
-            addCriterion("order is not null");
+        public Criteria andTypeOrderIsNotNull() {
+            addCriterion("type_order is not null");
             return (Criteria) this;
         }
 
-        public Criteria andOrderEqualTo(Integer value) {
-            addCriterion("order =", value, "order");
+        public Criteria andTypeOrderEqualTo(Integer value) {
+            addCriterion("type_order =", value, "typeOrder");
             return (Criteria) this;
         }
 
-        public Criteria andOrderNotEqualTo(Integer value) {
-            addCriterion("order <>", value, "order");
+        public Criteria andTypeOrderNotEqualTo(Integer value) {
+            addCriterion("type_order <>", value, "typeOrder");
             return (Criteria) this;
         }
 
-        public Criteria andOrderGreaterThan(Integer value) {
-            addCriterion("order >", value, "order");
+        public Criteria andTypeOrderGreaterThan(Integer value) {
+            addCriterion("type_order >", value, "typeOrder");
             return (Criteria) this;
         }
 
-        public Criteria andOrderGreaterThanOrEqualTo(Integer value) {
-            addCriterion("order >=", value, "order");
+        public Criteria andTypeOrderGreaterThanOrEqualTo(Integer value) {
+            addCriterion("type_order >=", value, "typeOrder");
             return (Criteria) this;
         }
 
-        public Criteria andOrderLessThan(Integer value) {
-            addCriterion("order <", value, "order");
+        public Criteria andTypeOrderLessThan(Integer value) {
+            addCriterion("type_order <", value, "typeOrder");
             return (Criteria) this;
         }
 
-        public Criteria andOrderLessThanOrEqualTo(Integer value) {
-            addCriterion("order <=", value, "order");
+        public Criteria andTypeOrderLessThanOrEqualTo(Integer value) {
+            addCriterion("type_order <=", value, "typeOrder");
             return (Criteria) this;
         }
 
-        public Criteria andOrderIn(List<Integer> values) {
-            addCriterion("order in", values, "order");
+        public Criteria andTypeOrderIn(List<Integer> values) {
+            addCriterion("type_order in", values, "typeOrder");
             return (Criteria) this;
         }
 
-        public Criteria andOrderNotIn(List<Integer> values) {
-            addCriterion("order not in", values, "order");
+        public Criteria andTypeOrderNotIn(List<Integer> values) {
+            addCriterion("type_order not in", values, "typeOrder");
             return (Criteria) this;
         }
 
-        public Criteria andOrderBetween(Integer value1, Integer value2) {
-            addCriterion("order between", value1, value2, "order");
+        public Criteria andTypeOrderBetween(Integer value1, Integer value2) {
+            addCriterion("type_order between", value1, value2, "typeOrder");
             return (Criteria) this;
         }
 
-        public Criteria andOrderNotBetween(Integer value1, Integer value2) {
-            addCriterion("order not between", value1, value2, "order");
+        public Criteria andTypeOrderNotBetween(Integer value1, Integer value2) {
+            addCriterion("type_order not between", value1, value2, "typeOrder");
             return (Criteria) this;
         }
 

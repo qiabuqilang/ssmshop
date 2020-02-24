@@ -44,12 +44,27 @@ public class GoodsTypeServiceImpl extends BaseServiceImpl implements IGoodsTypeS
 
     @Override
 
-    public ServerResponse<String> edit(int goodsTypeId, GoodsType goodsType) {
+    public ServerResponse edit(int goodsTypeId, GoodsType goodsType) {
        if (goodsTypeId >0){
            goodsType.setId((short) goodsTypeId);
-           return super.responseBase(this.goodsTypeMapper.updateByPrimaryKeySelective(goodsType));
+           ServerResponse serverResponse = super.responseBase(this.goodsTypeMapper.updateByPrimaryKeySelective(goodsType));
+           if (serverResponse.isSuccess()){
+               return ServerResponse.createBySuccess(goodsType);
+           }else{
+               return ServerResponse.createByError();
+           }
+
        }else{
            return ServerResponse.createByError();
        }
+    }
+
+    @Override
+    public ServerResponse<GoodsType> detail(int goodsTypeId) {
+        if (goodsTypeId>0){
+            return ServerResponse.createBySuccess(this.goodsTypeMapper.selectByPrimaryKey((short)goodsTypeId));
+        }else{
+            return ServerResponse.createByError();
+        }
     }
 }

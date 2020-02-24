@@ -13,18 +13,28 @@ public class GoodsAttribute {
 
     private Byte attrInputType;
 
-    private Byte order;
+    private Integer attrOrder;
 
     private String attrValues;
 
-    public GoodsAttribute(Integer attrId, String attrName, Short typeId, Byte attrIndex, Byte attrType, Byte attrInputType, Byte order, String attrValues) {
+    public GoodsAttribute(Integer attrId, String attrName, Short typeId, Byte attrIndex, Byte attrType, Byte attrInputType, Integer attrOrder) {
         this.attrId = attrId;
         this.attrName = attrName;
         this.typeId = typeId;
         this.attrIndex = attrIndex;
         this.attrType = attrType;
         this.attrInputType = attrInputType;
-        this.order = order;
+        this.attrOrder = attrOrder;
+    }
+
+    public GoodsAttribute(Integer attrId, String attrName, Short typeId, Byte attrIndex, Byte attrType, Byte attrInputType, Integer attrOrder, String attrValues) {
+        this.attrId = attrId;
+        this.attrName = attrName;
+        this.typeId = typeId;
+        this.attrIndex = attrIndex;
+        this.attrType = attrType;
+        this.attrInputType = attrInputType;
+        this.attrOrder = attrOrder;
         this.attrValues = attrValues;
     }
 
@@ -80,12 +90,12 @@ public class GoodsAttribute {
         this.attrInputType = attrInputType;
     }
 
-    public Byte getOrder() {
-        return order;
+    public Integer getAttrOrder() {
+        return attrOrder;
     }
 
-    public void setOrder(Byte order) {
-        this.order = order;
+    public void setAttrOrder(Integer attrOrder) {
+        this.attrOrder = attrOrder;
     }
 
     public String getAttrValues() {

@@ -25,23 +25,31 @@ public class GoodsAttributeServiceImpl extends BaseServiceImpl implements IGoods
         PageInfo pageInfo = new PageInfo(goodsAttributeList);
         return ServerResponse.createBySuccess(pageInfo);
     }
-
     @Override
-    public ServerResponse<String> add(GoodsAttribute goodsAttribute, int goodsTypeId) {
-        if (goodsTypeId>0){
-            goodsAttribute.setTypeId((short)goodsTypeId);
-            return super.responseBase(this.goodsAttributeMapper.insertSelective(goodsAttribute));
-        }else{
-            return ServerResponse.createByError();
-        }
+    public ServerResponse<PageInfo> list(int pageNum, int pageSize) {
+        GoodsAttributeExample goodsAttributeExample = new GoodsAttributeExample();
+        goodsAttributeExample.createCriteria();
+        PageHelper.startPage(pageNum,pageSize);
+        List<GoodsAttribute> goodsAttributeList = this.goodsAttributeMapper.selectByExample(goodsAttributeExample);
+        PageInfo pageInfo = new PageInfo(goodsAttributeList);
+        return ServerResponse.createBySuccess(pageInfo);
     }
 
     @Override
-    public ServerResponse<String> edit(GoodsAttribute goodsAttribute, int goodsAttributeId, int goodsTypeId) {
-        if (goodsTypeId > 0 && goodsAttributeId>0){
-            goodsAttribute.setTypeId((short)goodsTypeId);
+    public ServerResponse<String> add(GoodsAttribute goodsAttribute) {
+        return super.responseBase(this.goodsAttributeMapper.insertSelective(goodsAttribute));
+
+    }
+
+    @Override
+    public ServerResponse<?> edit(GoodsAttribute goodsAttribute, int goodsAttributeId) {
+        if (goodsAttributeId>0){
             goodsAttribute.setAttrId(goodsAttributeId);
-            return super.responseBase(this.goodsAttributeMapper.updateByPrimaryKeySelective(goodsAttribute));
+           if(super.responseBase(this.goodsAttributeMapper.updateByPrimaryKeySelective(goodsAttribute)).isSuccess()){
+            return this.detail(goodsAttributeId);
+           }else{
+               return ServerResponse.createByError();
+           }
         }else{
             return ServerResponse.createByError();
         }

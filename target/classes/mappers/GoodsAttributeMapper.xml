@@ -9,7 +9,7 @@
       <arg column="attr_index" jdbcType="TINYINT" javaType="java.lang.Byte" />
       <arg column="attr_type" jdbcType="TINYINT" javaType="java.lang.Byte" />
       <arg column="attr_input_type" jdbcType="TINYINT" javaType="java.lang.Byte" />
-      <arg column="order" jdbcType="TINYINT" javaType="java.lang.Byte" />
+      <arg column="attr_order" jdbcType="INTEGER" javaType="java.lang.Integer" />
     </constructor>
   </resultMap>
   <resultMap id="ResultMapWithBLOBs" type="com.ssmshop.pojo.GoodsAttribute" >
@@ -20,7 +20,7 @@
       <arg column="attr_index" jdbcType="TINYINT" javaType="java.lang.Byte" />
       <arg column="attr_type" jdbcType="TINYINT" javaType="java.lang.Byte" />
       <arg column="attr_input_type" jdbcType="TINYINT" javaType="java.lang.Byte" />
-      <arg column="order" jdbcType="TINYINT" javaType="java.lang.Byte" />
+      <arg column="attr_order" jdbcType="INTEGER" javaType="java.lang.Integer" />
       <arg column="attr_values" jdbcType="LONGVARCHAR" javaType="java.lang.String" />
     </constructor>
   </resultMap>
@@ -83,7 +83,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    attr_id, attr_name, type_id, attr_index, attr_type, attr_input_type, order
+    attr_id, attr_name, type_id, attr_index, attr_type, attr_input_type, attr_order
   </sql>
   <sql id="Blob_Column_List" >
     attr_values
@@ -139,10 +139,10 @@
   <insert id="insert" parameterType="com.ssmshop.pojo.GoodsAttribute" >
     insert into tp_goods_attribute (attr_id, attr_name, type_id, 
       attr_index, attr_type, attr_input_type, 
-      order, attr_values)
+      attr_order, attr_values)
     values (#{attrId,jdbcType=INTEGER}, #{attrName,jdbcType=VARCHAR}, #{typeId,jdbcType=SMALLINT}, 
       #{attrIndex,jdbcType=TINYINT}, #{attrType,jdbcType=TINYINT}, #{attrInputType,jdbcType=TINYINT}, 
-      #{order,jdbcType=TINYINT}, #{attrValues,jdbcType=LONGVARCHAR})
+      #{attrOrder,jdbcType=INTEGER}, #{attrValues,jdbcType=LONGVARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.ssmshop.pojo.GoodsAttribute" >
     insert into tp_goods_attribute
@@ -165,8 +165,8 @@
       <if test="attrInputType != null" >
         attr_input_type,
       </if>
-      <if test="order != null" >
-        order,
+      <if test="attrOrder != null" >
+        attr_order,
       </if>
       <if test="attrValues != null" >
         attr_values,
@@ -191,8 +191,8 @@
       <if test="attrInputType != null" >
         #{attrInputType,jdbcType=TINYINT},
       </if>
-      <if test="order != null" >
-        #{order,jdbcType=TINYINT},
+      <if test="attrOrder != null" >
+        #{attrOrder,jdbcType=INTEGER},
       </if>
       <if test="attrValues != null" >
         #{attrValues,jdbcType=LONGVARCHAR},
@@ -226,8 +226,8 @@
       <if test="record.attrInputType != null" >
         attr_input_type = #{record.attrInputType,jdbcType=TINYINT},
       </if>
-      <if test="record.order != null" >
-        order = #{record.order,jdbcType=TINYINT},
+      <if test="record.attrOrder != null" >
+        attr_order = #{record.attrOrder,jdbcType=INTEGER},
       </if>
       <if test="record.attrValues != null" >
         attr_values = #{record.attrValues,jdbcType=LONGVARCHAR},
@@ -245,7 +245,7 @@
       attr_index = #{record.attrIndex,jdbcType=TINYINT},
       attr_type = #{record.attrType,jdbcType=TINYINT},
       attr_input_type = #{record.attrInputType,jdbcType=TINYINT},
-      order = #{record.order,jdbcType=TINYINT},
+      attr_order = #{record.attrOrder,jdbcType=INTEGER},
       attr_values = #{record.attrValues,jdbcType=LONGVARCHAR}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
@@ -259,7 +259,7 @@
       attr_index = #{record.attrIndex,jdbcType=TINYINT},
       attr_type = #{record.attrType,jdbcType=TINYINT},
       attr_input_type = #{record.attrInputType,jdbcType=TINYINT},
-      order = #{record.order,jdbcType=TINYINT}
+      attr_order = #{record.attrOrder,jdbcType=INTEGER}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -282,8 +282,8 @@
       <if test="attrInputType != null" >
         attr_input_type = #{attrInputType,jdbcType=TINYINT},
       </if>
-      <if test="order != null" >
-        order = #{order,jdbcType=TINYINT},
+      <if test="attrOrder != null" >
+        attr_order = #{attrOrder,jdbcType=INTEGER},
       </if>
       <if test="attrValues != null" >
         attr_values = #{attrValues,jdbcType=LONGVARCHAR},
@@ -298,7 +298,7 @@
       attr_index = #{attrIndex,jdbcType=TINYINT},
       attr_type = #{attrType,jdbcType=TINYINT},
       attr_input_type = #{attrInputType,jdbcType=TINYINT},
-      order = #{order,jdbcType=TINYINT},
+      attr_order = #{attrOrder,jdbcType=INTEGER},
       attr_values = #{attrValues,jdbcType=LONGVARCHAR}
     where attr_id = #{attrId,jdbcType=INTEGER}
   </update>
@@ -309,7 +309,7 @@
       attr_index = #{attrIndex,jdbcType=TINYINT},
       attr_type = #{attrType,jdbcType=TINYINT},
       attr_input_type = #{attrInputType,jdbcType=TINYINT},
-      order = #{order,jdbcType=TINYINT}
+      attr_order = #{attrOrder,jdbcType=INTEGER}
     where attr_id = #{attrId,jdbcType=INTEGER}
   </update>
 </mapper>

@@ -7,15 +7,15 @@ public class Spec {
 
     private String name;
 
-    private Integer order;
+    private Integer typeOrder;
 
     private Byte searchIndex;
 
-    public Spec(Integer id, Integer typeId, String name, Integer order, Byte searchIndex) {
+    public Spec(Integer id, Integer typeId, String name, Integer typeOrder, Byte searchIndex) {
         this.id = id;
         this.typeId = typeId;
         this.name = name;
-        this.order = order;
+        this.typeOrder = typeOrder;
         this.searchIndex = searchIndex;
     }
 
@@ -47,12 +47,12 @@ public class Spec {
         this.name = name == null ? null : name.trim();
     }
 
-    public Integer getOrder() {
-        return order;
+    public Integer getTypeOrder() {
+        return typeOrder;
     }
 
-    public void setOrder(Integer order) {
-        this.order = order;
+    public void setTypeOrder(Integer typeOrder) {
+        this.typeOrder = typeOrder;
     }
 
     public Byte getSearchIndex() {
