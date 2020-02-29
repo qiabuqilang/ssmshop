@@ -7,6 +7,7 @@ import com.ssmshop.dao.SpecMapper;
 import com.ssmshop.pojo.Spec;
 import com.ssmshop.pojo.SpecExample;
 import com.ssmshop.service.IGoodsSpecService;
+import com.ssmshop.utils.Dump;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -35,6 +36,7 @@ public class GoodsSpecServiceImpl extends BaseServiceImpl implements IGoodsSpecS
     }
     @Override
     public ServerResponse<String> add(Spec spec) {
+
         return super.responseBase(this.specMapper.insertSelective(spec));
 
     }

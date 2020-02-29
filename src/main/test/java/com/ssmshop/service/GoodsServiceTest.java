@@ -13,6 +13,9 @@ import java.math.BigDecimal;
 public class GoodsServiceTest extends BaseTest {
     @Autowired
     private IGoodsService iGoodsService;
+    GoodsServiceTest(){
+        super(GoodsServiceTest.class);
+    }
     @Test
     public void goodsListTest(){
         int pageNum = 1;

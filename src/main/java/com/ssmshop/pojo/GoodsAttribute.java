@@ -17,16 +17,6 @@ public class GoodsAttribute {
 
     private String attrValues;
 
-    public GoodsAttribute(Integer attrId, String attrName, Short typeId, Byte attrIndex, Byte attrType, Byte attrInputType, Integer attrOrder) {
-        this.attrId = attrId;
-        this.attrName = attrName;
-        this.typeId = typeId;
-        this.attrIndex = attrIndex;
-        this.attrType = attrType;
-        this.attrInputType = attrInputType;
-        this.attrOrder = attrOrder;
-    }
-
     public GoodsAttribute(Integer attrId, String attrName, Short typeId, Byte attrIndex, Byte attrType, Byte attrInputType, Integer attrOrder, String attrValues) {
         this.attrId = attrId;
         this.attrName = attrName;

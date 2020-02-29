@@ -19,9 +19,9 @@ public class Brand {
 
     private Byte isHot;
 
-    private String desc;
+    private String brandDesc;
 
-    public Brand(Short id, String name, String logo, String url, Byte sort, String catName, Integer parentCatId, Integer catId, Byte isHot, String desc) {
+    public Brand(Short id, String name, String logo, String url, Byte sort, String catName, Integer parentCatId, Integer catId, Byte isHot, String brandDesc) {
         this.id = id;
         this.name = name;
         this.logo = logo;
@@ -31,7 +31,7 @@ public class Brand {
         this.parentCatId = parentCatId;
         this.catId = catId;
         this.isHot = isHot;
-        this.desc = desc;
+        this.brandDesc = brandDesc;
     }
 
     public Brand() {
@@ -110,11 +110,11 @@ public class Brand {
         this.isHot = isHot;
     }
 
-    public String getDesc() {
-        return desc;
+    public String getBrandDesc() {
+        return brandDesc;
     }
 
-    public void setDesc(String desc) {
-        this.desc = desc == null ? null : desc.trim();
+    public void setBrandDesc(String brandDesc) {
+        this.brandDesc = brandDesc == null ? null : brandDesc.trim();
     }
 }

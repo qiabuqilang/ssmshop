@@ -17,6 +17,10 @@ public class GoodsTypeTest extends BaseTest{
     @Autowired
     private IGoodsAttributeService iGoodsAttributeService;
 
+    GoodsTypeTest(){
+        super(GoodsType.class);
+    }
+
     @Test
     public void listTest(){
         System.out.println(JSON.toJSON(this.iGoodsTypeService.list(1,10)));

@@ -14,6 +14,9 @@ public class GoodsCategoryServiceTest extends BaseTest{
     private IGoodsCategoryService iGoodsCategoryService;
     @Autowired
     private GoodsCategoryMapper goodsCategoryMapper;
+    GoodsCategoryServiceTest(){
+        super(GoodsCategoryServiceTest.class);
+    }
     @Test
     public void listTest(){
 
