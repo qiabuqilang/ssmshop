@@ -21,6 +21,18 @@ public class Brand {
 
     private String brandDesc;
 
+    public Brand(Short id, String name, String logo, String url, Byte sort, String catName, Integer parentCatId, Integer catId, Byte isHot) {
+        this.id = id;
+        this.name = name;
+        this.logo = logo;
+        this.url = url;
+        this.sort = sort;
+        this.catName = catName;
+        this.parentCatId = parentCatId;
+        this.catId = catId;
+        this.isHot = isHot;
+    }
+
     public Brand(Short id, String name, String logo, String url, Byte sort, String catName, Integer parentCatId, Integer catId, Byte isHot, String brandDesc) {
         this.id = id;
         this.name = name;

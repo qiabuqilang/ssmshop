@@ -33,7 +33,7 @@ public class GoodsBrandServiceImpl extends BaseServiceImpl implements IGoodsBran
     @Override
     public ServerResponse<PageInfo<Brand>> list(int pageNum, int pageSize, String keywords) {
         BrandExample brandExample = new BrandExample();
-        brandExample.createCriteria().andNameEqualTo(keywords);
+        brandExample.createCriteria().andNameLike("%"+keywords+"%");
         PageHelper.startPage(pageNum,pageSize);
         List<Brand> brandList = this.brandMapper.selectByExample(brandExample);
         PageInfo<Brand> pageInfo = new PageInfo<>(brandList);

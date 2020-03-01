@@ -25,7 +25,7 @@
       <arg column="parent_cat_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
       <arg column="cat_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
       <arg column="is_hot" jdbcType="TINYINT" javaType="java.lang.Byte" />
-      <arg column="desc" jdbcType="LONGVARCHAR" javaType="java.lang.String" />
+      <arg column="brand_desc" jdbcType="LONGVARCHAR" javaType="java.lang.String" />
     </constructor>
   </resultMap>
   <sql id="Example_Where_Clause" >
@@ -90,7 +90,7 @@
     id, name, logo, url, sort, cat_name, parent_cat_id, cat_id, is_hot
   </sql>
   <sql id="Blob_Column_List" >
-    desc
+    brand_desc
   </sql>
   <select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs" parameterType="com.ssmshop.pojo.BrandExample" >
     select
@@ -144,11 +144,11 @@
     insert into tp_brand (id, name, logo, 
       url, sort, cat_name, 
       parent_cat_id, cat_id, is_hot, 
-      desc)
+      brand_desc)
     values (#{id,jdbcType=SMALLINT}, #{name,jdbcType=VARCHAR}, #{logo,jdbcType=VARCHAR}, 
       #{url,jdbcType=VARCHAR}, #{sort,jdbcType=TINYINT}, #{catName,jdbcType=VARCHAR}, 
       #{parentCatId,jdbcType=INTEGER}, #{catId,jdbcType=INTEGER}, #{isHot,jdbcType=TINYINT}, 
-      #{desc,jdbcType=LONGVARCHAR})
+      #{brandDesc,jdbcType=LONGVARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.ssmshop.pojo.Brand" >
     insert into tp_brand
@@ -180,8 +180,8 @@
       <if test="isHot != null" >
         is_hot,
       </if>
-      <if test="desc != null" >
-        desc,
+      <if test="brandDesc != null" >
+        brand_desc,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
@@ -212,8 +212,8 @@
       <if test="isHot != null" >
         #{isHot,jdbcType=TINYINT},
       </if>
-      <if test="desc != null" >
-        #{desc,jdbcType=LONGVARCHAR},
+      <if test="brandDesc != null" >
+        #{brandDesc,jdbcType=LONGVARCHAR},
       </if>
     </trim>
   </insert>
@@ -253,8 +253,8 @@
       <if test="record.isHot != null" >
         is_hot = #{record.isHot,jdbcType=TINYINT},
       </if>
-      <if test="record.desc != null" >
-        desc = #{record.desc,jdbcType=LONGVARCHAR},
+      <if test="record.brandDesc != null" >
+        brand_desc = #{record.brandDesc,jdbcType=LONGVARCHAR},
       </if>
     </set>
     <if test="_parameter != null" >
@@ -272,7 +272,7 @@
       parent_cat_id = #{record.parentCatId,jdbcType=INTEGER},
       cat_id = #{record.catId,jdbcType=INTEGER},
       is_hot = #{record.isHot,jdbcType=TINYINT},
-      desc = #{record.desc,jdbcType=LONGVARCHAR}
+      brand_desc = #{record.brandDesc,jdbcType=LONGVARCHAR}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -319,8 +319,8 @@
       <if test="isHot != null" >
         is_hot = #{isHot,jdbcType=TINYINT},
       </if>
-      <if test="desc != null" >
-        desc = #{desc,jdbcType=LONGVARCHAR},
+      <if test="brandDesc != null" >
+        brand_desc = #{brandDesc,jdbcType=LONGVARCHAR},
       </if>
     </set>
     where id = #{id,jdbcType=SMALLINT}
@@ -335,7 +335,7 @@
       parent_cat_id = #{parentCatId,jdbcType=INTEGER},
       cat_id = #{catId,jdbcType=INTEGER},
       is_hot = #{isHot,jdbcType=TINYINT},
-      desc = #{desc,jdbcType=LONGVARCHAR}
+      brand_desc = #{brandDesc,jdbcType=LONGVARCHAR}
     where id = #{id,jdbcType=SMALLINT}
   </update>
   <update id="updateByPrimaryKey" parameterType="com.ssmshop.pojo.Brand" >
