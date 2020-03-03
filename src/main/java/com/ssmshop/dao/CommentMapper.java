@@ -4,6 +4,8 @@ import com.ssmshop.pojo.Comment;
 import com.ssmshop.pojo.CommentExample;
 import com.ssmshop.pojo.CommentWithBLOBs;
 import java.util.List;
+
+import com.ssmshop.vo.GoodsCommentVo;
 import org.apache.ibatis.annotations.Param;
 
 public interface CommentMapper {
@@ -20,6 +22,8 @@ public interface CommentMapper {
     List<CommentWithBLOBs> selectByExampleWithBLOBs(CommentExample example);
 
     List<Comment> selectByExample(CommentExample example);
+
+    List<GoodsCommentVo> selectListByExample(CommentExample example);
 
     CommentWithBLOBs selectByPrimaryKey(Integer commentId);
 

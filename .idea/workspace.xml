@@ -7,15 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24a774f5-8ca4-4514-8b54-a8ba5b940169" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/GoodsBrandManageController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/IGoodsCommentService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/GoodsCommentServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/vo/GoodsCommentVo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsCommentTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Brand.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Brand.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/GoodsBrandServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/GoodsBrandServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssmshop/pojo/Brand.class" afterPath="$PROJECT_DIR$/target/classes/com/ssmshop/pojo/Brand.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssmshop/service/impl/GoodsBrandServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/ssmshop/service/impl/GoodsBrandServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/ssmshop/WEB-INF/classes/com/ssmshop/pojo/Brand.class" afterPath="$PROJECT_DIR$/target/ssmshop/WEB-INF/classes/com/ssmshop/pojo/Brand.class" />
-      <change beforePath="$PROJECT_DIR$/target/ssmshop/WEB-INF/classes/com/ssmshop/pojo/GoodsAttribute.class" afterPath="$PROJECT_DIR$/target/ssmshop/WEB-INF/classes/com/ssmshop/pojo/GoodsAttribute.class" />
-      <change beforePath="$PROJECT_DIR$/target/ssmshop/WEB-INF/classes/mappers/BrandMapper.xml" afterPath="$PROJECT_DIR$/target/ssmshop/WEB-INF/classes/mappers/BrandMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/dao/CommentMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/dao/CommentMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/CommentMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/CommentMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ssmshop/dao/CommentMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ssmshop/dao/CommentMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/CommentMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mappers/CommentMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,11 +44,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="IGoodsBrandService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/IGoodsBrandService.java">
+      <file leaf-file-name="GoodsCommentVo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/vo/GoodsCommentVo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            <state relative-caret-position="162">
+              <caret line="80" column="22" lean-forward="true" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+              <folding>
+                <element signature="e#724#725#0" expanded="true" />
+                <element signature="e#753#754#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
+                <element signature="e#954#955#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
+                <element signature="e#1031#1032#0" expanded="true" />
+                <element signature="e#1061#1062#0" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#1146#1147#0" expanded="true" />
+                <element signature="e#1182#1183#0" expanded="true" />
+                <element signature="e#1214#1215#0" expanded="true" />
+                <element signature="e#1264#1265#0" expanded="true" />
+                <element signature="e#1306#1307#0" expanded="true" />
+                <element signature="e#1341#1342#0" expanded="true" />
+                <element signature="e#1372#1373#0" expanded="true" />
+                <element signature="e#1420#1421#0" expanded="true" />
+                <element signature="e#1460#1461#0" expanded="true" />
+                <element signature="e#1495#1496#0" expanded="true" />
+                <element signature="e#1525#1526#0" expanded="true" />
+                <element signature="e#1572#1573#0" expanded="true" />
+                <element signature="e#1610#1611#0" expanded="true" />
+                <element signature="e#1646#1647#0" expanded="true" />
+                <element signature="e#1678#1679#0" expanded="true" />
+                <element signature="e#1728#1729#0" expanded="true" />
+                <element signature="e#1770#1771#0" expanded="true" />
+                <element signature="e#1801#1802#0" expanded="true" />
+                <element signature="e#1830#1831#0" expanded="true" />
+                <element signature="e#1872#1873#0" expanded="true" />
+                <element signature="e#1908#1909#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IGoodsCommentService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/IGoodsCommentService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="13" column="57" lean-forward="false" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoodsBrandServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/GoodsBrandServiceImpl.java">
+      <file leaf-file-name="GoodsCommentServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/GoodsCommentServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="43" column="33" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+            <state relative-caret-position="522">
+              <caret line="54" column="36" lean-forward="false" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,79 +111,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoodsBrandTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsBrandTest.java">
+      <file leaf-file-name="GoodsCommentTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsCommentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+            <state relative-caret-position="508">
+              <caret line="57" column="85" lean-forward="false" selection-start-line="57" selection-start-column="85" selection-end-line="57" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsBrandManageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/GoodsBrandManageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1555#1556#0" expanded="true" />
-                <element signature="e#1612#1613#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Brand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Brand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1152">
-              <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IBaseService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/IBaseService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsTypeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsTypeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#625#626#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,23 +130,110 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/dao/CommentMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CommentMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="161" column="53" lean-forward="false" selection-start-line="161" selection-start-column="53" selection-end-line="161" selection-end-column="53" />
               <folding>
-                <element signature="e#521#522#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
+                <element signature="n#sql#1;n#mapper#0;n#!!top" expanded="false" />
+                <element signature="n#select#0;n#mapper#0;n#!!top" expanded="false" />
+                <element signature="n#select#1;n#mapper#0;n#!!top" expanded="false" />
+                <element signature="n#update#3;n#mapper#0;n#!!top" expanded="false" />
+                <element signature="n#update#4;n#mapper#0;n#!!top" expanded="false" />
+                <marker date="1583236347259" expanded="true" signature="7846:8014" ph="select , fro... " />
+                <marker date="1583236347259" expanded="true" signature="8101:8176" ph="delete from tp_comment... " />
+                <marker date="1583236347259" expanded="true" signature="8274:8296" ph="delete from tp_comment... " />
+                <marker date="1583236347259" expanded="true" signature="8480:9190" ph="insert into tp_comment... " />
+                <marker date="1583236347259" expanded="true" signature="11850:11881" ph="select count... tp_comment" />
+                <marker date="1583236347259" expanded="true" signature="13937:14770" ph="update tp_comment... " />
+                <marker date="1583236347259" expanded="true" signature="14943:15672" ph="update tp_comment... " />
+                <marker date="1583236347259" expanded="true" signature="18269:18910" ph="update tp_comment... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoodsServiceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsServiceTest.java">
+      <file leaf-file-name="CommentExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/CommentExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+            <state relative-caret-position="324">
+              <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="41" />
               <folding>
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
+                <element signature="method#or#1;class#CommentExample#0" expanded="false" />
+                <element signature="method#createCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#createCriteriaInternal#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#clear#0;class#CommentExample#0" expanded="false" />
+                <element signature="class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#addCriterion#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#addCriterion#2;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andCommentIdIsNotNull#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andCommentIdNotEqualTo#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andCommentIdGreaterThan#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andCommentIdGreaterThanOrEqualTo#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andCommentIdLessThan#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andCommentIdLessThanOrEqualTo#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andCommentIdIn#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andCommentIdNotIn#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andCommentIdBetween#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andCommentIdNotBetween#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andGoodsIdIsNull#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andGoodsIdIsNotNull#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andGoodsIdEqualTo#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andGoodsIdNotEqualTo#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andGoodsIdGreaterThan#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andGoodsIdGreaterThanOrEqualTo#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andGoodsIdLessThan#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andGoodsIdLessThanOrEqualTo#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andGoodsIdIn#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andGoodsIdNotIn#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andGoodsIdBetween#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andGoodsIdNotBetween#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andEmailIsNull#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#andEmailIsNotNull#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="class#Criteria#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#Criterion#1;class#Criterion#0;class#CommentExample#0" expanded="false" />
+                <element signature="method#Criterion#3;class#Criterion#0;class#CommentExample#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsBrandTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsBrandTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsVo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/vo/GoodsVo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1116">
+              <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -203,6 +270,11 @@
       <find>/manage/goods/</find>
       <find>---</find>
       <find>```</find>
+      <find>and</find>
+      <find>valid</find>
+      <find>_par</find>
+      <find>_parameter</find>
+      <find>noValue</find>
     </findStrings>
     <replaceStrings>
       <replace>com.ssmshop</replace>
@@ -220,17 +292,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/test/com/ssmshop/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/target/classes/applicationContext-datasource.xml" />
-        <option value="$PROJECT_DIR$/src/main/test/com/ssmshop/service/GoodsServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/dao/GoodsCategoryMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/vo/GoodsCategoryVo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/utils/Dump.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/datasource.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/common/ResponseCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/IBase.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/GoodsCategoryMapper.xml" />
@@ -271,6 +332,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/GoodsBrandManageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Brand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/GoodsBrandServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/vo/CommentVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/IGoosdComment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/GoodsComment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/CommentExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/dao/CommentMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/IGoodsComment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/vo/GoodsCommentVo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/CommentMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/IGoodsCommentService.java" />
+        <option value="$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsCommentTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/GoodsCommentServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -325,7 +397,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -368,8 +440,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -549,20 +619,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="brand&#9;PSI&#9;JAVA://com.ssmshop.pojo.Brand&#10;Brand&#9;PSI&#9;JAVA://com.ssmshop.pojo.Brand&#10;Bran&#9;PSI&#9;JAVA://com.ssmshop.pojo.Brand&#10;brandEx&#9;null&#9;null&#10;Spec&#9;PSI&#9;JAVA://com.ssmshop.pojo.Spec&#10;GOODS&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsAttribute.java&#10;GoodsAttributeM&#9;PSI&#9;JAVA://com.ssmshop.dao.GoodsAttributeMapper&#10;GoodsAttribute&#9;PSI&#9;JAVA://com.ssmshop.pojo.GoodsAttribute&#10;specMapp&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/mappers/SpecMapper.xml&#10;SpecMaa&#9;null&#9;null&#10;GoodsSPE&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/impl/GoodsSpecServiceImpl.java&#10;SpecM&#9;PSI&#9;JAVA://com.ssmshop.dao.SpecMapper&#10;GoodsTypeM&#9;PSI&#9;JAVA://com.ssmshop.dao.GoodsTypeMapper&#10;Goods&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;GoodsMa&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsMapper.java&#10;Goods.&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;GoodsM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsMapper.java&#10;GoodsE&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsExample.java&#10;GoodsCategory.j&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsCategory.java&#10;GoodsVo&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/vo/GoodsVo.java&#10;Goods.java&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;goodsM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsMapper.java&#10;Goods.J&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;GoodsEx&#9;PSI&#9;JAVA://com.ssmshop.pojo.GoodsExample&#10;GoodsMapper&#9;PSI&#9;JAVA://com.ssmshop.dao.GoodsMapper&#10;goodsc&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/IGoodsCategory.java&#10;GoodsCategoryV&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/vo/GoodsCategoryVo.java&#10;GoodsCa&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/IGoodsCategory.java&#10;data&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/datasource.properties&#10;goodsC&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/mappers/GoodsCategoryMapper.xml&#10;goo&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsCategory.java&#10;pro&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/datasource.properties&#10;GoodsCategorym&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsCategoryMapper.java&#10;GoodsCate&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsCategoryMapper.java&#10;GoodsC&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/IGoodsCategory.java&#10;Dum&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/utils/Dump.java&#10;g&#9;FILE&#9;file://F:/Code/ssmshop/src/main/test/java/com/ssmshop/service/GoodsServiceTest.java&#10;adM&#9;FILE&#9;file://F:/Code/ssmshop/target/classes/mappers/AdMapper.xml&#10;GoodsSer&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/impl/GoodsCategoryServiceImpl.java&#10;goodsCategoryM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsCategoryMapper.java&#10;GoodsCategoryE&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsCategoryExample.java&#10;GoodsCategoryM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsCategoryMapper.java&#10;Goodsc&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsCategory.java" />
+    <property name="last_opened_file_path" value="C:/DevelopTools/Maven/DTDS/mybatis-3-mapper.dtd" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/CommentExample.java&#10;commentEx&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/CommentExample.java&#10;commentV&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/vo/GoodsCommentVo.java&#10;commentE&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/CommentExample.java&#10;CommentEx&#9;PSI&#9;JAVA://com.ssmshop.pojo.CommentExample&#10;Comment&#9;PSI&#9;JAVA://com.ssmshop.pojo.Comment&#10;brand&#9;PSI&#9;JAVA://com.ssmshop.pojo.Brand&#10;Brand&#9;PSI&#9;JAVA://com.ssmshop.pojo.Brand&#10;Bran&#9;PSI&#9;JAVA://com.ssmshop.pojo.Brand&#10;brandEx&#9;null&#9;null&#10;Spec&#9;PSI&#9;JAVA://com.ssmshop.pojo.Spec&#10;GOODS&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsAttribute.java&#10;GoodsAttributeM&#9;PSI&#9;JAVA://com.ssmshop.dao.GoodsAttributeMapper&#10;GoodsAttribute&#9;PSI&#9;JAVA://com.ssmshop.pojo.GoodsAttribute&#10;specMapp&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/mappers/SpecMapper.xml&#10;SpecMaa&#9;null&#9;null&#10;GoodsSPE&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/impl/GoodsSpecServiceImpl.java&#10;SpecM&#9;PSI&#9;JAVA://com.ssmshop.dao.SpecMapper&#10;GoodsTypeM&#9;PSI&#9;JAVA://com.ssmshop.dao.GoodsTypeMapper&#10;Goods&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;GoodsMa&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsMapper.java&#10;Goods.&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;GoodsM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsMapper.java&#10;GoodsE&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsExample.java&#10;GoodsCategory.j&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsCategory.java&#10;GoodsVo&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/vo/GoodsVo.java&#10;Goods.java&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;goodsM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsMapper.java&#10;Goods.J&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;GoodsEx&#9;PSI&#9;JAVA://com.ssmshop.pojo.GoodsExample&#10;GoodsMapper&#9;PSI&#9;JAVA://com.ssmshop.dao.GoodsMapper&#10;goodsc&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/IGoodsCategory.java&#10;GoodsCategoryV&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/vo/GoodsCategoryVo.java&#10;GoodsCa&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/IGoodsCategory.java&#10;data&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/datasource.properties&#10;goodsC&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/mappers/GoodsCategoryMapper.xml&#10;goo&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsCategory.java&#10;pro&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/datasource.properties&#10;GoodsCategorym&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsCategoryMapper.java&#10;GoodsCate&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsCategoryMapper.java&#10;GoodsC&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/IGoodsCategory.java&#10;Dum&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/utils/Dump.java&#10;g&#9;FILE&#9;file://F:/Code/ssmshop/src/main/test/java/com/ssmshop/service/GoodsServiceTest.java&#10;adM&#9;FILE&#9;file://F:/Code/ssmshop/target/classes/mappers/AdMapper.xml&#10;GoodsSer&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/impl/GoodsCategoryServiceImpl.java&#10;goodsCategoryM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsCategoryMapper.java&#10;GoodsCategoryE&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsCategoryExample.java&#10;GoodsCategoryM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsCategoryMapper.java&#10;Goodsc&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsCategory.java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -584,7 +656,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.indexRun">
+  <component name="RunManager" selected="JUnit.GoodsCommentTest.addTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -606,7 +678,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="GoodsBrandTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GoodsCommentTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.ssmshop.service.*" />
@@ -617,7 +689,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.ssmshop.service" />
-      <option name="MAIN_CLASS_NAME" value="com.ssmshop.service.GoodsBrandTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ssmshop.service.GoodsCommentTest" />
       <option name="METHOD_NAME" value="addTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -631,7 +703,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="GoodsBrandTest.detailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GoodsCommentTest.detailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.ssmshop.service.*" />
@@ -642,7 +714,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.ssmshop.service" />
-      <option name="MAIN_CLASS_NAME" value="com.ssmshop.service.GoodsBrandTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ssmshop.service.GoodsCommentTest" />
       <option name="METHOD_NAME" value="detailTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -656,7 +728,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="GoodsBrandTest.editTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GoodsCommentTest.editTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.ssmshop.service.*" />
@@ -667,7 +739,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.ssmshop.service" />
-      <option name="MAIN_CLASS_NAME" value="com.ssmshop.service.GoodsBrandTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ssmshop.service.GoodsCommentTest" />
       <option name="METHOD_NAME" value="editTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -681,7 +753,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="GoodsBrandTest.listTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GoodsCommentTest.listTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.ssmshop.service.*" />
@@ -692,7 +764,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.ssmshop.service" />
-      <option name="MAIN_CLASS_NAME" value="com.ssmshop.service.GoodsBrandTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ssmshop.service.GoodsCommentTest" />
       <option name="METHOD_NAME" value="listTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -706,7 +778,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="GoodsBrandTest.removeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GoodsCommentTest.removeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.ssmshop.service.*" />
@@ -717,7 +789,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.ssmshop.service" />
-      <option name="MAIN_CLASS_NAME" value="com.ssmshop.service.GoodsBrandTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ssmshop.service.GoodsCommentTest" />
       <option name="METHOD_NAME" value="removeTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -892,19 +964,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Maven.mybatis-generator" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.indexRun" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.GoodsBrandTest.listTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.GoodsBrandTest.detailTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GoodsBrandTest.addTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.GoodsBrandTest.editTest" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.GoodsBrandTest.removeTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.GoodsCommentTest.listTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GoodsCommentTest.detailTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GoodsCommentTest.editTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.GoodsCommentTest.removeTest" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.GoodsCommentTest.addTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GoodsBrandTest.removeTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GoodsBrandTest.editTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.GoodsBrandTest.addTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.GoodsBrandTest.detailTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.GoodsBrandTest.listTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GoodsCommentTest.addTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GoodsCommentTest.removeTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GoodsCommentTest.editTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.GoodsCommentTest.detailTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GoodsCommentTest.listTest" />
       </list>
     </recent_temporary>
   </component>
@@ -954,44 +1026,46 @@
       <workItem from="1582506233560" duration="22275000" />
       <workItem from="1582599946990" duration="2222000" />
       <workItem from="1582942353297" duration="10882000" />
-      <workItem from="1583033788355" duration="1886000" />
+      <workItem from="1583033788355" duration="5129000" />
+      <workItem from="1583107828212" duration="11621000" />
+      <workItem from="1583196805709" duration="9033000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GoodsBrandTest_addTest - 2020.02.29 at 12h 45m 06s.xml">
-      <configuration name="GoodsBrandTest.addTest" configurationId="JUnit" />
+    <history-entry file="GoodsCommentTest_addTest - 2020.03.03 at 20h 06m 20s.xml">
+      <configuration name="GoodsCommentTest.addTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoodsBrandTest_detailTest - 2020.02.29 at 12h 20m 14s.xml">
-      <configuration name="GoodsBrandTest.detailTest" configurationId="JUnit" />
+    <history-entry file="GoodsCommentTest_detailTest - 2020.03.03 at 19h 54m 54s.xml">
+      <configuration name="GoodsCommentTest.detailTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoodsBrandTest_detailTest - 2020.02.29 at 12h 20m 31s.xml">
-      <configuration name="GoodsBrandTest.detailTest" configurationId="JUnit" />
+    <history-entry file="GoodsCommentTest_editTest - 2020.03.03 at 19h 57m 57s.xml">
+      <configuration name="GoodsCommentTest.editTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoodsBrandTest_detailTest - 2020.02.29 at 12h 41m 30s.xml">
-      <configuration name="GoodsBrandTest.detailTest" configurationId="JUnit" />
+    <history-entry file="GoodsCommentTest_listTest - 2020.03.03 at 19h 36m 08s.xml">
+      <configuration name="GoodsCommentTest.listTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoodsBrandTest_editTest - 2020.02.29 at 12h 47m 57s.xml">
-      <configuration name="GoodsBrandTest.editTest" configurationId="JUnit" />
+    <history-entry file="GoodsCommentTest_listTest - 2020.03.03 at 19h 36m 46s.xml">
+      <configuration name="GoodsCommentTest.listTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoodsBrandTest_editTest - 2020.02.29 at 13h 01m 56s.xml">
-      <configuration name="GoodsBrandTest.editTest" configurationId="JUnit" />
+    <history-entry file="GoodsCommentTest_listTest - 2020.03.03 at 19h 39m 52s.xml">
+      <configuration name="GoodsCommentTest.listTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoodsBrandTest_listTest - 2020.02.29 at 12h 15m 52s.xml">
-      <configuration name="GoodsBrandTest.listTest" configurationId="JUnit" />
+    <history-entry file="GoodsCommentTest_listTest - 2020.03.03 at 19h 41m 49s.xml">
+      <configuration name="GoodsCommentTest.listTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoodsBrandTest_listTest - 2020.02.29 at 12h 17m 37s.xml">
-      <configuration name="GoodsBrandTest.listTest" configurationId="JUnit" />
+    <history-entry file="GoodsCommentTest_listTest - 2020.03.03 at 19h 52m 37s.xml">
+      <configuration name="GoodsCommentTest.listTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoodsBrandTest_listTest - 2020.02.29 at 12h 18m 05s.xml">
-      <configuration name="GoodsBrandTest.listTest" configurationId="JUnit" />
+    <history-entry file="GoodsCommentTest_listTest - 2020.03.03 at 19h 53m 13s.xml">
+      <configuration name="GoodsCommentTest.listTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoodsBrandTest_removeTest - 2020.02.29 at 13h 02m 53s.xml">
-      <configuration name="GoodsBrandTest.removeTest" configurationId="JUnit" />
+    <history-entry file="GoodsCommentTest_removeTest - 2020.03.03 at 20h 00m 14s.xml">
+      <configuration name="GoodsCommentTest.removeTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272888000" />
+    <option name="totallyTimeSpent" value="296785000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1003,7 +1077,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1015,7 +1090,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6451613" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6451613" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3070078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1026,8 +1101,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.487208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24253732" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24786781" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1064,11 +1139,11 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.487208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.487208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23454158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24786781" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1083,73 +1158,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/GoodsCategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11124">
-          <caret line="309" column="2" lean-forward="false" selection-start-line="309" selection-start-column="2" selection-end-line="309" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding>
-            <element signature="n#filter#0;n#web-app#0;n#!!top" expanded="false" />
-            <element signature="n#filter-mapping#0;n#web-app#0;n#!!top" expanded="false" />
-            <element signature="n#listener#0;n#web-app#0;n#!!top" expanded="false" />
-            <element signature="n#listener#1;n#web-app#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="30" column="69" lean-forward="false" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/ICommon.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/IFileService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/FileServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/IGoodsCategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1661">
-          <caret line="107" column="32" lean-forward="false" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
-          <folding>
-            <element signature="n#bean#0;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#bean#1;n#beans#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/vo/GoodsCategoryVo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2736">
@@ -1206,6 +1219,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1216,18 +1230,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/vo/GoodsVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1116">
-          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/IGoodsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1301,6 +1308,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1322,6 +1330,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
           <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#982#983#0" expanded="false" />
+            <element signature="e#1042#1043#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1329,6 +1342,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="20" column="240" lean-forward="false" selection-start-line="20" selection-start-column="240" selection-end-line="20" selection-end-column="240" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1364,6 +1380,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="31" column="15" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="31" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1377#1378#0" expanded="false" />
+            <element signature="e#1432#1433#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1371,6 +1392,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2952">
           <caret line="100" column="9" lean-forward="false" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1393,7 +1415,7 @@
         <state relative-caret-position="324">
           <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1411,20 +1433,9 @@
         <state relative-caret-position="288">
           <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsCategoryServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding>
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#476#477#0" expanded="false" />
+            <element signature="e#539#540#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1434,8 +1445,8 @@
         <state relative-caret-position="252">
           <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="false" />
+            <element signature="e#480#481#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1445,11 +1456,11 @@
         <state relative-caret-position="432">
           <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#587#588#0" expanded="false" />
+            <element signature="e#625#626#0" expanded="false" />
+            <element signature="e#664#665#0" expanded="false" />
+            <element signature="e#746#747#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1464,20 +1475,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/GoodsBrandManageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
+        <state relative-caret-position="612">
           <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1555#1556#0" expanded="true" />
-            <element signature="e#1612#1613#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1555#1556#0" expanded="false" />
+            <element signature="e#1612#1613#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/GoodsBrandServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1692">
+          <caret line="60" column="18" lean-forward="false" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="27" column="29" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="27" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/vo/GoodsVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1116">
+          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsBrandTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        <state relative-caret-position="216">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#352#353#0" expanded="true" />
@@ -1486,10 +1523,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/GoodsBrandServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/vo/GoodsCommentVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="43" column="33" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+        <state relative-caret-position="162">
+          <caret line="80" column="22" lean-forward="true" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+          <folding>
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1146#1147#0" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1306#1307#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+            <element signature="e#1372#1373#0" expanded="true" />
+            <element signature="e#1420#1421#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+            <element signature="e#1572#1573#0" expanded="true" />
+            <element signature="e#1610#1611#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
+            <element signature="e#1678#1679#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
+            <element signature="e#1770#1771#0" expanded="true" />
+            <element signature="e#1801#1802#0" expanded="true" />
+            <element signature="e#1830#1831#0" expanded="true" />
+            <element signature="e#1872#1873#0" expanded="true" />
+            <element signature="e#1908#1909#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsCategoryServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/dao/CommentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/CommentExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="method#or#1;class#CommentExample#0" expanded="false" />
+            <element signature="method#createCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#createCriteriaInternal#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#clear#0;class#CommentExample#0" expanded="false" />
+            <element signature="class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#addCriterion#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#addCriterion#2;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andCommentIdIsNotNull#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andCommentIdNotEqualTo#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andCommentIdGreaterThan#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andCommentIdGreaterThanOrEqualTo#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andCommentIdLessThan#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andCommentIdLessThanOrEqualTo#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andCommentIdIn#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andCommentIdNotIn#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andCommentIdBetween#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andCommentIdNotBetween#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdIsNull#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdIsNotNull#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdEqualTo#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdNotEqualTo#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdGreaterThan#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdGreaterThanOrEqualTo#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdLessThan#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdLessThanOrEqualTo#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdIn#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdNotIn#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdBetween#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdNotBetween#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andEmailIsNull#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andEmailIsNotNull#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="class#Criteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#Criterion#1;class#Criterion#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#Criterion#3;class#Criterion#0;class#CommentExample#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CommentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="161" column="53" lean-forward="false" selection-start-line="161" selection-start-column="53" selection-end-line="161" selection-end-column="53" />
+          <folding>
+            <element signature="n#sql#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#3;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#4;n#mapper#0;n#!!top" expanded="false" />
+            <marker date="1583236347259" expanded="true" signature="7846:8014" ph="select , fro... " />
+            <marker date="1583236347259" expanded="true" signature="8101:8176" ph="delete from tp_comment... " />
+            <marker date="1583236347259" expanded="true" signature="8274:8296" ph="delete from tp_comment... " />
+            <marker date="1583236347259" expanded="true" signature="8480:9190" ph="insert into tp_comment... " />
+            <marker date="1583236347259" expanded="true" signature="11850:11881" ph="select count... tp_comment" />
+            <marker date="1583236347259" expanded="true" signature="13937:14770" ph="update tp_comment... " />
+            <marker date="1583236347259" expanded="true" signature="14943:15672" ph="update tp_comment... " />
+            <marker date="1583236347259" expanded="true" signature="18269:18910" ph="update tp_comment... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/IGoodsCommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="13" column="57" lean-forward="false" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsCommentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="57" column="85" lean-forward="false" selection-start-line="57" selection-start-column="85" selection-end-line="57" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/GoodsCommentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="54" column="36" lean-forward="false" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

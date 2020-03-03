@@ -10,6 +10,12 @@
       </list>
     </option>
   </component>
+  <component name="ProjectResources">
+    <resource url=" http://mybatis.org/dtd/mybatis-3-config.dtd" location="C:/DevelopTools/Maven/DTDS/mybatis-3-config.dtd" />
+    <resource url="http://cocoon.apache.org/schema/avalon/cocoon-avalon-1.0.xsd" location="$USER_HOME$/.IntelliJIdea2017.3/system/extResources/323b6aae_cocoon-avalon-1.0.xsd" />
+    <resource url="http://cocoon.apache.org/schema/configurator" location="$USER_HOME$/.IntelliJIdea2017.3/system/extResources/70c0441d_cocoon-configurator-1.0.1.xsd" />
+    <resource url="http://mybatis.org/dtd/mybatis-3-mapper.dtd" location="C:/DevelopTools/Maven/DTDS/mybatis-3-mapper.dtd" />
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
