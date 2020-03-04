@@ -32,21 +32,36 @@ public class GoodsCommentServiceImpl extends BaseServiceImpl implements IGoodsCo
     }
 
     @Override
-    public ServerResponse<CommentWithBLOBs> detail(int commentId) {
-        return ServerResponse.createBySuccess(this.commentMapper.selectByPrimaryKey(commentId));
+    public ServerResponse<?> detail(int commentId) {
+        if (commentId > 0){
+            return ServerResponse.createBySuccess(this.commentMapper.selectByPrimaryKey(commentId));
+        }else{
+            return ServerResponse.createByError();
+        }
+
 
     }
 
     @Override
     public ServerResponse<?> edit(int commentId,CommentWithBLOBs comment) {
-      comment.setCommentId(commentId);
-      return super.responseBase(this.commentMapper.updateByPrimaryKeySelective(comment));
+        if (commentId>0){
+            comment.setCommentId(commentId);
+            return super.responseBase(this.commentMapper.updateByPrimaryKeySelective(comment));
+        }else{
+            return ServerResponse.createByError();
+        }
+
 
     }
 
     @Override
     public ServerResponse<String> remove(int commentId) {
-      return super.responseBase(this.commentMapper.deleteByPrimaryKey(commentId));
+        if (commentId > 0){
+            return super.responseBase(this.commentMapper.deleteByPrimaryKey(commentId));
+        }else{
+            return ServerResponse.createByError();
+        }
+
 
     }
 

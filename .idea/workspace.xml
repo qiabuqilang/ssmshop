@@ -7,16 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24a774f5-8ca4-4514-8b54-a8ba5b940169" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/IGoodsCommentService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/GoodsCommentServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/vo/GoodsCommentVo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsCommentTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/GoodsCommentManageController.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/dao/CommentMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/dao/CommentMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/CommentMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/CommentMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssmshop/dao/CommentMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ssmshop/dao/CommentMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/CommentMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mappers/CommentMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/IGoodsCommentService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/IGoodsCommentService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/GoodsCommentServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/GoodsCommentServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,54 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="GoodsCommentVo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/vo/GoodsCommentVo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="80" column="22" lean-forward="true" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
-              <folding>
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
-                <element signature="e#903#904#0" expanded="true" />
-                <element signature="e#954#955#0" expanded="true" />
-                <element signature="e#996#997#0" expanded="true" />
-                <element signature="e#1031#1032#0" expanded="true" />
-                <element signature="e#1061#1062#0" expanded="true" />
-                <element signature="e#1108#1109#0" expanded="true" />
-                <element signature="e#1146#1147#0" expanded="true" />
-                <element signature="e#1182#1183#0" expanded="true" />
-                <element signature="e#1214#1215#0" expanded="true" />
-                <element signature="e#1264#1265#0" expanded="true" />
-                <element signature="e#1306#1307#0" expanded="true" />
-                <element signature="e#1341#1342#0" expanded="true" />
-                <element signature="e#1372#1373#0" expanded="true" />
-                <element signature="e#1420#1421#0" expanded="true" />
-                <element signature="e#1460#1461#0" expanded="true" />
-                <element signature="e#1495#1496#0" expanded="true" />
-                <element signature="e#1525#1526#0" expanded="true" />
-                <element signature="e#1572#1573#0" expanded="true" />
-                <element signature="e#1610#1611#0" expanded="true" />
-                <element signature="e#1646#1647#0" expanded="true" />
-                <element signature="e#1678#1679#0" expanded="true" />
-                <element signature="e#1728#1729#0" expanded="true" />
-                <element signature="e#1770#1771#0" expanded="true" />
-                <element signature="e#1801#1802#0" expanded="true" />
-                <element signature="e#1830#1831#0" expanded="true" />
-                <element signature="e#1872#1873#0" expanded="true" />
-                <element signature="e#1908#1909#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IGoodsCommentService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/IGoodsCommentService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
-              <caret line="13" column="57" lean-forward="false" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,14 +50,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoodsCommentServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GoodsCommentServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/GoodsCommentServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="54" column="36" lean-forward="false" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+            <state relative-caret-position="378">
+              <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsCommentManageController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/GoodsCommentManageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="31" column="50" lean-forward="false" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2226#2227#0" expanded="true" />
+                <element signature="e#2287#2288#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentWithBLOBs.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/CommentWithBLOBs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Comment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsCategoryManageController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/GoodsCategoryManageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,7 +109,7 @@
       <file leaf-file-name="GoodsCommentTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsCommentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
+            <state relative-caret-position="1800">
               <caret line="57" column="85" lean-forward="false" selection-start-line="57" selection-start-column="85" selection-end-line="57" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -125,20 +120,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoodsCategoryServiceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsCategoryServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CommentMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/dao/CommentMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="684">
               <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
@@ -148,7 +133,7 @@
       <file leaf-file-name="CommentMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CommentMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="3780">
               <caret line="161" column="53" lean-forward="false" selection-start-line="161" selection-start-column="53" selection-end-line="161" selection-end-column="53" />
               <folding>
                 <element signature="n#sql#1;n#mapper#0;n#!!top" expanded="false" />
@@ -214,30 +199,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoodsBrandTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsBrandTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="15" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsVo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/vo/GoodsVo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1116">
-              <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -292,7 +253,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/common/ResponseCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/IBase.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/GoodsCategoryMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml" />
@@ -340,9 +300,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/IGoodsComment.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/vo/GoodsCommentVo.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/CommentMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/IGoodsCommentService.java" />
         <option value="$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsCommentTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/GoodsCommentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/IGoodsCommentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/GoodsCommentManageController.java" />
       </list>
     </option>
   </component>
@@ -620,8 +581,8 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -634,7 +595,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="C:/DevelopTools/Maven/DTDS/mybatis-3-mapper.dtd" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/CommentExample.java&#10;commentEx&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/CommentExample.java&#10;commentV&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/vo/GoodsCommentVo.java&#10;commentE&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/CommentExample.java&#10;CommentEx&#9;PSI&#9;JAVA://com.ssmshop.pojo.CommentExample&#10;Comment&#9;PSI&#9;JAVA://com.ssmshop.pojo.Comment&#10;brand&#9;PSI&#9;JAVA://com.ssmshop.pojo.Brand&#10;Brand&#9;PSI&#9;JAVA://com.ssmshop.pojo.Brand&#10;Bran&#9;PSI&#9;JAVA://com.ssmshop.pojo.Brand&#10;brandEx&#9;null&#9;null&#10;Spec&#9;PSI&#9;JAVA://com.ssmshop.pojo.Spec&#10;GOODS&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsAttribute.java&#10;GoodsAttributeM&#9;PSI&#9;JAVA://com.ssmshop.dao.GoodsAttributeMapper&#10;GoodsAttribute&#9;PSI&#9;JAVA://com.ssmshop.pojo.GoodsAttribute&#10;specMapp&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/mappers/SpecMapper.xml&#10;SpecMaa&#9;null&#9;null&#10;GoodsSPE&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/impl/GoodsSpecServiceImpl.java&#10;SpecM&#9;PSI&#9;JAVA://com.ssmshop.dao.SpecMapper&#10;GoodsTypeM&#9;PSI&#9;JAVA://com.ssmshop.dao.GoodsTypeMapper&#10;Goods&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;GoodsMa&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsMapper.java&#10;Goods.&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;GoodsM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsMapper.java&#10;GoodsE&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsExample.java&#10;GoodsCategory.j&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsCategory.java&#10;GoodsVo&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/vo/GoodsVo.java&#10;Goods.java&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;goodsM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsMapper.java&#10;Goods.J&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;GoodsEx&#9;PSI&#9;JAVA://com.ssmshop.pojo.GoodsExample&#10;GoodsMapper&#9;PSI&#9;JAVA://com.ssmshop.dao.GoodsMapper&#10;goodsc&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/IGoodsCategory.java&#10;GoodsCategoryV&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/vo/GoodsCategoryVo.java&#10;GoodsCa&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/IGoodsCategory.java&#10;data&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/datasource.properties&#10;goodsC&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/mappers/GoodsCategoryMapper.xml&#10;goo&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsCategory.java&#10;pro&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/datasource.properties&#10;GoodsCategorym&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsCategoryMapper.java&#10;GoodsCate&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsCategoryMapper.java&#10;GoodsC&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/IGoodsCategory.java&#10;Dum&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/utils/Dump.java&#10;g&#9;FILE&#9;file://F:/Code/ssmshop/src/main/test/java/com/ssmshop/service/GoodsServiceTest.java&#10;adM&#9;FILE&#9;file://F:/Code/ssmshop/target/classes/mappers/AdMapper.xml&#10;GoodsSer&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/impl/GoodsCategoryServiceImpl.java&#10;goodsCategoryM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsCategoryMapper.java&#10;GoodsCategoryE&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsCategoryExample.java&#10;GoodsCategoryM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsCategoryMapper.java&#10;Goodsc&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsCategory.java" />
+    <property name="SearchEverywhereHistoryKey" value="comment&#9;PSI&#9;JAVA://com.ssmshop.pojo.Comment&#10;commentW&#9;PSI&#9;JAVA://com.ssmshop.pojo.CommentWithBLOBs&#10;commentEx&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/CommentExample.java&#10;commentV&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/vo/GoodsCommentVo.java&#10;commentE&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/CommentExample.java&#10;CommentEx&#9;PSI&#9;JAVA://com.ssmshop.pojo.CommentExample&#10;Comment&#9;PSI&#9;JAVA://com.ssmshop.pojo.Comment&#10;brand&#9;PSI&#9;JAVA://com.ssmshop.pojo.Brand&#10;Brand&#9;PSI&#9;JAVA://com.ssmshop.pojo.Brand&#10;Bran&#9;PSI&#9;JAVA://com.ssmshop.pojo.Brand&#10;brandEx&#9;null&#9;null&#10;Spec&#9;PSI&#9;JAVA://com.ssmshop.pojo.Spec&#10;GOODS&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsAttribute.java&#10;GoodsAttributeM&#9;PSI&#9;JAVA://com.ssmshop.dao.GoodsAttributeMapper&#10;GoodsAttribute&#9;PSI&#9;JAVA://com.ssmshop.pojo.GoodsAttribute&#10;specMapp&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/mappers/SpecMapper.xml&#10;SpecMaa&#9;null&#9;null&#10;GoodsSPE&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/impl/GoodsSpecServiceImpl.java&#10;SpecM&#9;PSI&#9;JAVA://com.ssmshop.dao.SpecMapper&#10;GoodsTypeM&#9;PSI&#9;JAVA://com.ssmshop.dao.GoodsTypeMapper&#10;Goods&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;GoodsMa&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsMapper.java&#10;Goods.&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;GoodsM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsMapper.java&#10;GoodsE&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsExample.java&#10;GoodsCategory.j&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsCategory.java&#10;GoodsVo&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/vo/GoodsVo.java&#10;Goods.java&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;goodsM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsMapper.java&#10;Goods.J&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;GoodsEx&#9;PSI&#9;JAVA://com.ssmshop.pojo.GoodsExample&#10;GoodsMapper&#9;PSI&#9;JAVA://com.ssmshop.dao.GoodsMapper&#10;goodsc&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/IGoodsCategory.java&#10;GoodsCategoryV&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/vo/GoodsCategoryVo.java&#10;GoodsCa&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/IGoodsCategory.java&#10;data&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/datasource.properties&#10;goodsC&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/mappers/GoodsCategoryMapper.xml&#10;goo&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsCategory.java&#10;pro&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/datasource.properties&#10;GoodsCategorym&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsCategoryMapper.java&#10;GoodsCate&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsCategoryMapper.java&#10;GoodsC&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/IGoodsCategory.java&#10;Dum&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/utils/Dump.java&#10;g&#9;FILE&#9;file://F:/Code/ssmshop/src/main/test/java/com/ssmshop/service/GoodsServiceTest.java&#10;adM&#9;FILE&#9;file://F:/Code/ssmshop/target/classes/mappers/AdMapper.xml&#10;GoodsSer&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/impl/GoodsCategoryServiceImpl.java&#10;goodsCategoryM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsCategoryMapper.java&#10;GoodsCategoryE&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsCategoryExample.java&#10;GoodsCategoryM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsCategoryMapper.java&#10;Goodsc&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsCategory.java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -656,7 +617,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GoodsCommentTest.addTest">
+  <component name="RunManager" selected="Tomcat Server.indexRun">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1028,7 +989,8 @@
       <workItem from="1582942353297" duration="10882000" />
       <workItem from="1583033788355" duration="5129000" />
       <workItem from="1583107828212" duration="11621000" />
-      <workItem from="1583196805709" duration="9033000" />
+      <workItem from="1583196805709" duration="9623000" />
+      <workItem from="1583281760647" duration="5487000" />
     </task>
     <servers />
   </component>
@@ -1065,7 +1027,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296785000" />
+    <option name="totallyTimeSpent" value="302862000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1078,7 +1040,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1090,7 +1051,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6451613" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6451613" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3070078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1101,8 +1062,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.487208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25053304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24786781" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1163,20 +1124,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/vo/GoodsCategoryVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2736">
-          <caret line="130" column="46" lean-forward="false" selection-start-line="130" selection-start-column="46" selection-end-line="130" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/common/RequestGoods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GoodsCategory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1215,14 +1162,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/GoodsCategoryManageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/common/ServerResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -1234,7 +1173,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1392,7 +1330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2952">
           <caret line="100" column="9" lean-forward="false" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1414,9 +1351,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1424,7 +1358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1432,11 +1365,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#476#477#0" expanded="false" />
-            <element signature="e#539#540#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1444,10 +1372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding>
-            <element signature="e#435#436#0" expanded="false" />
-            <element signature="e#480#481#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1455,13 +1379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#587#588#0" expanded="false" />
-            <element signature="e#625#626#0" expanded="false" />
-            <element signature="e#664#665#0" expanded="false" />
-            <element signature="e#746#747#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1469,7 +1386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1152">
           <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1489,17 +1405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1692">
           <caret line="60" column="18" lean-forward="false" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="27" column="29" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="27" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1513,20 +1418,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsBrandTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="324">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="false" />
+            <element signature="e#395#396#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/vo/GoodsCommentVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="80" column="22" lean-forward="true" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+        <state relative-caret-position="1836">
+          <caret line="80" column="22" lean-forward="false" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
           <folding>
             <element signature="e#724#725#0" expanded="true" />
             <element signature="e#753#754#0" expanded="true" />
@@ -1574,7 +1479,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/dao/CommentMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="684">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
@@ -1625,7 +1530,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CommentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="3780">
           <caret line="161" column="53" lean-forward="false" selection-start-line="161" selection-start-column="53" selection-end-line="161" selection-end-column="53" />
           <folding>
             <element signature="n#sql#1;n#mapper#0;n#!!top" expanded="false" />
@@ -1645,19 +1550,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/IGoodsCommentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="13" column="57" lean-forward="false" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsCommentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
+        <state relative-caret-position="1800">
           <caret line="57" column="85" lean-forward="false" selection-start-line="57" selection-start-column="85" selection-end-line="57" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1667,12 +1562,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/GoodsCategoryManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/CommentWithBLOBs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/GoodsCommentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="54" column="36" lean-forward="false" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+        <state relative-caret-position="378">
+          <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/IGoodsCommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/GoodsCommentManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="31" column="50" lean-forward="false" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2226#2227#0" expanded="true" />
+            <element signature="e#2287#2288#0" expanded="true" />
           </folding>
         </state>
       </provider>

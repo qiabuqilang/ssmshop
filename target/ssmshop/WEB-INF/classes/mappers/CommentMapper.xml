@@ -37,6 +37,20 @@
       <arg column="img" jdbcType="LONGVARCHAR" javaType="java.lang.String" />
     </constructor>
   </resultMap>
+
+  <resultMap id="ListResultMap" type="com.ssmshop.vo.GoodsCommentVo">
+    <constructor>
+      <idArg column="comment_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="goods_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="goods_name" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="username" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="add_time" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="ip_address" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="is_show" jdbcType="TINYINT" javaType="java.lang.Byte" />
+      <arg column="user_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+    </constructor>
+  </resultMap>
+
   <sql id="Example_Where_Clause" >
     <where >
       <foreach collection="oredCriteria" item="criteria" separator="or" >
@@ -102,6 +116,10 @@
   <sql id="Blob_Column_List" >
     content, img
   </sql>
+  <sql id="List_Column_List" >
+    tp_comment.comment_id, tp_comment.goods_id, tp_comment.username, tp_comment.add_time, tp_comment.ip_address,
+    tp_comment.is_show, tp_comment.user_id,tp_goods.goods_name
+  </sql>
   <select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs" parameterType="com.ssmshop.pojo.CommentExample" >
     select
     <if test="distinct" >
@@ -128,6 +146,25 @@
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectListByExample" resultMap="ListResultMap" parameterType="com.ssmshop.pojo.CommentExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="List_Column_List" />
+    from tp_comment,tp_goods
+    <choose>
+      <when test="_parameter.oredCriteria.size > 0">
+        <include refid="Example_Where_Clause" /> AND tp_comment.goods_id = tp_goods.goods_id
+      </when>
+      <otherwise>
+          WHERE tp_comment.goods_id = tp_goods.goods_id
+      </otherwise>
+    </choose>
     <if test="orderByClause != null" >
       order by ${orderByClause}
     </if>
@@ -408,6 +445,7 @@
     </set>
     where comment_id = #{commentId,jdbcType=INTEGER}
   </update>
+
   <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.ssmshop.pojo.CommentWithBLOBs" >
     update tp_comment
     set goods_id = #{goodsId,jdbcType=INTEGER},
