@@ -2,11 +2,9 @@ package com.ssmshop.controller.backend;
 
 import com.github.pagehelper.PageInfo;
 import com.ssmshop.common.ServerResponse;
-import com.ssmshop.pojo.Comment;
 import com.ssmshop.pojo.CommentWithBLOBs;
-import com.ssmshop.service.IGoodsCommentService;
-import com.ssmshop.vo.GoodsCommentVo;
-import net.sf.jsqlparser.schema.Server;
+import com.ssmshop.service.goods.IGoodsCommentService;
+import com.ssmshop.vo.goods.GoodsCommentVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

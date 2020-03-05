@@ -3,6 +3,8 @@ package com.ssmshop.dao;
 import com.ssmshop.pojo.GoodsConsult;
 import com.ssmshop.pojo.GoodsConsultExample;
 import java.util.List;
+
+import com.ssmshop.vo.goods.GoodsConsultVo;
 import org.apache.ibatis.annotations.Param;
 
 public interface GoodsConsultMapper {
@@ -17,6 +19,8 @@ public interface GoodsConsultMapper {
     int insertSelective(GoodsConsult record);
 
     List<GoodsConsult> selectByExample(GoodsConsultExample example);
+
+    List<GoodsConsultVo> listByExample(GoodsConsultExample example);
 
     GoodsConsult selectByPrimaryKey(Integer id);
 

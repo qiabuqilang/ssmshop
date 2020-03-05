@@ -1,13 +1,22 @@
 package com.ssmshop.pojo;
 
 public class GoodsConsult {
+    /*
+    *  <idArg column="id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="goods_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="username" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="add_time" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="consult_type" jdbcType="TINYINT" javaType="java.lang.Byte" />
+      <arg column="content" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="parent_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="is_show" jdbcType="TINYINT" javaType="java.lang.Byte" />*/
     private Integer id;
 
     private Integer goodsId;
 
     private String username;
 
-    private Integer addTime;
+    private Long addTime;
 
     private Byte consultType;
 
@@ -17,7 +26,7 @@ public class GoodsConsult {
 
     private Byte isShow;
 
-    public GoodsConsult(Integer id, Integer goodsId, String username, Integer addTime, Byte consultType, String content, Integer parentId, Byte isShow) {
+    public GoodsConsult(Integer id, Integer goodsId, String username, Long addTime, Byte consultType, String content, Integer parentId, Byte isShow) {
         this.id = id;
         this.goodsId = goodsId;
         this.username = username;
@@ -56,11 +65,11 @@ public class GoodsConsult {
         this.username = username == null ? null : username.trim();
     }
 
-    public Integer getAddTime() {
+    public Long getAddTime() {
         return addTime;
     }
 
-    public void setAddTime(Integer addTime) {
+    public void setAddTime(Long addTime) {
         this.addTime = addTime;
     }
 

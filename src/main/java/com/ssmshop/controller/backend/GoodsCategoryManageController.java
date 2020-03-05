@@ -2,9 +2,9 @@ package com.ssmshop.controller.backend;
 
 import com.ssmshop.common.ServerResponse;
 import com.ssmshop.pojo.GoodsCategory;
-import com.ssmshop.service.IGoodsCategoryService;
+import com.ssmshop.service.goods.IGoodsCategoryService;
 import com.ssmshop.utils.Dump;
-import com.ssmshop.vo.GoodsCategoryVo;
+import com.ssmshop.vo.goods.GoodsCategoryVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

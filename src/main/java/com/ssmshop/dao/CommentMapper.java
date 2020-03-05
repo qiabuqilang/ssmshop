@@ -5,7 +5,7 @@ import com.ssmshop.pojo.CommentExample;
 import com.ssmshop.pojo.CommentWithBLOBs;
 import java.util.List;
 
-import com.ssmshop.vo.GoodsCommentVo;
+import com.ssmshop.vo.goods.GoodsCommentVo;
 import org.apache.ibatis.annotations.Param;
 
 public interface CommentMapper {

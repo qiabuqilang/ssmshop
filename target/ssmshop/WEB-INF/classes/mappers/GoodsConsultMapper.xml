@@ -13,6 +13,19 @@
       <arg column="is_show" jdbcType="TINYINT" javaType="java.lang.Byte" />
     </constructor>
   </resultMap>
+  <resultMap id="ListResultMap" type="com.ssmshop.vo.GoodsConsultVo" >
+    <constructor >
+      <idArg column="id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="goods_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="username" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="add_time" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="consult_type" jdbcType="TINYINT" javaType="java.lang.Byte" />
+      <arg column="content" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="parent_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="is_show" jdbcType="TINYINT" javaType="java.lang.Byte" />
+      <arg column="goods_name" jdbcType="VARCHAR" javaType="java.lang.String"/>
+    </constructor>
+  </resultMap>
   <sql id="Example_Where_Clause" >
     <where >
       <foreach collection="oredCriteria" item="criteria" separator="or" >
@@ -74,6 +87,9 @@
   <sql id="Base_Column_List" >
     id, goods_id, username, add_time, consult_type, content, parent_id, is_show
   </sql>
+  <sql id="List_Column_List" >
+    tp_goods_consult.*,tp_goods.goods_name
+  </sql>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.ssmshop.pojo.GoodsConsultExample" >
     select
     <if test="distinct" >
@@ -84,6 +100,25 @@
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="listByExample" resultMap="ListResultMap" parameterType="com.ssmshop.pojo.GoodsConsultExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="List_Column_List" />
+    from tp_goods_consult,tp_goods
+    <choose>
+      <when test="_parameter.oredCriteria.size>0">
+        <include refid="Example_Where_Clause" />AND tp_goods_consult.goods_id = tp_goods.goods_id
+      </when>
+      <otherwise>
+        WHERE tp_goods_consult.goods_id = tp_goods.goods_id
+      </otherwise>
+    </choose>
     <if test="orderByClause != null" >
       order by ${orderByClause}
     </if>

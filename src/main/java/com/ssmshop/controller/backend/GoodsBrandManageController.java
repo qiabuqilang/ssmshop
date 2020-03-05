@@ -3,7 +3,7 @@ package com.ssmshop.controller.backend;
 import com.github.pagehelper.PageInfo;
 import com.ssmshop.common.ServerResponse;
 import com.ssmshop.pojo.Brand;
-import com.ssmshop.service.IGoodsBrandService;
+import com.ssmshop.service.goods.IGoodsBrandService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
