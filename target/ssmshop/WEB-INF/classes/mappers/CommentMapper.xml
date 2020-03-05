@@ -38,7 +38,7 @@
     </constructor>
   </resultMap>
 
-  <resultMap id="ListResultMap" type="com.ssmshop.vo.GoodsCommentVo">
+  <resultMap id="ListResultMap" type="com.ssmshop.vo.goods.GoodsCommentVo">
     <constructor>
       <idArg column="comment_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
       <arg column="goods_id" jdbcType="INTEGER" javaType="java.lang.Integer" />

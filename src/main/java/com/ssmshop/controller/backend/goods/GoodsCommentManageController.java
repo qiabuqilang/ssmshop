@@ -1,7 +1,8 @@
-package com.ssmshop.controller.backend;
+package com.ssmshop.controller.backend.goods;
 
 import com.github.pagehelper.PageInfo;
 import com.ssmshop.common.ServerResponse;
+import com.ssmshop.controller.backend.BackendBaseController;
 import com.ssmshop.pojo.CommentWithBLOBs;
 import com.ssmshop.service.goods.IGoodsCommentService;
 import com.ssmshop.vo.goods.GoodsCommentVo;

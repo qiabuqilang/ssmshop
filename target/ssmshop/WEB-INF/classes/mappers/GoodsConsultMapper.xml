@@ -6,14 +6,14 @@
       <idArg column="id" jdbcType="INTEGER" javaType="java.lang.Integer" />
       <arg column="goods_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
       <arg column="username" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="add_time" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="add_time" jdbcType="BIGINT" javaType="java.lang.Long" />
       <arg column="consult_type" jdbcType="TINYINT" javaType="java.lang.Byte" />
       <arg column="content" jdbcType="VARCHAR" javaType="java.lang.String" />
       <arg column="parent_id" jdbcType="INTEGER" javaType="java.lang.Integer" />
       <arg column="is_show" jdbcType="TINYINT" javaType="java.lang.Byte" />
     </constructor>
   </resultMap>
-  <resultMap id="ListResultMap" type="com.ssmshop.vo.GoodsConsultVo" >
+  <resultMap id="ListResultMap" type="com.ssmshop.vo.goods.GoodsConsultVo" >
     <constructor >
       <idArg column="id" jdbcType="INTEGER" javaType="java.lang.Integer" />
       <arg column="goods_id" jdbcType="INTEGER" javaType="java.lang.Integer" />

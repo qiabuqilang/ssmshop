@@ -21,11 +21,12 @@ public class GoodsConsultServiceImpl extends BaseServiceImpl implements IGoodsCo
     @Override
     public ServerResponse<PageInfo<GoodsConsultVo>> list(int pageNum, int pageSize, String username, String content) {
         GoodsConsultExample goodsConsultExample = new GoodsConsultExample();
+        GoodsConsultExample.Criteria criteria = goodsConsultExample.createCriteria();
         if (!"".equals(username)){
-            goodsConsultExample.createCriteria().andUsernameLike("%"+username+"%");
+            criteria.andUsernameLike("%"+username+"%");
         }
         if (!"".equals(content)){
-            goodsConsultExample.createCriteria().andContentLike("%"+content+"%");
+            criteria.andContentLike("%"+content+"%");
         }
         PageHelper.startPage(pageNum,pageSize);
         List<GoodsConsultVo> goodsConsultVos = this.goodsConsultMapper.listByExample(goodsConsultExample);
@@ -37,11 +38,16 @@ public class GoodsConsultServiceImpl extends BaseServiceImpl implements IGoodsCo
     public ServerResponse<?> detail(int consultId) {
         if (consultId>0){
             GoodsConsult goodsConsult = this.goodsConsultMapper.selectByPrimaryKey(consultId);
-            GoodsConsultExample goodsConsultExample = new GoodsConsultExample();
-            goodsConsultExample.createCriteria().andParentIdEqualTo(goodsConsult.getId());
-            List<GoodsConsult> goodsConsultList = this.goodsConsultMapper.selectByExample(goodsConsultExample);
-            GoodsConsultDetailVo goodsConsultDetailVo = new GoodsConsultDetailVo(goodsConsult,goodsConsultList);
-            return ServerResponse.createBySuccess(goodsConsultDetailVo);
+            if (goodsConsult !=null){
+                GoodsConsultExample goodsConsultExample = new GoodsConsultExample();
+                goodsConsultExample.createCriteria().andParentIdEqualTo(goodsConsult.getId());
+                List<GoodsConsult> goodsConsultList = this.goodsConsultMapper.selectByExample(goodsConsultExample);
+                GoodsConsultDetailVo goodsConsultDetailVo = new GoodsConsultDetailVo(goodsConsult,goodsConsultList);
+                return ServerResponse.createBySuccess(goodsConsultDetailVo);
+            }else{
+                return ServerResponse.createByError();
+            }
+
         }else{
             return ServerResponse.createByError();
         }

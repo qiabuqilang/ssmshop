@@ -1,4 +1,4 @@
-package com.ssmshop.controller.backend;
+package com.ssmshop.controller.backend.goods;
 
 import com.github.pagehelper.PageInfo;
 import com.ssmshop.common.ServerResponse;

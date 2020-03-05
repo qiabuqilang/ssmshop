@@ -1,6 +1,7 @@
-package com.ssmshop.controller.backend;
+package com.ssmshop.controller.backend.goods;
 
 import com.ssmshop.common.ServerResponse;
+import com.ssmshop.controller.backend.BackendBaseController;
 import com.ssmshop.pojo.GoodsCategory;
 import com.ssmshop.service.goods.IGoodsCategoryService;
 import com.ssmshop.utils.Dump;
