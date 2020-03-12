@@ -7,31 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24a774f5-8ca4-4514-8b54-a8ba5b940169" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsConsultManageController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/bo/order/OrderListBo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/pojoExtends/order/OrderExampleExtends.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/order/OrderServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/order/IOrderService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/vo/order/OrderListVo.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/GoodsAttributeManageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsAttributeManageController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/GoodsBrandManageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsBrandManageController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/GoodsCategoryManageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsCategoryManageController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/GoodsCommentManageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsCommentManageController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/GoodsManageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsManageController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/GoodsSpecManageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsSpecManageController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/GoodsTypeManageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsTypeManageController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/goods/GoodsConsultServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/goods/GoodsConsultServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssmshop/controller/backend/GoodsAttributeManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssmshop/controller/backend/GoodsBrandManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssmshop/controller/backend/GoodsCategoryManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssmshop/controller/backend/GoodsCommentManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssmshop/controller/backend/GoodsManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssmshop/controller/backend/GoodsSpecManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssmshop/controller/backend/GoodsTypeManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ssmshop/WEB-INF/classes/com/ssmshop/controller/backend/GoodsAttributeManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ssmshop/WEB-INF/classes/com/ssmshop/controller/backend/GoodsBrandManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ssmshop/WEB-INF/classes/com/ssmshop/controller/backend/GoodsCategoryManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ssmshop/WEB-INF/classes/com/ssmshop/controller/backend/GoodsCommentManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ssmshop/WEB-INF/classes/com/ssmshop/controller/backend/GoodsManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ssmshop/WEB-INF/classes/com/ssmshop/controller/backend/GoodsSpecManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ssmshop/WEB-INF/classes/com/ssmshop/controller/backend/GoodsTypeManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ssmshop/WEB-INF/classes/com/ssmshop/vo/GoodsConsultVo.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,11 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="GoodsConsultServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/goods/GoodsConsultServiceImpl.java">
+      <file leaf-file-name="IOrderService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/order/IOrderService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="47" column="54" lean-forward="false" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+            <state relative-caret-position="396">
+              <caret line="11" column="97" lean-forward="false" selection-start-line="11" selection-start-column="97" selection-end-line="11" selection-end-column="97" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,97 +52,223 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoodsConsultTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/goods/GoodsConsultTest.java">
+      <file leaf-file-name="OrderServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/order/OrderServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="50" column="81" lean-forward="false" selection-start-line="50" selection-start-column="81" selection-end-line="50" selection-end-column="81" />
+            <state relative-caret-position="468">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#748#749#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#1024#1025#0" expanded="true" />
+                <element signature="e#1051#1052#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoodsAttributeManageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsAttributeManageController.java">
+      <file leaf-file-name="OrderExampleExtends.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojoExtends/order/OrderExampleExtends.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsBrandManageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsBrandManageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsCategoryManageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsCategoryManageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsCommentManageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsCommentManageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsSpecManageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsSpecManageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsManageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsManageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsTypeManageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsTypeManageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsConsultManageController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsConsultManageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="25" column="102" lean-forward="false" selection-start-line="25" selection-start-column="93" selection-end-line="25" selection-end-column="102" />
+            <state relative-caret-position="-180">
+              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BigInteger.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.8.0_221/src.zip!/java/math/BigInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="3640" column="14" lean-forward="false" selection-start-line="3640" selection-start-column="14" selection-end-line="3640" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ad.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Ad.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderListBo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/bo/order/OrderListBo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+              <folding>
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#741#742#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
+                <element signature="e#847#848#0" expanded="true" />
+                <element signature="e#893#894#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+                <element signature="e#970#971#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
+                <element signature="e#1065#1066#0" expanded="true" />
+                <element signature="e#1117#1118#0" expanded="true" />
+                <element signature="e#1153#1154#0" expanded="true" />
+                <element signature="e#1187#1188#0" expanded="true" />
+                <element signature="e#1239#1240#0" expanded="true" />
+                <element signature="e#1285#1286#0" expanded="true" />
+                <element signature="e#1321#1322#0" expanded="true" />
+                <element signature="e#1353#1354#0" expanded="true" />
+                <element signature="e#1403#1404#0" expanded="true" />
+                <element signature="e#1445#1446#0" expanded="true" />
+                <element signature="e#1479#1480#0" expanded="true" />
+                <element signature="e#1509#1510#0" expanded="true" />
+                <element signature="e#1555#1556#0" expanded="true" />
+                <element signature="e#1593#1594#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/dao/OrderMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-72">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+              <folding>
+                <marker date="1582950840104" expanded="true" signature="6962:7077" ph="select from tp_order" />
+                <marker date="1582950840104" expanded="true" signature="7164:7233" ph="delete from tp_order... " />
+                <marker date="1582950840104" expanded="true" signature="7329:7349" ph="delete from tp_order... " />
+                <marker date="1582950840104" expanded="true" signature="7522:9452" ph="insert into tp_order... " />
+                <marker date="1582950840104" expanded="true" signature="16105:16134" ph="select count... tp_order" />
+                <marker date="1582950840104" expanded="true" signature="21113:23404" ph="update tp_order... " />
+                <marker date="1582950840104" expanded="true" signature="23608:27636" ph="update tp_order... " />
+                <marker date="1582950840104" expanded="true" signature="27728:29742" ph="update tp_order... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/OrderExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <element signature="method#createCriteria#0;class#OrderExample#0" expanded="false" />
+                <element signature="method#createCriteriaInternal#0;class#OrderExample#0" expanded="false" />
+                <element signature="method#clear#0;class#OrderExample#0" expanded="false" />
+                <element signature="class#GeneratedCriteria#0;class#OrderExample#0" expanded="false" />
+                <element signature="class#Criteria#0;class#OrderExample#0" expanded="false" />
+                <element signature="class#Criterion#0;class#OrderExample#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderListVo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/vo/order/OrderListVo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1602">
+              <caret line="75" column="33" lean-forward="false" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+              <folding>
+                <element signature="e#1822#1823#0" expanded="true" />
+                <element signature="e#1869#1870#0" expanded="true" />
+                <element signature="e#1907#1908#0" expanded="true" />
+                <element signature="e#1941#1942#0" expanded="true" />
+                <element signature="e#1971#1972#0" expanded="true" />
+                <element signature="e#2017#2018#0" expanded="true" />
+                <element signature="e#2055#2056#0" expanded="true" />
+                <element signature="e#2089#2090#0" expanded="true" />
+                <element signature="e#2118#2119#0" expanded="true" />
+                <element signature="e#2163#2164#0" expanded="true" />
+                <element signature="e#2199#2200#0" expanded="true" />
+                <element signature="e#2235#2236#0" expanded="true" />
+                <element signature="e#2269#2270#0" expanded="true" />
+                <element signature="e#2321#2322#0" expanded="true" />
+                <element signature="e#2367#2368#0" expanded="true" />
+                <element signature="e#2406#2407#0" expanded="true" />
+                <element signature="e#2443#2444#0" expanded="true" />
+                <element signature="e#2501#2502#0" expanded="true" />
+                <element signature="e#2553#2554#0" expanded="true" />
+                <element signature="e#2587#2588#0" expanded="true" />
+                <element signature="e#2619#2620#0" expanded="true" />
+                <element signature="e#2667#2668#0" expanded="true" />
+                <element signature="e#2709#2710#0" expanded="true" />
+                <element signature="e#2745#2746#0" expanded="true" />
+                <element signature="e#2777#2778#0" expanded="true" />
+                <element signature="e#2827#2828#0" expanded="true" />
+                <element signature="e#2869#2870#0" expanded="true" />
+                <element signature="e#2902#2903#0" expanded="true" />
+                <element signature="e#2931#2932#0" expanded="true" />
+                <element signature="e#2975#2976#0" expanded="true" />
+                <element signature="e#3011#3012#0" expanded="true" />
+                <element signature="e#3050#3051#0" expanded="true" />
+                <element signature="e#3085#3086#0" expanded="true" />
+                <element signature="e#3141#3142#0" expanded="true" />
+                <element signature="e#3189#3190#0" expanded="true" />
+                <element signature="e#3228#3229#0" expanded="true" />
+                <element signature="e#3263#3264#0" expanded="true" />
+                <element signature="e#3319#3320#0" expanded="true" />
+                <element signature="e#3367#3368#0" expanded="true" />
+                <element signature="e#3401#3402#0" expanded="true" />
+                <element signature="e#3431#3432#0" expanded="true" />
+                <element signature="e#3477#3478#0" expanded="true" />
+                <element signature="e#3515#3516#0" expanded="true" />
+                <element signature="e#3549#3550#0" expanded="true" />
+                <element signature="e#3579#3580#0" expanded="true" />
+                <element signature="e#3625#3626#0" expanded="true" />
+                <element signature="e#3663#3664#0" expanded="true" />
+                <element signature="e#3702#3703#0" expanded="true" />
+                <element signature="e#3737#3738#0" expanded="true" />
+                <element signature="e#3793#3794#0" expanded="true" />
+                <element signature="e#3841#3842#0" expanded="true" />
+                <element signature="e#3882#3883#0" expanded="true" />
+                <element signature="e#3915#3916#0" expanded="true" />
+                <element signature="e#3971#3972#0" expanded="true" />
+                <element signature="e#4015#4016#0" expanded="true" />
+                <element signature="e#4059#4060#0" expanded="true" />
+                <element signature="e#4095#4096#0" expanded="true" />
+                <element signature="e#4157#4158#0" expanded="true" />
+                <element signature="e#4207#4208#0" expanded="true" />
+                <element signature="e#4249#4250#0" expanded="true" />
+                <element signature="e#4283#4284#0" expanded="true" />
+                <element signature="e#4341#4342#0" expanded="true" />
+                <element signature="e#4387#4388#0" expanded="true" />
+                <element signature="e#4422#4423#0" expanded="true" />
+                <element signature="e#4452#4453#0" expanded="true" />
+                <element signature="e#4499#4500#0" expanded="true" />
+                <element signature="e#4537#4538#0" expanded="true" />
+                <element signature="e#4572#4573#0" expanded="true" />
+                <element signature="e#4602#4603#0" expanded="true" />
+                <element signature="e#4649#4650#0" expanded="true" />
+                <element signature="e#4687#4688#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -204,6 +311,7 @@
       <find>_par</find>
       <find>_parameter</find>
       <find>noValue</find>
+      <find>compareTo</find>
     </findStrings>
     <replaceStrings>
       <replace>com.ssmshop</replace>
@@ -221,11 +329,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/GoodsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/IGoodsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/GoodsManageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GoodsAttribute.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/IGoodsTypeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/GoodsTypeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/GoodsTypeManageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/IGoodsAttributeService.java" />
@@ -272,6 +375,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsTypeManageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsConsultManageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/goods/GoodsConsultServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/vo/order/OrderListVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/order/IOrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/order/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/bo/order/OrderListBo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/pojoExtends/order/OrderExampleExtends.java" />
       </list>
     </option>
   </component>
@@ -369,8 +477,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -421,7 +527,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ssmshop" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="bo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssmshop" type="b2602c69:ProjectViewProjectNode" />
@@ -431,7 +537,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ssmshop" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="bo" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssmshop" type="b2602c69:ProjectViewProjectNode" />
@@ -441,8 +548,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ssmshop" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="pojoExtends" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssmshop" type="b2602c69:ProjectViewProjectNode" />
@@ -452,9 +558,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ssmshop" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="pojoExtends" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssmshop" type="b2602c69:ProjectViewProjectNode" />
@@ -498,7 +603,18 @@
               <item name="ssmshop" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmshop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmshop" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssmshop" type="b2602c69:ProjectViewProjectNode" />
@@ -509,17 +625,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ssmshop" type="462c0819:PsiDirectoryNode" />
               <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssmshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmshop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ssmshop" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-              <item name="goods" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssmshop" type="b2602c69:ProjectViewProjectNode" />
@@ -608,8 +713,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -621,7 +728,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="C:/DevelopTools/Maven/DTDS/mybatis-3-mapper.dtd" />
-    <property name="SearchEverywhereHistoryKey" value="G&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/mappers/GoodsConsultMapper.xml&#10;GoodsConsult&#9;PSI&#9;JAVA://com.ssmshop.pojo.GoodsConsult&#10;goodsConsult&#9;PSI&#9;JAVA://com.ssmshop.pojo.GoodsConsult&#10;GoodsConsultM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsConsultMapper.java&#10;GoodsConsultE&#9;PSI&#9;JAVA://com.ssmshop.pojo.GoodsConsultExample&#10;GoodscOnsultM&#9;PSI&#9;JAVA://com.ssmshop.dao.GoodsConsultMapper&#10;goodsConsultM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/mappers/GoodsConsultMapper.xml&#10;goodsConsu&#9;PSI&#9;JAVA://com.ssmshop.pojo.GoodsConsult&#10;comment&#9;PSI&#9;JAVA://com.ssmshop.pojo.Comment&#10;commentW&#9;PSI&#9;JAVA://com.ssmshop.pojo.CommentWithBLOBs&#10;commentEx&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/CommentExample.java&#10;commentV&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/vo/GoodsCommentVo.java&#10;commentE&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/CommentExample.java&#10;CommentEx&#9;PSI&#9;JAVA://com.ssmshop.pojo.CommentExample&#10;Comment&#9;PSI&#9;JAVA://com.ssmshop.pojo.Comment&#10;brand&#9;PSI&#9;JAVA://com.ssmshop.pojo.Brand&#10;Brand&#9;PSI&#9;JAVA://com.ssmshop.pojo.Brand&#10;Bran&#9;PSI&#9;JAVA://com.ssmshop.pojo.Brand&#10;brandEx&#9;null&#9;null&#10;Spec&#9;PSI&#9;JAVA://com.ssmshop.pojo.Spec&#10;GOODS&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsAttribute.java&#10;GoodsAttributeM&#9;PSI&#9;JAVA://com.ssmshop.dao.GoodsAttributeMapper&#10;GoodsAttribute&#9;PSI&#9;JAVA://com.ssmshop.pojo.GoodsAttribute&#10;specMapp&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/mappers/SpecMapper.xml&#10;SpecMaa&#9;null&#9;null&#10;GoodsSPE&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/impl/GoodsSpecServiceImpl.java&#10;SpecM&#9;PSI&#9;JAVA://com.ssmshop.dao.SpecMapper&#10;GoodsTypeM&#9;PSI&#9;JAVA://com.ssmshop.dao.GoodsTypeMapper&#10;Goods&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;GoodsMa&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsMapper.java&#10;Goods.&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;GoodsM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsMapper.java&#10;GoodsE&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsExample.java&#10;GoodsCategory.j&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsCategory.java&#10;GoodsVo&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/vo/GoodsVo.java&#10;Goods.java&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;goodsM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsMapper.java&#10;Goods.J&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;GoodsEx&#9;PSI&#9;JAVA://com.ssmshop.pojo.GoodsExample&#10;GoodsMapper&#9;PSI&#9;JAVA://com.ssmshop.dao.GoodsMapper&#10;goodsc&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/IGoodsCategory.java&#10;GoodsCategoryV&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/vo/GoodsCategoryVo.java&#10;GoodsCa&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/IGoodsCategory.java&#10;data&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/datasource.properties&#10;goodsC&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/mappers/GoodsCategoryMapper.xml&#10;goo&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsCategory.java&#10;pro&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/datasource.properties&#10;GoodsCategorym&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsCategoryMapper.java&#10;GoodsCate&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsCategoryMapper.java&#10;GoodsC&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/IGoodsCategory.java" />
+    <property name="SearchEverywhereHistoryKey" value="orderEx&#9;PSI&#9;JAVA://com.ssmshop.pojo.OrderExample&#10;order&#9;PSI&#9;JAVA://com.ssmshop.pojo.Order&#10;G&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/mappers/GoodsConsultMapper.xml&#10;GoodsConsult&#9;PSI&#9;JAVA://com.ssmshop.pojo.GoodsConsult&#10;goodsConsult&#9;PSI&#9;JAVA://com.ssmshop.pojo.GoodsConsult&#10;GoodsConsultM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsConsultMapper.java&#10;GoodsConsultE&#9;PSI&#9;JAVA://com.ssmshop.pojo.GoodsConsultExample&#10;GoodscOnsultM&#9;PSI&#9;JAVA://com.ssmshop.dao.GoodsConsultMapper&#10;goodsConsultM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/mappers/GoodsConsultMapper.xml&#10;goodsConsu&#9;PSI&#9;JAVA://com.ssmshop.pojo.GoodsConsult&#10;comment&#9;PSI&#9;JAVA://com.ssmshop.pojo.Comment&#10;commentW&#9;PSI&#9;JAVA://com.ssmshop.pojo.CommentWithBLOBs&#10;commentEx&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/CommentExample.java&#10;commentV&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/vo/GoodsCommentVo.java&#10;commentE&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/CommentExample.java&#10;CommentEx&#9;PSI&#9;JAVA://com.ssmshop.pojo.CommentExample&#10;Comment&#9;PSI&#9;JAVA://com.ssmshop.pojo.Comment&#10;brand&#9;PSI&#9;JAVA://com.ssmshop.pojo.Brand&#10;Brand&#9;PSI&#9;JAVA://com.ssmshop.pojo.Brand&#10;Bran&#9;PSI&#9;JAVA://com.ssmshop.pojo.Brand&#10;brandEx&#9;null&#9;null&#10;Spec&#9;PSI&#9;JAVA://com.ssmshop.pojo.Spec&#10;GOODS&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsAttribute.java&#10;GoodsAttributeM&#9;PSI&#9;JAVA://com.ssmshop.dao.GoodsAttributeMapper&#10;GoodsAttribute&#9;PSI&#9;JAVA://com.ssmshop.pojo.GoodsAttribute&#10;specMapp&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/mappers/SpecMapper.xml&#10;SpecMaa&#9;null&#9;null&#10;GoodsSPE&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/impl/GoodsSpecServiceImpl.java&#10;SpecM&#9;PSI&#9;JAVA://com.ssmshop.dao.SpecMapper&#10;GoodsTypeM&#9;PSI&#9;JAVA://com.ssmshop.dao.GoodsTypeMapper&#10;Goods&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;GoodsMa&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsMapper.java&#10;Goods.&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;GoodsM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsMapper.java&#10;GoodsE&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsExample.java&#10;GoodsCategory.j&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsCategory.java&#10;GoodsVo&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/vo/GoodsVo.java&#10;Goods.java&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;goodsM&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsMapper.java&#10;Goods.J&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/Goods.java&#10;GoodsEx&#9;PSI&#9;JAVA://com.ssmshop.pojo.GoodsExample&#10;GoodsMapper&#9;PSI&#9;JAVA://com.ssmshop.dao.GoodsMapper&#10;goodsc&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/IGoodsCategory.java&#10;GoodsCategoryV&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/vo/GoodsCategoryVo.java&#10;GoodsCa&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/service/IGoodsCategory.java&#10;data&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/datasource.properties&#10;goodsC&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/mappers/GoodsCategoryMapper.xml&#10;goo&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/pojo/GoodsCategory.java&#10;pro&#9;FILE&#9;file://F:/Code/ssmshop/src/main/resources/datasource.properties&#10;GoodsCategorym&#9;FILE&#9;file://F:/Code/ssmshop/src/main/java/com/ssmshop/dao/GoodsCategoryMapper.java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1020,7 +1127,8 @@
       <workItem from="1583107828212" duration="11621000" />
       <workItem from="1583196805709" duration="9623000" />
       <workItem from="1583281760647" duration="13128000" />
-      <workItem from="1583369662567" duration="11051000" />
+      <workItem from="1583369662567" duration="15314000" />
+      <workItem from="1584009299314" duration="5429000" />
     </task>
     <servers />
   </component>
@@ -1057,7 +1165,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321554000" />
+    <option name="totallyTimeSpent" value="331246000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1084,7 +1192,6 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6451613" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3070078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1093,7 +1200,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.487208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2531983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25586355" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1103,6 +1210,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3070078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1150,103 +1258,51 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GoodsAttribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/BackendBaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="31" column="30" lean-forward="false" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Spec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/BaseServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/IBaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#476#477#0" expanded="false" />
-            <element signature="e#539#540#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/goods/GoodsServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/goods/GoodsTypeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#587#588#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Brand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/goods/GoodsCategoryServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/dao/CommentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/CommentExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="method#or#1;class#CommentExample#0" expanded="false" />
+            <element signature="method#createCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#createCriteriaInternal#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#clear#0;class#CommentExample#0" expanded="false" />
+            <element signature="class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#addCriterion#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#addCriterion#2;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andCommentIdIsNotNull#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andCommentIdNotEqualTo#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andCommentIdGreaterThan#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andCommentIdGreaterThanOrEqualTo#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andCommentIdLessThan#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andCommentIdLessThanOrEqualTo#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andCommentIdIn#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andCommentIdNotIn#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andCommentIdBetween#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andCommentIdNotBetween#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdIsNull#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdIsNotNull#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdEqualTo#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdNotEqualTo#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdGreaterThan#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdGreaterThanOrEqualTo#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdLessThan#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdLessThanOrEqualTo#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdIn#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdNotIn#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdBetween#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andGoodsIdNotBetween#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andEmailIsNull#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#andEmailIsNotNull#0;class#GeneratedCriteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="class#Criteria#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#Criterion#1;class#Criterion#0;class#CommentExample#0" expanded="false" />
+            <element signature="method#Criterion#3;class#Criterion#0;class#CommentExample#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1276,11 +1332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1800">
           <caret line="57" column="85" lean-forward="false" selection-start-line="57" selection-start-column="85" selection-end-line="57" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#377#378#0" expanded="false" />
-            <element signature="e#422#423#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1302,7 +1353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1310,7 +1360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1388,7 +1437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1396,9 +1444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1406,7 +1451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="15" column="5" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="15" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1414,9 +1458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1424,7 +1465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1432,7 +1472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1440,7 +1479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="19" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1448,7 +1486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3166">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1456,45 +1493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1176#1177#0" expanded="false" />
-            <element signature="e#1201#1202#0" expanded="false" />
-            <element signature="e#1238#1239#0" expanded="false" />
-            <element signature="e#1266#1267#0" expanded="false" />
-            <element signature="e#1301#1302#0" expanded="false" />
-            <element signature="e#1331#1332#0" expanded="false" />
-            <element signature="e#1378#1379#0" expanded="false" />
-            <element signature="e#1416#1417#0" expanded="false" />
-            <element signature="e#1451#1452#0" expanded="false" />
-            <element signature="e#1482#1483#0" expanded="false" />
-            <element signature="e#1530#1531#0" expanded="false" />
-            <element signature="e#1570#1571#0" expanded="false" />
-            <element signature="e#1602#1603#0" expanded="false" />
-            <element signature="e#1632#1633#0" expanded="false" />
-            <element signature="e#1676#1677#0" expanded="false" />
-            <element signature="e#1714#1715#0" expanded="false" />
-            <element signature="e#1750#1751#0" expanded="false" />
-            <element signature="e#1784#1785#0" expanded="false" />
-            <element signature="e#1836#1837#0" expanded="false" />
-            <element signature="e#1882#1883#0" expanded="false" />
-            <element signature="e#1916#1917#0" expanded="false" />
-            <element signature="e#1946#1947#0" expanded="false" />
-            <element signature="e#1992#1993#0" expanded="false" />
-            <element signature="e#2030#2031#0" expanded="false" />
-            <element signature="e#2066#2067#0" expanded="false" />
-            <element signature="e#2097#2098#0" expanded="false" />
-            <element signature="e#2146#2147#0" expanded="false" />
-            <element signature="e#2186#2187#0" expanded="false" />
-            <element signature="e#2217#2218#0" expanded="false" />
-            <element signature="e#2246#2247#0" expanded="false" />
-            <element signature="e#2288#2289#0" expanded="false" />
-            <element signature="e#2324#2325#0" expanded="false" />
-            <element signature="e#2369#2370#0" expanded="false" />
-            <element signature="e#2398#2399#0" expanded="false" />
-            <element signature="e#2454#2455#0" expanded="false" />
-            <element signature="e#2490#2491#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1502,7 +1500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1510,7 +1507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1518,7 +1514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-684">
           <caret line="11" column="62" lean-forward="false" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1547,11 +1542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="50" column="81" lean-forward="false" selection-start-line="50" selection-start-column="81" selection-end-line="50" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1559,7 +1549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1567,7 +1556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1575,13 +1563,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsCommentManageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="252">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
@@ -1589,7 +1576,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsSpecManageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="216">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
@@ -1597,7 +1584,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsManageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="216">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
@@ -1613,18 +1600,240 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/goods/GoodsConsultServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
+        <state relative-caret-position="1224">
           <caret line="47" column="54" lean-forward="false" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsConsultManageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="540">
           <caret line="25" column="102" lean-forward="false" selection-start-line="25" selection-start-column="93" selection-end-line="25" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2988">
+          <caret line="83" column="29" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="83" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/OrderExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="method#createCriteria#0;class#OrderExample#0" expanded="false" />
+            <element signature="method#createCriteriaInternal#0;class#OrderExample#0" expanded="false" />
+            <element signature="method#clear#0;class#OrderExample#0" expanded="false" />
+            <element signature="class#GeneratedCriteria#0;class#OrderExample#0" expanded="false" />
+            <element signature="class#Criteria#0;class#OrderExample#0" expanded="false" />
+            <element signature="class#Criterion#0;class#OrderExample#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/vo/order/OrderListVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1602">
+          <caret line="75" column="33" lean-forward="false" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+          <folding>
+            <element signature="e#1822#1823#0" expanded="true" />
+            <element signature="e#1869#1870#0" expanded="true" />
+            <element signature="e#1907#1908#0" expanded="true" />
+            <element signature="e#1941#1942#0" expanded="true" />
+            <element signature="e#1971#1972#0" expanded="true" />
+            <element signature="e#2017#2018#0" expanded="true" />
+            <element signature="e#2055#2056#0" expanded="true" />
+            <element signature="e#2089#2090#0" expanded="true" />
+            <element signature="e#2118#2119#0" expanded="true" />
+            <element signature="e#2163#2164#0" expanded="true" />
+            <element signature="e#2199#2200#0" expanded="true" />
+            <element signature="e#2235#2236#0" expanded="true" />
+            <element signature="e#2269#2270#0" expanded="true" />
+            <element signature="e#2321#2322#0" expanded="true" />
+            <element signature="e#2367#2368#0" expanded="true" />
+            <element signature="e#2406#2407#0" expanded="true" />
+            <element signature="e#2443#2444#0" expanded="true" />
+            <element signature="e#2501#2502#0" expanded="true" />
+            <element signature="e#2553#2554#0" expanded="true" />
+            <element signature="e#2587#2588#0" expanded="true" />
+            <element signature="e#2619#2620#0" expanded="true" />
+            <element signature="e#2667#2668#0" expanded="true" />
+            <element signature="e#2709#2710#0" expanded="true" />
+            <element signature="e#2745#2746#0" expanded="true" />
+            <element signature="e#2777#2778#0" expanded="true" />
+            <element signature="e#2827#2828#0" expanded="true" />
+            <element signature="e#2869#2870#0" expanded="true" />
+            <element signature="e#2902#2903#0" expanded="true" />
+            <element signature="e#2931#2932#0" expanded="true" />
+            <element signature="e#2975#2976#0" expanded="true" />
+            <element signature="e#3011#3012#0" expanded="true" />
+            <element signature="e#3050#3051#0" expanded="true" />
+            <element signature="e#3085#3086#0" expanded="true" />
+            <element signature="e#3141#3142#0" expanded="true" />
+            <element signature="e#3189#3190#0" expanded="true" />
+            <element signature="e#3228#3229#0" expanded="true" />
+            <element signature="e#3263#3264#0" expanded="true" />
+            <element signature="e#3319#3320#0" expanded="true" />
+            <element signature="e#3367#3368#0" expanded="true" />
+            <element signature="e#3401#3402#0" expanded="true" />
+            <element signature="e#3431#3432#0" expanded="true" />
+            <element signature="e#3477#3478#0" expanded="true" />
+            <element signature="e#3515#3516#0" expanded="true" />
+            <element signature="e#3549#3550#0" expanded="true" />
+            <element signature="e#3579#3580#0" expanded="true" />
+            <element signature="e#3625#3626#0" expanded="true" />
+            <element signature="e#3663#3664#0" expanded="true" />
+            <element signature="e#3702#3703#0" expanded="true" />
+            <element signature="e#3737#3738#0" expanded="true" />
+            <element signature="e#3793#3794#0" expanded="true" />
+            <element signature="e#3841#3842#0" expanded="true" />
+            <element signature="e#3882#3883#0" expanded="true" />
+            <element signature="e#3915#3916#0" expanded="true" />
+            <element signature="e#3971#3972#0" expanded="true" />
+            <element signature="e#4015#4016#0" expanded="true" />
+            <element signature="e#4059#4060#0" expanded="true" />
+            <element signature="e#4095#4096#0" expanded="true" />
+            <element signature="e#4157#4158#0" expanded="true" />
+            <element signature="e#4207#4208#0" expanded="true" />
+            <element signature="e#4249#4250#0" expanded="true" />
+            <element signature="e#4283#4284#0" expanded="true" />
+            <element signature="e#4341#4342#0" expanded="true" />
+            <element signature="e#4387#4388#0" expanded="true" />
+            <element signature="e#4422#4423#0" expanded="true" />
+            <element signature="e#4452#4453#0" expanded="true" />
+            <element signature="e#4499#4500#0" expanded="true" />
+            <element signature="e#4537#4538#0" expanded="true" />
+            <element signature="e#4572#4573#0" expanded="true" />
+            <element signature="e#4602#4603#0" expanded="true" />
+            <element signature="e#4649#4650#0" expanded="true" />
+            <element signature="e#4687#4688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/dao/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <marker date="1582950840104" expanded="true" signature="6962:7077" ph="select from tp_order" />
+            <marker date="1582950840104" expanded="true" signature="7164:7233" ph="delete from tp_order... " />
+            <marker date="1582950840104" expanded="true" signature="7329:7349" ph="delete from tp_order... " />
+            <marker date="1582950840104" expanded="true" signature="7522:9452" ph="insert into tp_order... " />
+            <marker date="1582950840104" expanded="true" signature="16105:16134" ph="select count... tp_order" />
+            <marker date="1582950840104" expanded="true" signature="21113:23404" ph="update tp_order... " />
+            <marker date="1582950840104" expanded="true" signature="23608:27636" ph="update tp_order... " />
+            <marker date="1582950840104" expanded="true" signature="27728:29742" ph="update tp_order... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Ad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/order/IOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="11" column="97" lean-forward="false" selection-start-line="11" selection-start-column="97" selection-end-line="11" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_221/src.zip!/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="3640" column="14" lean-forward="false" selection-start-line="3640" selection-start-column="14" selection-end-line="3640" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/bo/order/OrderListBo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1445#1446#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1509#1510#0" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/order/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojoExtends/order/OrderExampleExtends.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
