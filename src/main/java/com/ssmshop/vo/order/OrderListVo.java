@@ -52,6 +52,8 @@ public class OrderListVo {
 
     private Integer payTime;
 
+    public OrderListVo(){}
+
     public OrderListVo(Integer orderId, String orderSn, Integer userId, Byte orderStatus, Byte shippingStatus, Byte payStatus, String consignee, String mobile, String shippingCode, String shippingName, String payCode, String payName, String invoiceTitle, BigDecimal goodsPrice, BigDecimal shippingPrice, BigDecimal totalAmount, Integer addTime, Integer payTime) {
         this.orderId = orderId;
         this.orderSn = orderSn;

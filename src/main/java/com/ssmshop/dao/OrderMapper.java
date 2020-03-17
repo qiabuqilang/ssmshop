@@ -3,6 +3,8 @@ package com.ssmshop.dao;
 import com.ssmshop.pojo.Order;
 import com.ssmshop.pojo.OrderExample;
 import java.util.List;
+
+import com.ssmshop.vo.order.OrderListVo;
 import org.apache.ibatis.annotations.Param;
 
 public interface OrderMapper {
