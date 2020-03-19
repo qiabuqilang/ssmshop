@@ -26,13 +26,27 @@ public class DateTimeUtils {
         return new Long(dateObj.getTime()/1000).intValue();
     }
 
-    public static Date timestampToDate(Long timestamp){
+    public static String timestampToDate(Long timestamp){
         if (timestamp.toString().length()==10){
-            return new Date(timestamp*1000);
+            return simpleDateFormat.format(new Date(timestamp*1000));
+
         }
         if (timestamp.toString().length()==13){
-            return new Date(timestamp);
+            return simpleDateFormat.format(new Date(timestamp));
         }
-        return new Date();
+        return simpleDateFormat.format(new Date());
     }
+
+    public static String dateToNum(Long timestamp){
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHssmm");
+        if (timestamp.toString().length()==10){
+            return sdf.format(new Date(timestamp*1000));
+
+        }
+        if (timestamp.toString().length()==13){
+            return sdf.format(new Date(timestamp));
+        }
+        return sdf.format(new Date());
+    }
+
 }
