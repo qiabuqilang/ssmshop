@@ -52,21 +52,12 @@ public class OrderTest extends BaseTest {
         order.setConsignee("ceshi");
         order.setMobile("13171188909");
         order.setGoodsPrice(new BigDecimal(1111));
-        List<OrderGoods> orderGoodsList = new ArrayList<>();
-        OrderGoods orderGoods = new OrderGoods();
-        orderGoods.setGoodsId(51);
-        orderGoods.setGoodsName("华为 HUAWEI Mate 8 4GB+64GB版 全网通（香槟金）");
-        orderGoods.setGoodsSn("TP0000051");
-        orderGoods.setGoodsNum((short)1);
-        orderGoods.setMarketPrice(new BigDecimal(3699.00));
-        orderGoods.setGoodsPrice(new BigDecimal(3699.00));
-        orderGoods.setMemberGoodsPrice(new BigDecimal(3625.02));
-        orderGoodsList.add(orderGoods);
-        System.out.println(JSON.toJSON(this.iOrderService.add(order,orderGoodsList)));
+        String orderGoodsIds = "1_39";
+        System.out.println(JSON.toJSON(this.iOrderService.add(order,orderGoodsIds)));
     }
     @Test
     public void editTest(){
-        int orderId = 1519;
+        int orderId = 1523;
         Order order = new Order();
         order.setAddress("测试第十修改");
         order.setAddTime((int)(System.currentTimeMillis()/1000));
@@ -77,17 +68,8 @@ public class OrderTest extends BaseTest {
         order.setMobile("13171188909");
         order.setGoodsPrice(new BigDecimal(1111));
         order.setOrderId(orderId);
-        List<OrderGoods> orderGoodsList = new ArrayList<>();
-        OrderGoods orderGoods = new OrderGoods();
-        orderGoods.setGoodsId(51);
-        orderGoods.setGoodsName("华为 HUAWEI Mate 8 4GB+64GB版 全网通（香槟金）");
-        orderGoods.setGoodsSn("TP0000051");
-        orderGoods.setGoodsNum((short)1);
-        orderGoods.setMarketPrice(new BigDecimal(3699.00));
-        orderGoods.setGoodsPrice(new BigDecimal(3699.00));
-        orderGoods.setMemberGoodsPrice(new BigDecimal(3625.02));
-        orderGoodsList.add(orderGoods);
-        System.out.println(JSON.toJSON(this.iOrderService.edit(orderId,order,orderGoodsList)));
+        String orderGoodsIds = "41_42_43";
+        System.out.println(JSON.toJSON(this.iOrderService.edit(orderId,order,orderGoodsIds)));
     }
 
     @Test
