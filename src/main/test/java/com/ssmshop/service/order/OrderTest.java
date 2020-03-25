@@ -77,4 +77,42 @@ public class OrderTest extends BaseTest {
         int orderId = 1519;
         System.out.println(JSON.toJSON(this.iOrderService.remove(orderId)));
     }
+
+    @Test
+    public void deliveryListTest(){
+        int pageNum = 1;
+        int pageSize = 10;
+        OrderListBo orderListBo = new OrderListBo();
+//        orderListBo.setStartTime( DateTimeUtils.dateToTimestamp("2015-03-03 00:00:00",1));
+        System.out.println(JSON.toJSON(this.iOrderService.deliveryList(pageNum,pageSize,orderListBo)));
+    }
+
+    @Test
+    public void returnListTest(){
+        int pageNum = 1;
+        int pageSize = 10;
+        byte status = 1;
+        System.out.println(JSON.toJSON(this.iOrderService.returnList(pageNum,pageSize,status)));
+    }
+
+    @Test
+    public void returnDetailTest(){
+        int returnId = 3;
+        System.out.println(JSON.toJSON(this.iOrderService.returnDetail(returnId)));
+    }
+
+    @Test
+    public void returnEditTest(){
+        int returnId = 3;
+        byte type = 1;
+        byte status = 1;
+        System.out.println(JSON.toJSON(this.iOrderService.returnEdit(returnId,type,status)));
+    }
+
+    @Test
+    public void orderActionList(){
+        int pageNum = 1;
+        int pageSize = 10;
+        System.out.println(JSON.toJSON(this.iOrderService.orderActionList(pageNum,pageSize)));
+    }
 }

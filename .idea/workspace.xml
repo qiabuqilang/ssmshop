@@ -7,15 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24a774f5-8ca4-4514-8b54-a8ba5b940169" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/order/OrderController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/vo/order/OrderDeliveryListVo.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/order/OrderController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/order/OrderController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/order/OrderServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/order/OrderServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/order/IOrderService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssmshop/service/order/IOrderService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/order/OrderTest.java" afterPath="$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/order/OrderTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssmshop/service/impl/order/OrderServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssmshop/service/order/IOrderService.class" afterPath="$PROJECT_DIR$/target/classes/com/ssmshop/service/order/IOrderService.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ssmshop/service/order/OrderTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssmshop/WEB-INF/classes/com/ssmshop/service/order/IOrderService.class" afterPath="$PROJECT_DIR$/target/ssmshop/WEB-INF/classes/com/ssmshop/service/order/IOrderService.class" />
+      <change beforePath="$PROJECT_DIR$/target/ssmshop/WEB-INF/classes/com/ssmshop/vo/order/OrderListVo.class" afterPath="$PROJECT_DIR$/target/ssmshop/WEB-INF/classes/com/ssmshop/vo/order/OrderListVo.class" />
+      <change beforePath="$PROJECT_DIR$/target/ssmshop/WEB-INF/classes/mappers/OrderMapper.xml" afterPath="$PROJECT_DIR$/target/ssmshop/WEB-INF/classes/mappers/OrderMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,8 +46,8 @@
       <file leaf-file-name="OrderServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/order/OrderServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="128" column="96" lean-forward="false" selection-start-line="128" selection-start-column="96" selection-end-line="128" selection-end-column="96" />
+            <state relative-caret-position="-315">
+              <caret line="163" column="9" lean-forward="true" selection-start-line="163" selection-start-column="9" selection-end-line="163" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,11 +55,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/dao/OrderMapper.java">
+      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="216">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderExampleExtends.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojoExtends/order/OrderExampleExtends.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="972">
+              <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -68,8 +78,8 @@
       <file leaf-file-name="OrderMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="176" column="34" lean-forward="true" selection-start-line="176" selection-start-column="34" selection-end-line="176" selection-end-column="34" />
+            <state relative-caret-position="1008">
+              <caret line="176" column="34" lean-forward="false" selection-start-line="176" selection-start-column="34" selection-end-line="176" selection-end-column="34" />
               <folding>
                 <element signature="n#resultMap#0;n#mapper#0;n#!!top" expanded="false" />
                 <element signature="n#sql#0;n#mapper#0;n#!!top" expanded="false" />
@@ -88,51 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Goods.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Goods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1980">
-              <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GoodsType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IOrderService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/order/IOrderService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="68" lean-forward="false" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsSpecServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/goods/GoodsSpecServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="576">
+              <caret line="26" column="84" lean-forward="false" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -141,8 +111,28 @@
       <file leaf-file-name="OrderTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/order/OrderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="59" column="26" lean-forward="false" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+            <state relative-caret-position="765">
+              <caret line="115" column="90" lean-forward="false" selection-start-line="115" selection-start-column="90" selection-end-line="115" selection-end-column="90" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderDeliveryListVo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/vo/order/OrderDeliveryListVo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="657">
+              <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderListVo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/vo/order/OrderListVo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1365">
+              <caret line="52" column="28" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="52" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -151,12 +141,25 @@
       <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/order/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="52" column="63" lean-forward="false" selection-start-line="52" selection-start-column="63" selection-end-line="52" selection-end-column="63" />
+            <state relative-caret-position="729">
+              <caret line="79" column="68" lean-forward="false" selection-start-line="79" selection-start-column="68" selection-end-line="79" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1331#1332#0" expanded="true" />
-                <element signature="e#1388#1389#0" expanded="true" />
+                <element signature="e#1408#1409#0" expanded="true" />
+                <element signature="e#1465#1466#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderListBo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/bo/order/OrderListBo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="26" />
+              <folding>
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -221,7 +224,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/test/java/com/ssmshop/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsCategoryServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/GoodsTypeTest.java" />
@@ -268,9 +270,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/utils/DateTimeUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/vo/goods/GoodsSearchListVo.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/order/OrderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/vo/order/OrderDeliveryListVo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/order/IOrderService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/order/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/order/OrderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/order/OrderController.java" />
       </list>
     </option>
@@ -369,8 +372,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -591,6 +593,13 @@
               <item name="ssmshop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmshop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -685,7 +694,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -722,7 +732,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OrderTest.detailTest">
+  <component name="RunManager" selected="JUnit.OrderTest.orderActionList">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -744,7 +754,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="OrderTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderTest.deliveryListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.ssmshop.service.order.*" />
@@ -756,7 +766,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.ssmshop.service.order" />
       <option name="MAIN_CLASS_NAME" value="com.ssmshop.service.order.OrderTest" />
-      <option name="METHOD_NAME" value="addTest" />
+      <option name="METHOD_NAME" value="deliveryListTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -769,7 +779,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="OrderTest.detailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderTest.orderActionList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.ssmshop.service.order.*" />
@@ -781,7 +791,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.ssmshop.service.order" />
       <option name="MAIN_CLASS_NAME" value="com.ssmshop.service.order.OrderTest" />
-      <option name="METHOD_NAME" value="detailTest" />
+      <option name="METHOD_NAME" value="orderActionList" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -794,7 +804,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="OrderTest.editTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderTest.returnDetailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.ssmshop.service.order.*" />
@@ -806,7 +816,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.ssmshop.service.order" />
       <option name="MAIN_CLASS_NAME" value="com.ssmshop.service.order.OrderTest" />
-      <option name="METHOD_NAME" value="editTest" />
+      <option name="METHOD_NAME" value="returnDetailTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -819,7 +829,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="OrderTest.listTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderTest.returnEditTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.ssmshop.service.order.*" />
@@ -831,7 +841,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.ssmshop.service.order" />
       <option name="MAIN_CLASS_NAME" value="com.ssmshop.service.order.OrderTest" />
-      <option name="METHOD_NAME" value="listTest" />
+      <option name="METHOD_NAME" value="returnEditTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -844,7 +854,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="OrderTest.removeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderTest.returnListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.ssmshop.service.order.*" />
@@ -856,7 +866,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.ssmshop.service.order" />
       <option name="MAIN_CLASS_NAME" value="com.ssmshop.service.order.OrderTest" />
-      <option name="METHOD_NAME" value="removeTest" />
+      <option name="METHOD_NAME" value="returnListTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1030,19 +1040,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Maven.mybatis-generator" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.indexRun" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.OrderTest.listTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.OrderTest.detailTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.OrderTest.addTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.OrderTest.editTest" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.OrderTest.removeTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.OrderTest.deliveryListTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.OrderTest.returnListTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.OrderTest.returnDetailTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.OrderTest.returnEditTest" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.OrderTest.orderActionList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.OrderTest.detailTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.OrderTest.editTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.OrderTest.addTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.OrderTest.removeTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.OrderTest.listTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.OrderTest.orderActionList" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.OrderTest.returnEditTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.OrderTest.returnDetailTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.OrderTest.returnListTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.OrderTest.deliveryListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1105,31 +1115,21 @@
       <workItem from="1584496961894" duration="13138000" />
       <workItem from="1584585630303" duration="9717000" />
       <workItem from="1584670002465" duration="3824000" />
-      <workItem from="1584762313631" duration="5306000" />
+      <workItem from="1584762313631" duration="7565000" />
+      <workItem from="1585053681816" duration="2433000" />
+      <workItem from="1585097955441" duration="11705000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OrderTest_addTest - 2020.03.21 at 17h 37m 47s.xml">
-      <configuration name="OrderTest.addTest" configurationId="JUnit" />
+    <history-entry file="OrderTest_deliveryListTest - 2020.03.25 at 09h 33m 32s.xml">
+      <configuration name="OrderTest.deliveryListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrderTest_addTest - 2020.03.21 at 17h 44m 15s.xml">
-      <configuration name="OrderTest.addTest" configurationId="JUnit" />
+    <history-entry file="OrderTest_deliveryListTest - 2020.03.25 at 09h 35m 07s.xml">
+      <configuration name="OrderTest.deliveryListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrderTest_addTest - 2020.03.21 at 17h 46m 17s.xml">
-      <configuration name="OrderTest.addTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest_addTest - 2020.03.21 at 17h 52m 47s.xml">
-      <configuration name="OrderTest.addTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest_detailTest - 2020.03.21 at 18h 19m 35s.xml">
-      <configuration name="OrderTest.detailTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest_editTest - 2020.03.21 at 18h 13m 02s.xml">
-      <configuration name="OrderTest.editTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest_editTest - 2020.03.21 at 18h 16m 18s.xml">
-      <configuration name="OrderTest.editTest" configurationId="JUnit" />
+    <history-entry file="OrderTest_deliveryListTest - 2020.03.25 at 09h 35m 44s.xml">
+      <configuration name="OrderTest.deliveryListTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="OrderTest_editTest - 2020.03.21 at 18h 17m 26s.xml">
       <configuration name="OrderTest.editTest" configurationId="JUnit" />
@@ -1137,12 +1137,24 @@
     <history-entry file="OrderTest_editTest - 2020.03.21 at 18h 17m 55s.xml">
       <configuration name="OrderTest.editTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="OrderTest_orderActionList - 2020.03.25 at 12h 28m 41s.xml">
+      <configuration name="OrderTest.orderActionList" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="OrderTest_removeTest - 2020.03.19 at 18h 43m 51s.xml">
       <configuration name="OrderTest.removeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="OrderTest_returnDetailTest - 2020.03.25 at 12h 20m 50s.xml">
+      <configuration name="OrderTest.returnDetailTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest_returnEditTest - 2020.03.25 at 12h 22m 00s.xml">
+      <configuration name="OrderTest.returnEditTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest_returnListTest - 2020.03.25 at 11h 01m 05s.xml">
+      <configuration name="OrderTest.returnListTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="404576000" />
+    <option name="totallyTimeSpent" value="420973000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1178,7 +1190,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48651686" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27801493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28441834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1244,20 +1256,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsCategoryManageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsCommentManageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/goods/GoodsSpecManageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1311,13 +1309,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128916">
           <caret line="3640" column="14" lean-forward="false" selection-start-line="3640" selection-start-column="14" selection-end-line="3640" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/bo/order/OrderListBo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1381,20 +1372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1332">
           <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/vo/order/OrderListVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1944">
-          <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojoExtends/order/OrderExampleExtends.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1480,7 +1457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1488,7 +1464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1699,7 +1674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1707,7 +1681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="972">
           <caret line="30" column="23" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="30" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1715,7 +1688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1727,14 +1699,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/vo/goods/GoodsSearchListVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/vo/goods/GoodsSearchListVo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/GoodsType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1754,15 +1719,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojo/Order.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="27" />
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="176" column="34" lean-forward="true" selection-start-line="176" selection-start-column="34" selection-end-line="176" selection-end-column="34" />
+        <state relative-caret-position="1008">
+          <caret line="176" column="34" lean-forward="false" selection-start-line="176" selection-start-column="34" selection-end-line="176" selection-end-column="34" />
           <folding>
             <element signature="n#resultMap#0;n#mapper#0;n#!!top" expanded="false" />
             <element signature="n#sql#0;n#mapper#0;n#!!top" expanded="false" />
@@ -1780,26 +1745,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/order/OrderTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/bo/order/OrderListBo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="59" column="26" lean-forward="false" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+        <state relative-caret-position="432">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/vo/order/OrderListVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="52" column="28" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="52" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/pojoExtends/order/OrderExampleExtends.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/vo/order/OrderDeliveryListVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/order/IOrderService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="68" lean-forward="false" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+        <state relative-caret-position="576">
+          <caret line="26" column="84" lean-forward="false" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ssmshop/service/order/OrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="115" column="90" lean-forward="false" selection-start-line="115" selection-start-column="90" selection-end-line="115" selection-end-column="90" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/service/impl/order/OrderServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="128" column="96" lean-forward="false" selection-start-line="128" selection-start-column="96" selection-end-line="128" selection-end-column="96" />
+        <state relative-caret-position="-315">
+          <caret line="163" column="9" lean-forward="true" selection-start-line="163" selection-start-column="9" selection-end-line="163" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1808,12 +1816,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssmshop/controller/backend/order/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="52" column="63" lean-forward="false" selection-start-line="52" selection-start-column="63" selection-end-line="52" selection-end-column="63" />
+        <state relative-caret-position="729">
+          <caret line="79" column="68" lean-forward="false" selection-start-line="79" selection-start-column="68" selection-end-line="79" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1331#1332#0" expanded="true" />
-            <element signature="e#1388#1389#0" expanded="true" />
+            <element signature="e#1408#1409#0" expanded="true" />
+            <element signature="e#1465#1466#0" expanded="true" />
           </folding>
         </state>
       </provider>

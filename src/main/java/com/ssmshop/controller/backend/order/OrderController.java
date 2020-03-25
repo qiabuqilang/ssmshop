@@ -6,10 +6,12 @@ import com.ssmshop.common.ServerResponse;
 import com.ssmshop.pojo.Goods;
 import com.ssmshop.pojo.Order;
 import com.ssmshop.pojo.OrderAction;
+import com.ssmshop.pojo.ReturnGoods;
 import com.ssmshop.service.goods.IGoodsService;
 import com.ssmshop.service.order.IOrderService;
 import com.ssmshop.vo.order.OrderDetailVo;
 import com.ssmshop.vo.order.OrderListVo;
+import net.sf.jsqlparser.schema.Server;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -52,4 +54,30 @@ public class OrderController {
     public ServerResponse<String> editOrderAction(OrderAction orderAction){
         return this.iOrderService.editOrderAction(orderAction);
     }
+    @RequestMapping("deliveryList.do")
+    public ServerResponse<PageInfo<OrderListVo>> deliveryList(@RequestParam(value = "pageNum",defaultValue = "1") int pageNum, @RequestParam(value = "pageSize",defaultValue = "10") int pageSize, OrderListBo orderListBo){
+        return this.iOrderService.deliveryList(pageNum,pageSize,orderListBo);
+    }
+
+    @RequestMapping("returnList.do")
+    public ServerResponse<PageInfo<ReturnGoods>> returnList(@RequestParam(value = "pageNum",defaultValue = "1") int pageNum, @RequestParam(value = "pageSize",defaultValue = "10") int pageSize, @RequestParam(value = "status",defaultValue = "0")byte status){
+        return this.iOrderService.returnList(pageNum,pageSize,status);
+    }
+
+    @RequestMapping("returnEdit.do")
+
+    public ServerResponse<?> returnEdit(@RequestParam(value = "returnId",defaultValue = "0")int returnId,@RequestParam(value = "type",defaultValue = "1") byte type,@RequestParam(value = "status",defaultValue = "1")byte status){
+        return this.iOrderService.returnEdit(returnId,type,status);
+    }
+
+    @RequestMapping("returnDetail.do")
+    public ServerResponse<ReturnGoods> returnDetail(@RequestParam(value = "returnId",defaultValue = "0")int returnId){
+        return this.iOrderService.returnDetail(returnId);
+    }
+
+    @RequestMapping("orderActionList.do")
+    public ServerResponse<PageInfo<OrderAction>> orderActionList(@RequestParam(value = "pageNum",defaultValue = "1") int pageNum, @RequestParam(value = "pageSize",defaultValue = "10") int pageSize){
+        return this.iOrderService.orderActionList(pageNum,pageSize);
+    }
+
 }
