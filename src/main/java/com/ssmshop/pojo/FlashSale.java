@@ -27,6 +27,21 @@ public class FlashSale {
 
     private String description;
 
+    public FlashSale(Long id, String title, Integer goodsId, Float price, Integer goodsNum, Integer buyLimit, Integer buyNum, Integer orderNum, Integer startTime, Integer endTime, Byte isEnd, String goodsName) {
+        this.id = id;
+        this.title = title;
+        this.goodsId = goodsId;
+        this.price = price;
+        this.goodsNum = goodsNum;
+        this.buyLimit = buyLimit;
+        this.buyNum = buyNum;
+        this.orderNum = orderNum;
+        this.startTime = startTime;
+        this.endTime = endTime;
+        this.isEnd = isEnd;
+        this.goodsName = goodsName;
+    }
+
     public FlashSale(Long id, String title, Integer goodsId, Float price, Integer goodsNum, Integer buyLimit, Integer buyNum, Integer orderNum, Integer startTime, Integer endTime, Byte isEnd, String goodsName, String description) {
         this.id = id;
         this.title = title;
