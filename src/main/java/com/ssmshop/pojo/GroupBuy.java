@@ -35,6 +35,25 @@ public class GroupBuy {
 
     private String intro;
 
+    public GroupBuy(Integer id, String title, Integer startTime, Integer endTime, Integer goodsId, BigDecimal price, Integer goodsNum, Integer buyNum, Integer orderNum, Integer virtualNum, BigDecimal rebate, BigDecimal goodsPrice, String goodsName, Byte recommended, Integer views) {
+        this.id = id;
+        this.title = title;
+        this.startTime = startTime;
+        this.endTime = endTime;
+        this.goodsId = goodsId;
+        this.price = price;
+        this.goodsNum = goodsNum;
+        this.buyNum = buyNum;
+        this.orderNum = orderNum;
+        this.virtualNum = virtualNum;
+        this.rebate = rebate;
+        this.goodsPrice = goodsPrice;
+        this.goodsName = goodsName;
+        this.recommended = recommended;
+        this.views = views;
+
+    }
+
     public GroupBuy(Integer id, String title, Integer startTime, Integer endTime, Integer goodsId, BigDecimal price, Integer goodsNum, Integer buyNum, Integer orderNum, Integer virtualNum, BigDecimal rebate, BigDecimal goodsPrice, String goodsName, Byte recommended, Integer views, String intro) {
         this.id = id;
         this.title = title;
