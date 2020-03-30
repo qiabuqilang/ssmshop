@@ -3,6 +3,8 @@ package com.ssmshop.dao;
 import com.ssmshop.pojo.PromGoods;
 import com.ssmshop.pojo.PromGoodsExample;
 import java.util.List;
+
+import com.ssmshop.vo.promotion.PromGoodsDeatilVo;
 import org.apache.ibatis.annotations.Param;
 
 public interface PromGoodsMapper {
