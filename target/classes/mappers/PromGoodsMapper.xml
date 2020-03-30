@@ -12,7 +12,7 @@
       <arg column="is_close" jdbcType="TINYINT" javaType="java.lang.Byte" />
       <arg column="group_ids" jdbcType="VARCHAR" javaType="java.lang.String" />
       <arg column="prom_img" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="goods_ids" jdbcType="VARCHAR" javaType="java.lang.String"></arg>
+      <arg column="goods_ids" jdbcType="VARCHAR" javaType="java.lang.String" />
     </constructor>
   </resultMap>
   <resultMap id="ResultMapWithBLOBs" type="com.ssmshop.pojo.PromGoods" >
@@ -26,11 +26,10 @@
       <arg column="is_close" jdbcType="TINYINT" javaType="java.lang.Byte" />
       <arg column="group_ids" jdbcType="VARCHAR" javaType="java.lang.String" />
       <arg column="prom_img" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="goods_ids" jdbcType="VARCHAR" javaType="java.lang.String" />
       <arg column="description" jdbcType="LONGVARCHAR" javaType="java.lang.String" />
-      <arg column="goods_ids" jdbcType="VARCHAR" javaType="java.lang.String"></arg>
     </constructor>
   </resultMap>
-
   <sql id="Example_Where_Clause" >
     <where >
       <foreach collection="oredCriteria" item="criteria" separator="or" >
@@ -90,7 +89,8 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    id, name, type, expression, start_time, end_time, is_close, group_ids, prom_img,goods_ids
+    id, name, type, expression, start_time, end_time, is_close, group_ids, prom_img, 
+    goods_ids
   </sql>
   <sql id="Blob_Column_List" >
     description
@@ -133,9 +133,6 @@
     from tp_prom_goods
     where id = #{id,jdbcType=BIGINT}
   </select>
-
-
-
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
     delete from tp_prom_goods
     where id = #{id,jdbcType=BIGINT}
@@ -149,12 +146,12 @@
   <insert id="insert" parameterType="com.ssmshop.pojo.PromGoods" >
     insert into tp_prom_goods (id, name, type, 
       expression, start_time, end_time, 
-      is_close, group_ids, prom_img,
-      description)
+      is_close, group_ids, prom_img, 
+      goods_ids, description)
     values (#{id,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{type,jdbcType=INTEGER}, 
       #{expression,jdbcType=VARCHAR}, #{startTime,jdbcType=INTEGER}, #{endTime,jdbcType=INTEGER}, 
-      #{isClose,jdbcType=TINYINT}, #{groupIds,jdbcType=VARCHAR}, #{promImg,jdbcType=VARCHAR},
-      #{description,jdbcType=LONGVARCHAR})
+      #{isClose,jdbcType=TINYINT}, #{groupIds,jdbcType=VARCHAR}, #{promImg,jdbcType=VARCHAR}, 
+      #{goodsIds,jdbcType=VARCHAR}, #{description,jdbcType=LONGVARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.ssmshop.pojo.PromGoods" >
     insert into tp_prom_goods
@@ -186,6 +183,9 @@
       <if test="promImg != null" >
         prom_img,
       </if>
+      <if test="goodsIds != null" >
+        goods_ids,
+      </if>
       <if test="description != null" >
         description,
       </if>
@@ -213,10 +213,13 @@
         #{isClose,jdbcType=TINYINT},
       </if>
       <if test="groupIds != null" >
-        #{group_ids,jdbcType=VARCHAR},
+        #{groupIds,jdbcType=VARCHAR},
       </if>
       <if test="promImg != null" >
         #{promImg,jdbcType=VARCHAR},
+      </if>
+      <if test="goodsIds != null" >
+        #{goodsIds,jdbcType=VARCHAR},
       </if>
       <if test="description != null" >
         #{description,jdbcType=LONGVARCHAR},
@@ -259,6 +262,9 @@
       <if test="record.promImg != null" >
         prom_img = #{record.promImg,jdbcType=VARCHAR},
       </if>
+      <if test="record.goodsIds != null" >
+        goods_ids = #{record.goodsIds,jdbcType=VARCHAR},
+      </if>
       <if test="record.description != null" >
         description = #{record.description,jdbcType=LONGVARCHAR},
       </if>
@@ -278,6 +284,7 @@
       is_close = #{record.isClose,jdbcType=TINYINT},
       group_ids = #{record.groupIds,jdbcType=VARCHAR},
       prom_img = #{record.promImg,jdbcType=VARCHAR},
+      goods_ids = #{record.goodsIds,jdbcType=VARCHAR},
       description = #{record.description,jdbcType=LONGVARCHAR}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
@@ -293,7 +300,8 @@
       end_time = #{record.endTime,jdbcType=INTEGER},
       is_close = #{record.isClose,jdbcType=TINYINT},
       group_ids = #{record.groupIds,jdbcType=VARCHAR},
-      prom_img = #{record.promImg,jdbcType=VARCHAR}
+      prom_img = #{record.promImg,jdbcType=VARCHAR},
+      goods_ids = #{record.goodsIds,jdbcType=VARCHAR}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -325,6 +333,9 @@
       <if test="promImg != null" >
         prom_img = #{promImg,jdbcType=VARCHAR},
       </if>
+      <if test="goodsIds != null" >
+        goods_ids = #{goodsIds,jdbcType=VARCHAR},
+      </if>
       <if test="description != null" >
         description = #{description,jdbcType=LONGVARCHAR},
       </if>
@@ -339,8 +350,9 @@
       start_time = #{startTime,jdbcType=INTEGER},
       end_time = #{endTime,jdbcType=INTEGER},
       is_close = #{isClose,jdbcType=TINYINT},
-      group_ids = #{group,jdbcType=VARCHAR},
+      group_ids = #{groupIds,jdbcType=VARCHAR},
       prom_img = #{promImg,jdbcType=VARCHAR},
+      goods_ids = #{goodsIds,jdbcType=VARCHAR},
       description = #{description,jdbcType=LONGVARCHAR}
     where id = #{id,jdbcType=BIGINT}
   </update>
@@ -353,7 +365,8 @@
       end_time = #{endTime,jdbcType=INTEGER},
       is_close = #{isClose,jdbcType=TINYINT},
       group_ids = #{groupIds,jdbcType=VARCHAR},
-      prom_img = #{promImg,jdbcType=VARCHAR}
+      prom_img = #{promImg,jdbcType=VARCHAR},
+      goods_ids = #{goodsIds,jdbcType=VARCHAR}
     where id = #{id,jdbcType=BIGINT}
   </update>
 </mapper>

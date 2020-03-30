@@ -38,4 +38,25 @@ public class PromSaleTest extends BaseTest {
 
     }
 
+    @Test
+    public void editTest(){
+        Long promGoodsId = new Long(3);
+        PromGoods promGoods = new PromGoods();
+        promGoods.setDescription("测试添加修改");
+        promGoods.setEndTime(1258745896);
+        promGoods.setStartTime((int)System.currentTimeMillis()/1000);
+        promGoods.setExpression("90");
+        promGoods.setGroupIds("1_2_3_4_5");
+        promGoods.setGoodsIds("40_41_42_43");
+        promGoods.setName("测试优惠蹙额小修改");
+        promGoods.setType(0);
+        System.out.println(JSON.toJSON(this.iPromoSaleService.edit(promGoodsId,promGoods)));
+    }
+
+    @Test
+    public void removeTest(){
+        Long promGoodsId = new Long(3);
+        System.out.println(JSON.toJSON(this.iPromoSaleService.remove(promGoodsId)));
+    }
+
 }

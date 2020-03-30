@@ -19,11 +19,11 @@ public class PromGoods {
 
     private String promImg;
 
-    private String description;
-
     private String goodsIds;
 
-    public PromGoods(Long id, String name, Integer type, String expression, Integer startTime, Integer endTime, Byte isClose, String groupIds, String promImg,  String goodsIds) {
+    private String description;
+
+    public PromGoods(Long id, String name, Integer type, String expression, Integer startTime, Integer endTime, Byte isClose, String groupIds, String promImg, String goodsIds, String description) {
         this.id = id;
         this.name = name;
         this.type = type;
@@ -34,28 +34,7 @@ public class PromGoods {
         this.groupIds = groupIds;
         this.promImg = promImg;
         this.goodsIds = goodsIds;
-    }
-
-    public PromGoods(Long id, String name, Integer type, String expression, Integer startTime, Integer endTime, Byte isClose, String groupIds, String promImg, String description, String goodsIds) {
-        this.id = id;
-        this.name = name;
-        this.type = type;
-        this.expression = expression;
-        this.startTime = startTime;
-        this.endTime = endTime;
-        this.isClose = isClose;
-        this.groupIds = groupIds;
-        this.promImg = promImg;
         this.description = description;
-        this.goodsIds = goodsIds;
-    }
-
-    public String getGoodsIds() {
-        return goodsIds;
-    }
-
-    public void setGoodsIds(String goodsIds) {
-        this.goodsIds = goodsIds;
     }
 
     public PromGoods() {
@@ -123,7 +102,7 @@ public class PromGoods {
     }
 
     public void setGroupIds(String groupIds) {
-        this.groupIds = groupIds;
+        this.groupIds = groupIds == null ? null : groupIds.trim();
     }
 
     public String getPromImg() {
@@ -132,6 +111,14 @@ public class PromGoods {
 
     public void setPromImg(String promImg) {
         this.promImg = promImg == null ? null : promImg.trim();
+    }
+
+    public String getGoodsIds() {
+        return goodsIds;
+    }
+
+    public void setGoodsIds(String goodsIds) {
+        this.goodsIds = goodsIds == null ? null : goodsIds.trim();
     }
 
     public String getDescription() {
