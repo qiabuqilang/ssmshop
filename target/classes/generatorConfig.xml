@@ -142,6 +142,6 @@
         <!--<table tableName="tp_wx_news" domainObjectName="WxNews"></table>-->
         <!--<table tableName="tp_wx_text" domainObjectName="WxText"></table>-->
         <!--<table tableName="tp_wx_user" domainObjectName="WxUser"></table>-->
-        <table tableName="tp_prom_goods" domainObjectName="PromGoods"></table>
+        <table tableName="tp_prom_order" domainObjectName="PromOrder"></table>
     </context>
 </generatorConfiguration>

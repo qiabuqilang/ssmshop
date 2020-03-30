@@ -17,11 +17,11 @@ public class PromOrder {
 
     private Byte isClose;
 
-    private String group;
+    private String groupIds;
 
     private String description;
 
-    public PromOrder(Long id, String name, Integer type, Float money, String expression, Integer startTime, Integer endTime, Byte isClose, String group, String description) {
+    public PromOrder(Long id, String name, Integer type, Float money, String expression, Integer startTime, Integer endTime, Byte isClose, String groupIds) {
         this.id = id;
         this.name = name;
         this.type = type;
@@ -30,7 +30,19 @@ public class PromOrder {
         this.startTime = startTime;
         this.endTime = endTime;
         this.isClose = isClose;
-        this.group = group;
+        this.groupIds = groupIds;
+    }
+
+    public PromOrder(Long id, String name, Integer type, Float money, String expression, Integer startTime, Integer endTime, Byte isClose, String groupIds, String description) {
+        this.id = id;
+        this.name = name;
+        this.type = type;
+        this.money = money;
+        this.expression = expression;
+        this.startTime = startTime;
+        this.endTime = endTime;
+        this.isClose = isClose;
+        this.groupIds = groupIds;
         this.description = description;
     }
 
@@ -102,12 +114,12 @@ public class PromOrder {
         this.isClose = isClose;
     }
 
-    public String getGroup() {
-        return group;
+    public String getGroupIds() {
+        return groupIds;
     }
 
-    public void setGroup(String group) {
-        this.group = group == null ? null : group.trim();
+    public void setGroupIds(String groupIds) {
+        this.groupIds = groupIds == null ? null : groupIds.trim();
     }
 
     public String getDescription() {

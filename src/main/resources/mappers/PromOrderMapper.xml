@@ -11,7 +11,7 @@
       <arg column="start_time" jdbcType="INTEGER" javaType="java.lang.Integer" />
       <arg column="end_time" jdbcType="INTEGER" javaType="java.lang.Integer" />
       <arg column="is_close" jdbcType="TINYINT" javaType="java.lang.Byte" />
-      <arg column="group" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="group_ids" jdbcType="VARCHAR" javaType="java.lang.String" />
     </constructor>
   </resultMap>
   <resultMap id="ResultMapWithBLOBs" type="com.ssmshop.pojo.PromOrder" >
@@ -24,7 +24,7 @@
       <arg column="start_time" jdbcType="INTEGER" javaType="java.lang.Integer" />
       <arg column="end_time" jdbcType="INTEGER" javaType="java.lang.Integer" />
       <arg column="is_close" jdbcType="TINYINT" javaType="java.lang.Byte" />
-      <arg column="group" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="group_ids" jdbcType="VARCHAR" javaType="java.lang.String" />
       <arg column="description" jdbcType="LONGVARCHAR" javaType="java.lang.String" />
     </constructor>
   </resultMap>
@@ -87,7 +87,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    id, name, type, money, expression, start_time, end_time, is_close, group
+    id, name, type, money, expression, start_time, end_time, is_close, group_ids
   </sql>
   <sql id="Blob_Column_List" >
     description
@@ -143,11 +143,11 @@
   <insert id="insert" parameterType="com.ssmshop.pojo.PromOrder" >
     insert into tp_prom_order (id, name, type, 
       money, expression, start_time, 
-      end_time, is_close, group, 
+      end_time, is_close, group_ids, 
       description)
     values (#{id,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{type,jdbcType=INTEGER}, 
       #{money,jdbcType=REAL}, #{expression,jdbcType=VARCHAR}, #{startTime,jdbcType=INTEGER}, 
-      #{endTime,jdbcType=INTEGER}, #{isClose,jdbcType=TINYINT}, #{group,jdbcType=VARCHAR}, 
+      #{endTime,jdbcType=INTEGER}, #{isClose,jdbcType=TINYINT}, #{groupIds,jdbcType=VARCHAR}, 
       #{description,jdbcType=LONGVARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.ssmshop.pojo.PromOrder" >
@@ -177,8 +177,8 @@
       <if test="isClose != null" >
         is_close,
       </if>
-      <if test="group != null" >
-        group,
+      <if test="groupIds != null" >
+        group_ids,
       </if>
       <if test="description != null" >
         description,
@@ -209,8 +209,8 @@
       <if test="isClose != null" >
         #{isClose,jdbcType=TINYINT},
       </if>
-      <if test="group != null" >
-        #{group,jdbcType=VARCHAR},
+      <if test="groupIds != null" >
+        #{groupIds,jdbcType=VARCHAR},
       </if>
       <if test="description != null" >
         #{description,jdbcType=LONGVARCHAR},
@@ -250,8 +250,8 @@
       <if test="record.isClose != null" >
         is_close = #{record.isClose,jdbcType=TINYINT},
       </if>
-      <if test="record.group != null" >
-        group = #{record.group,jdbcType=VARCHAR},
+      <if test="record.groupIds != null" >
+        group_ids = #{record.groupIds,jdbcType=VARCHAR},
       </if>
       <if test="record.description != null" >
         description = #{record.description,jdbcType=LONGVARCHAR},
@@ -271,7 +271,7 @@
       start_time = #{record.startTime,jdbcType=INTEGER},
       end_time = #{record.endTime,jdbcType=INTEGER},
       is_close = #{record.isClose,jdbcType=TINYINT},
-      group = #{record.group,jdbcType=VARCHAR},
+      group_ids = #{record.groupIds,jdbcType=VARCHAR},
       description = #{record.description,jdbcType=LONGVARCHAR}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
@@ -287,7 +287,7 @@
       start_time = #{record.startTime,jdbcType=INTEGER},
       end_time = #{record.endTime,jdbcType=INTEGER},
       is_close = #{record.isClose,jdbcType=TINYINT},
-      group = #{record.group,jdbcType=VARCHAR}
+      group_ids = #{record.groupIds,jdbcType=VARCHAR}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -316,8 +316,8 @@
       <if test="isClose != null" >
         is_close = #{isClose,jdbcType=TINYINT},
       </if>
-      <if test="group != null" >
-        group = #{group,jdbcType=VARCHAR},
+      <if test="groupIds != null" >
+        group_ids = #{groupIds,jdbcType=VARCHAR},
       </if>
       <if test="description != null" >
         description = #{description,jdbcType=LONGVARCHAR},
@@ -334,7 +334,7 @@
       start_time = #{startTime,jdbcType=INTEGER},
       end_time = #{endTime,jdbcType=INTEGER},
       is_close = #{isClose,jdbcType=TINYINT},
-      group = #{group,jdbcType=VARCHAR},
+      group_ids = #{groupIds,jdbcType=VARCHAR},
       description = #{description,jdbcType=LONGVARCHAR}
     where id = #{id,jdbcType=BIGINT}
   </update>
@@ -347,7 +347,7 @@
       start_time = #{startTime,jdbcType=INTEGER},
       end_time = #{endTime,jdbcType=INTEGER},
       is_close = #{isClose,jdbcType=TINYINT},
-      group = #{group,jdbcType=VARCHAR}
+      group_ids = #{groupIds,jdbcType=VARCHAR}
     where id = #{id,jdbcType=BIGINT}
   </update>
 </mapper>
